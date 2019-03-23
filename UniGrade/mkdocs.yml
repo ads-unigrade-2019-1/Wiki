@@ -1,4 +1,13 @@
-site_name: My Docs
+site_name: UniGrade
 theme: readthedocs
 nav:
     - Início: index.md
+    - Definições do projeto:
+        - Tema: definicoes_projeto/tema.md
+        - Metodologia: definicoes_projeto/metodologia.md
+        - Arquitetura: definicoes_projeto/arquitetura.md
+    - Dinâmica e Seminário I:
+        - 5w2h: dinamica01/5w2h.md
+        - Rich Picture: dinamica01/richpicture.md
+        - Diagrama Causa-Efeito: dinamica01/causaefeito.md
+        - Mapa Mental: dinamica01/mapamental.md
