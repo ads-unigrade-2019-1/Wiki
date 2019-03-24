@@ -26,7 +26,7 @@ prova previamente definida.
 ## 2. Argumentações
 
 ### 2.1 Escolha das Tecnologias
-![argumentacao1](img/GuilhermeDeusdara-argumentacao-frontend.png)
+[![argumentacao1](img/GuilhermeDeusdara-argumentacao-frontend.png)](img/GuilhermeDeusdara-argumentacao-frontend.png)
 
 
 
