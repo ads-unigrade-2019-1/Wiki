@@ -1,9 +1,10 @@
-# Diagrama Causa-Efeito
+# Argumentação
 
 ## Histórico de revisões
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |24/03/2019|   0.1    | Iniciando o documento       |   Guilherme Deusdará  |
+|24/03/2019|   0.2    | Adicionando Argumentação de Front-End       |   Guilherme Deusdará  |
 
 
 ## Sumário
