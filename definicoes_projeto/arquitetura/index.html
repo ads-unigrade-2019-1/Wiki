@@ -78,9 +78,13 @@
         
             <li><a class="toctree-l4" href="#sumario">Sumário</a></li>
         
-            <li><a class="toctree-l4" href="#2-api">2. API</a></li>
+            <li><a class="toctree-l4" href="#1-visao-geral">1. Visão Geral</a></li>
         
-            <li><a class="toctree-l4" href="#4-referencias">4. Referências</a></li>
+            <li><a class="toctree-l4" href="#2-app">2. App</a></li>
+        
+            <li><a class="toctree-l4" href="#3-api">3. API</a></li>
+        
+            <li><a class="toctree-l4" href="#4-banco-de-dados">4. Banco de Dados</a></li>
         
         </ul>
     
@@ -109,6 +113,10 @@
                 <li class="">
                     
     <a class="" href="../../dinamica01/mapamental/">Mapa Mental</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../dinamica01/cocomo/">Modelo de Custo Produtivo</a>
                 </li>
     </ul>
 	    </li>
@@ -179,25 +187,41 @@
 <td align="center">Adição das referências</td>
 <td align="center">Gabriel Carvalho</td>
 </tr>
+<tr>
+<td align="center">24/03/2019</td>
+<td align="center">0.4</td>
+<td align="center">Correção de sumário e adição de visão geral</td>
+<td align="center">Geovana Ramos</td>
+</tr>
 </tbody>
 </table>
 <hr />
 <h2 id="sumario">Sumário</h2>
-<p><a href="#1.-visão">1. Visão geral</a> <br>
-<a href="#2.-api">2. API</a> <br>
-<a href="#3.-banco">3. Banco de Dados</a><br>
-<a href="#4.-referencias">4. Referências</a><br></p>
-<h2 id="2-api">2. API</h2>
+<p><a href="#1-visão-geral">1. Visão Geral</a> <br>
+<a href="#2-app">2. App</a> <br>
+<a href="#3-api">3. API</a> <br>
+<a href="#4-banco-de-dados">4. Banco de Dados</a><br>
+<a href="#5-referências">5. Referências</a><br></p>
+<h2 id="1-visao-geral">1. Visão Geral</h2>
+<p><img alt="VisaoGeral" src="../img/GeovanaVisaoArquitetura.png" /></p>
+<p>O sistema será composto pelo aplicativo Android, duas APIs e um banco de dados. O app irá fazer requisições à API Node para recuperar as disciplinas e montar as grades, a qual irá recuperar dados do banco. A API WebScraper irá varrer o matrícula web e salvar os dados no banco de dados MongoDB.</p>
+<h2 id="2-app">2. App</h2>
+<h3 id="21-tecnologias">2.1 Tecnologias</h3>
+<h2 id="3-api">3. API</h2>
 <p>A API será desenvolvida utilizando os princípios REST (Representational State Transfer), que se comunica por meio do protocolo HTTP (Hypertext Transfer Protocol), onde é possível enviar e receber dados utilizando os métodos GET, POST, PUT e DELETE.</p>
 <p><img alt="API" src="https://happycoding.io/tutorials/java-server/images/rest-api-1.png" /></p>
-<h4 id="21-tecnologias">2.1 Tecnologias</h4>
+<h3 id="31-tecnologias">3.1 Tecnologias</h3>
 <p><img alt="Node_express" src="https://cdn-images-1.medium.com/max/730/1*d2zLEjERsrs1Rzk_95QU9A.png" /></p>
 <p>Para o desenvolvimento da nossa API, iremos utilizar Node.js e o framework Express.js. Node foi escolhido por ser possível trabalhar com requisições assíncronas, fazendo com que a API ganhe mais performance. Express.js foi escolhido por facilitar o desenvolvimento da API utilizando Node.js.</p>
 <p><img alt="Express_diagram" src="https://binariks.com/wp-content/uploads/2017/11/express-js-840x502.png" /></p>
-<h2 id="4-referencias">4. Referências</h2>
+<h2 id="4-banco-de-dados">4. Banco de Dados</h2>
+<h3 id="41-tecnologias">4.1 Tecnologias</h3>
+<h3 id="5-referencias">5. Referências</h3>
 <ul>
-<li><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm">Architectural Styles and the Design of Network-based Software Architectures</a>. Fielding, Roy Thomas. </li>
-<li><a href="https://blog.caelum.com.br/rest-principios-e-boas-praticas/">REST: Princípios e boas práticas</a>. Ferreira, Rodrigo. </li>
+<li>Reunião feita na aula do dia 22/03/2019.</li>
+<li><a href="dinamica01/mapamental.md">Mapa Mental feito na aula</a></li>
+<li><a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm">Architectural Styles and the Design of Network-based Software Architectures</a>. Fielding, Roy Thomas.</li>
+<li><a href="https://blog.caelum.com.br/rest-principios-e-boas-praticas/">REST: Princípios e boas práticas</a>. Ferreira, Rodrigo.</li>
 </ul>
               
             </div>
