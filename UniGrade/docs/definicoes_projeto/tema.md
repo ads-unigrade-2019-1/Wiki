@@ -5,9 +5,6 @@
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |23/03/2019|   0.1    | Iniciando o documento       |   Guilherme Aguiar  |
 |23/03/2019|   0.2   | Adicionando Visão Geral e Fluxo Básico       |   Gabriela Medeiros  |
-------------------------
-
-# UniGrade
 
 ## Visão Geral
 

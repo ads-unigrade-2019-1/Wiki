@@ -9,7 +9,5 @@
 ## Geral
 
 ![mapaMental1](img/VisãoGeral-MapaMental1.jpeg)
-V1.0
 
 ![mapaMental1](img/VisãoGeral-MapaMental.jpg)
-V2.0
