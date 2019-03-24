@@ -42,6 +42,17 @@ Rich picture que descreve como o aplicativo processa os dados e disponibilza ao 
 
 ![UserAndAppRP](img/UserandAppRP.png)
 
+### Fluxo de Dados
+
+#### Fluxo Legado
+![FluxoLegado](img/GuilhermeGuyRichPictureFluxoLegado.jpg)
+Como o projeto Unigrade é baseado em um sistema já criado, existe um fluxo já implementado para os dados que a aplicação necessita. Este rich picture tenta demonstrar o fluxo atual e alguns de seus pontos fracos.
+
+#### Novo Fluxo
+##### Versão 1.0
+![NovoFluxo](img/GuilhermeGuyRichPictureNovoFluxoV1.jpg)
+Este Rich Picture tenta representar a nova proposta de fluxo de dados para o sistema.
+
 ## 3. Referências
 
 [1] Slide 10 da aula 04 da disciplina de Requisitos de Software da UnB-Gama - Professores: Milene Serrano e Maurício Serrano <br>
