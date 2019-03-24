@@ -8,23 +8,24 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Richpicture - UniGrade</title>
+  <title>Rich Picture - UniGrade</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../../css/highlight.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Richpicture";
+    var mkdocs_page_name = "Rich Picture";
     var mkdocs_page_input_path = "dinamica01/richpicture.md";
-    var mkdocs_page_url = "/dinamica01/richpicture/";
+    var mkdocs_page_url = null;
   </script>
   
-  <script src="../../js/jquery-2.1.1.min.js"></script>
-  <script src="../../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
 
@@ -38,7 +39,7 @@
         <a href="../.." class="icon icon-home"> UniGrade</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -49,16 +50,16 @@
           
             <li class="toctree-l1">
 		
-    <a class="" href="../..">Home</a>
+    <a class="" href="../..">Início</a>
 	    </li>
           
             <li class="toctree-l1">
 		
-    <span class="caption-text">Definicoes projeto</span>
+    <span class="caption-text">Definições do projeto</span>
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../../definicoes_projeto/arquitetura/">Arquitetura</a>
+    <a class="" href="../../definicoes_projeto/tema/">Tema</a>
                 </li>
                 <li class="">
                     
@@ -66,42 +67,22 @@
                 </li>
                 <li class="">
                     
-    <a class="" href="../../definicoes_projeto/tema/">Tema</a>
+    <a class="" href="../../definicoes_projeto/arquitetura/">Arquitetura</a>
                 </li>
     </ul>
 	    </li>
           
             <li class="toctree-l1">
 		
-    <span class="caption-text">Dinamica01</span>
+    <span class="caption-text">Dinâmica e Seminário I</span>
     <ul class="subnav">
                 <li class="">
                     
     <a class="" href="../5w2h/">5w2h</a>
                 </li>
-                <li class="">
-                    
-    <a class="" href="../argumentacao/">Argumentacao</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../causaefeito/">Causaefeito</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../cocomo/">Cocomo</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../dinamica01/">Dinamica01</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../mapamental/">Mapamental</a>
-                </li>
                 <li class=" current">
                     
-    <a class="current" href="./">Richpicture</a>
+    <a class="current" href="./">Rich Picture</a>
     <ul class="subnav">
             
     <li class="toctree-l3"><a href="#rich-picture">Rich Picture</a></li>
@@ -122,6 +103,22 @@
     
 
     </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../argumentacao/">Argumentação</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../causaefeito/">Diagrama Causa-Efeito</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../mapamental/">Mapa Mental</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../cocomo/">Modelo de Custo Produtivo</a>
                 </li>
     </ul>
 	    </li>
@@ -148,11 +145,11 @@
     
       
         
-          <li>Dinamica01 &raquo;</li>
+          <li>Dinâmica e Seminário I &raquo;</li>
         
       
     
-    <li>Richpicture</li>
+    <li>Rich Picture</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -225,8 +222,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="../argumentacao/" class="btn btn-neutral float-right" title="Argumentação">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-        <a href="../mapamental/" class="btn btn-neutral" title="Mapamental"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+        <a href="../5w2h/" class="btn btn-neutral" title="5w2h"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -240,24 +239,28 @@
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
+      
         </div>
       </div>
 
     </section>
-    
+
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../mapamental/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../5w2h/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
+      
+        <span style="margin-left: 15px"><a href="../argumentacao/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
-    <script src="../../js/theme.js"></script>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
 
 </body>
 </html>
