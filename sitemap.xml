@@ -1,74 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    
     <url>
-     <loc>/</loc>
+     <loc>None</loc>
      <lastmod>2019-03-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-        
     <url>
-     <loc>/definicoes_projeto/arquitetura/</loc>
+     <loc>None</loc>
      <lastmod>2019-03-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/definicoes_projeto/metodologia/</loc>
+     <loc>None</loc>
      <lastmod>2019-03-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/definicoes_projeto/tema/</loc>
+     <loc>None</loc>
      <lastmod>2019-03-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>/dinamica01/5w2h/</loc>
+     <loc>None</loc>
      <lastmod>2019-03-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/dinamica01/argumentacao/</loc>
+     <loc>None</loc>
      <lastmod>2019-03-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/dinamica01/causaefeito/</loc>
+     <loc>None</loc>
      <lastmod>2019-03-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/dinamica01/cocomo/</loc>
+     <loc>None</loc>
      <lastmod>2019-03-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/dinamica01/mapamental/</loc>
+     <loc>None</loc>
      <lastmod>2019-03-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/dinamica01/richpicture/</loc>
+     <loc>None</loc>
      <lastmod>2019-03-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
 </urlset>
