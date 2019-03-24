@@ -1,7 +1,5 @@
 # Diagrama Causa-Efeito
 
-# 5w2h
-
 ## Histórico de revisões
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
