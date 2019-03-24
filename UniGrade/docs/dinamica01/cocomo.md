@@ -53,7 +53,8 @@ conjunto de atributos direcionadores do custo que são agrupados em quatro categ
 - cronograma exigido de desenvolvimento.
 
 Cada um desses atributos deve ser classificado de acordo com uma escala que varia de “muito
-baixo” a “extremamente elevado” (em importância e valor). Esta escala é apresentada na
+baixo” a “extremamente elevado” (em importância e valor).A partir desta classificação determina-se o Multiplicador de Esforço. O produto de todos os resultados de Multiplicadores
+de Esforços é chamado de Fator de Ajustamento de Esforço Esta escala é apresentada na
 tabela abaixo: 
 
 ![COCOMO1](img/GuilhermeAguiarCOCOMO1.png)
@@ -118,4 +119,9 @@ O peso dado aos direcionadores de custo foi o seguinte:
 
 ## 4. Referências
 
-Meller, Maristela Corrêa. Modelos Para Estimar Custos De Software: Estudo Comparativo Com Softwares De Pequeno Porte. 2002. 
+[1] Meller, Maristela Corrêa. **Modelos Para Estimar Custos De Software: Estudo Comparativo Com Softwares De Pequeno Porte.** 2002.  <br>
+[2] Filho, Antônio M. da Silva, "**Estimativa de custo de software: roteiro e dicas para estimativas de projeto**". Revista Espaço Acadêmico, nro 156, Maio 2014.<br>
+[3] Slides 29, 30 e 31 da aula 02 da disciplina de Arquitetura e Desenho de Software da UnB-Gama - Professora: Milene Serrano <br>
+
+
+
