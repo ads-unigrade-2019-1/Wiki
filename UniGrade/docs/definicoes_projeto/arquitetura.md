@@ -7,15 +7,16 @@
 |24/03/2019|   0.2    | Adição do tópicos sumário e API |   Gabriel Carvalho |
 |24/03/2019|   0.3    | Adição das referências          |   Gabriel Carvalho  |
 |24/03/2019|   0.4    | Correção de sumário e adição de visão geral |   Geovana Ramos |
+|24/03/2019|   0.5    | Correção de links|   Joberth Rogers |
 
 -------------------------
 
 ## Sumário
-[1. Visão Geral](#1-visão-geral) <br>
+[1. Visão Geral](#1-visao-geral) <br>
 [2. App](#2-app) <br>
 [3. API](#3-api) <br>
 [4. Banco de Dados](#4-banco-de-dados)<br>
-[5. Referências](#5-referências)<br>
+[5. Referências](#5-referencias)<br>
 
 ## 1. Visão Geral
 ![VisaoGeral](img/GeovanaVisaoArquitetura.png)
@@ -48,7 +49,7 @@ Para o desenvolvimento da nossa API, iremos utilizar Node.js e o framework Expre
 
 
 ### 5. Referências
-* Reunião feita na aula do dia 22/03/2019.
-* [Mapa Mental feito na aula](../dinamica01/mapamental.md)
-* [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm). Fielding, Roy Thomas.
-* [REST: Princípios e boas práticas](https://blog.caelum.com.br/rest-principios-e-boas-praticas/). Ferreira, Rodrigo.
+[1] Reunião feita na aula do dia 22/03/2019.
+[2] [Mapa Mental feito na aula](../dinamica01/mapamental.md)
+[3] [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm). Fielding, Roy Thomas.
+[4] [REST: Princípios e boas práticas](https://blog.caelum.com.br/rest-principios-e-boas-praticas/). Ferreira, Rodrigo.
