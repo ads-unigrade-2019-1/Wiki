@@ -11,11 +11,11 @@
 -------------------------
 
 ## Sumário
-[1. Visão Geral](#1-visao) <br>
+[1. Visão Geral](#1-visão-geral) <br>
 [2. App](#2-app) <br>
 [3. API](#3-api) <br>
-[4. Banco de Dados](#4-banco)<br>
-[5. Referências](#5-referencias)<br>
+[4. Banco de Dados](#4-banco-de-dados)<br>
+[5. Referências](#5-referências)<br>
 
 ## 1. Visão Geral
 ![VisaoGeral](img/GeovanaVisaoArquitetura.png)
