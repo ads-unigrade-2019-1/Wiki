@@ -14,7 +14,7 @@
 
 ## 1. Introdução
 
-O diagrama de causa e efeito é utilizado para a análise de dispersões no processo, visando fazer as pessoas pensarem sobre causa e razões possíveis que fazem com que um problema ocorra.
+O diagrama de causa e efeito é utilizado para a análise de dispersões no processo, visando fazer as pessoas pensarem sobre causa e razões possíveis que fazem com que um problema ocorra. [ [2] ](#referencias)
 
 ## 2. Causa-Efeito
 
@@ -22,7 +22,11 @@ O diagrama de causa e efeito é utilizado para a análise de dispersões no proc
 
 ![Causa-Efeitov1](img/DanielMaikecausa-efeitoADSv1.png)
 
+### 2.2 Dificuldades e empecilhos dos alunos no período de matrícula
+
+![Causa-Efeitov2](img/JoberthRogersfishbones.png)
+
 ## 3. Referências
 
-https://gitlab.com/atlasds/ds2017 <br>
-Slides 18, 19 e 20 da aula 02 da disciplina de Arquitetura e Desenho de Software da UnB-Gama - Professora: Milene Serrano <br>
+[1] https://gitlab.com/atlasds/ds2017 <br>
+[2] Slides 18, 19 e 20 da aula 02 da disciplina de Arquitetura e Desenho de Software da UnB-Gama - Professora: Milene Serrano <br>
