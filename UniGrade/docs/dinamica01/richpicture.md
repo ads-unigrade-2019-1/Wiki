@@ -14,11 +14,13 @@
 
 ## 1. Introdução
 
-O Rich Picture é uma técnica de requisitos de software, elaborada na fase de pré-rastreabilidade. São desenho feitos a mão ou digitalmente a fim de expressar ideias, que representam um subsistema de um sistema maior. É um artefato considerado informal e muito útil na identificação das partes envolvidas, a fim abrir espaço para discussões e ser uma forma de compreender o problema amplamente.
+O Rich Picture é uma técnica de requisitos de software, elaborada na fase de pré-rastreabilidade. São desenho feitos a mão ou digitalmente a fim de expressar ideias, que representam um subsistema de um sistema maior. É um artefato considerado informal e muito útil na identificação das partes envolvidas, a fim abrir espaço para discussões e ser uma forma de compreender o problema amplamente. [ [1] ](#referencias) [ [2] ](#referencias)
 
 ## 2. RichPictures
 
 ### Usuário
+
+Rich Picture com foco no usuário e nas ações que ele pode realizar no sistema.
 
 #### Versão 1.0
 
@@ -34,13 +36,15 @@ O Rich Picture é uma técnica de requisitos de software, elaborada na fase de p
 
 ### Aplicativo e usuário
 
+Rich picture que descreve como o aplicativo processa os dados e disponibilza ao usuário. 
+
 #### Versão 1.0
 
 ![UserAndAppRP](img/UserandAppRP.png)
 
 ## 3. Referências
 
-Slide 10 da aula 04 da disciplina de Requisitos de Software da UnB-Gama - Professores: Milene Serrano e Maurício Serrano <br>
-Slides 15, 16 e 17 da aula 02 da disciplina de Arquitetura e Desenho de Software da UnB-Gama - Professora: Milene Serrano <br>
-https://rockcontent.com/blog/web-crawler/ <br>
-https://gitlab.com/atlasds/ds2017
+[1] Slide 10 da aula 04 da disciplina de Requisitos de Software da UnB-Gama - Professores: Milene Serrano e Maurício Serrano <br>
+[2] Slides 15, 16 e 17 da aula 02 da disciplina de Arquitetura e Desenho de Software da UnB-Gama - Professora: Milene Serrano <br>
+[3] https://rockcontent.com/blog/web-crawler/ <br>
+[4] https://gitlab.com/atlasds/ds2017
