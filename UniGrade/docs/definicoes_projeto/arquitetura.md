@@ -49,6 +49,6 @@ Para o desenvolvimento da nossa API, iremos utilizar Node.js e o framework Expre
 
 ### 5. Referências
 * Reunião feita na aula do dia 22/03/2019.
-* [Mapa Mental feito na aula](dinamica01/mapamental.md)
+* [Mapa Mental feito na aula](../dinamica01/mapamental.md)
 * [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm). Fielding, Roy Thomas.
 * [REST: Princípios e boas práticas](https://blog.caelum.com.br/rest-principios-e-boas-praticas/). Ferreira, Rodrigo.
