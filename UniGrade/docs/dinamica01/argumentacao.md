@@ -9,10 +9,12 @@
 ## Sumário
 [1. Introdução](#1.-introdução) <br>
 [2. Argumentações](#2.-argumentações) <br>
+[3. Referencias](#3.-referências)
+
 
 ## 1. Introdução 
 
-Segundo Rahwan (2005) [ [1] ](#3.-referencias), a argumentação pode ser vista como uma interação social
+Segundo Rahwan (2005) [ [1] ](#3.-referências), a argumentação pode ser vista como uma interação social
 baseada em princípios. Ela é composta de argumentos incompatíveis e almeja chegar a
 uma conclusão consistente e racional. Uma das principais metas da argumentação é a
 resolução de pontos de vistas controversos. Estes pontos de vistas devem ser justificáveis
@@ -23,6 +25,7 @@ prova previamente definida.
 ## 2. Argumentações
 
 ### 2.1 Escolha das Tecnologias
+![argumentacao1](img/GuilhermeDeusdara-argumentacao-frontend.png)
 
 
 
