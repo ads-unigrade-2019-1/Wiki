@@ -5,12 +5,13 @@
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |24/03/2019|   0.1    | Iniciando o documento       |   Guilherme Deusdará  |
 |24/03/2019|   0.2    | Adicionando Argumentação de Front-End       |   Guilherme Deusdará  |
+|24/03/2019|   0.3    | Arrumando Links       |   Guilherme Deusdará  |
 
 
 ## Sumário
-[1. Introdução](#1.-introdução) <br>
-[2. Argumentações](#2.-argumentações) <br>
-[3. Referencias](#3.-referências)
+[1. Introdução](#1-introdução) <br>
+[2. Argumentações](#2-argumentações) <br>
+[3. Referencias](#3-referências)
 
 
 ## 1. Introdução 
