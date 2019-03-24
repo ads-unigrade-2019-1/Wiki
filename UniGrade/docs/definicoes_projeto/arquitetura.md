@@ -3,8 +3,9 @@
 ## Histórico de revisões
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
-|23/03/2019|   0.1    | Iniciando o documento       |   Guilherme Aguiar  |
+|23/03/2019|   0.1    | Iniciando o documento           |   Guilherme Aguiar  |
 |24/03/2019|   0.2    | Adição do tópicos sumário e API |   Gabriel Carvalho  |
+|24/03/2019|   0.3    | Adição das referências          |   Gabriel Carvalho  |
 
 -------------------------
 
@@ -12,6 +13,8 @@
 [1. Visão geral](#1.-visão) <br>
 [2. API](#2.-api) <br>
 [3. Banco de Dados](#3.-banco)<br>
+[3. Referências](#4.-referencias)<br>
+
 
 
 
@@ -30,6 +33,9 @@ Para o desenvolvimento da nossa API, iremos utilizar Node.js e o framework Expre
 
 
 
+## 4. Referências 
 
+* [Architectural Styles and the Design of Network-based Software Architectures](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm). Fielding, Roy Thomas. 
+* [REST: Princípios e boas práticas](https://blog.caelum.com.br/rest-principios-e-boas-praticas/). Ferreira, Rodrigo. 
 
 
