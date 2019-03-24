@@ -3,7 +3,7 @@
 ## Histórico de revisões
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
-|24/03/2019|   0.1    | Iniciando o documento       |   Guilherme Aguiar  |
+|24/03/2019|   0.1    | Iniciando e elaborando       |   Guilherme Aguiar  |
 
 
 ## Sumário
