@@ -6,11 +6,13 @@
 |23/03/2019|   0.1    | Iniciando o documento       |   Guilherme Aguiar  |
 |24/03/2019|   0.2   | Adição dos tópico Sumário, Introdução e Referências      |   Daniel Maike  |
 |24/03/2019|   0.3    |  Adição do RichPicture de usuário       |   Daniel Maike  |
+|24/03/2019|   0.4    |  Adição do RichPicture do aplicativo e usuário       |   joberth Rogers  |
+|24/03/2019|   0.4    |  Adição do RichPicture do fluxo de dados       |   Guilherme Guy  |
 
 ## Sumário
-[1. Introdução](#1.-introdução) <br>
-[2. RichPictures](#2.-richpictures) <br>
-[3. Referencias](#3.-referências)
+[1. Introdução](#1-introduçao) <br>
+[2. RichPictures](#2-richpictures) <br>
+[3. Referencias](#3-referencias)
 
 ## 1. Introdução
 
@@ -58,4 +60,5 @@ Este Rich Picture tenta representar a nova proposta de fluxo de dados para o sis
 [1] Slide 10 da aula 04 da disciplina de Requisitos de Software da UnB-Gama - Professores: Milene Serrano e Maurício Serrano <br>
 [2] Slides 15, 16 e 17 da aula 02 da disciplina de Arquitetura e Desenho de Software da UnB-Gama - Professora: Milene Serrano <br>
 [3] https://rockcontent.com/blog/web-crawler/ <br>
-[4] https://gitlab.com/atlasds/ds2017
+[4] https://gitlab.com/atlasds/ds2017 <br>
+[5] Audios Reunião dia 18/03/2018, presente no link: https://drive.google.com/drive/folders/1krGcJWnMwMN8nvdFoCcBlZBWBollCCqw

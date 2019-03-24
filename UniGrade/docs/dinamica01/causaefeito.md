@@ -5,7 +5,8 @@
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |23/03/2019|   0.1    | Iniciando o documento       |   Guilherme Aguiar  |
 |24/03/2019|   0.2   | Adição dos tópico Sumário, Introdução e Referências      |   Daniel Maike  |
-|24/03/2019|   0.3    |  Adição do Causa-Efeito       |   Daniel Maike  |
+|24/03/2019|   0.3    |  Adição do Causa-Efeito 2.1      |   Daniel Maike  |
+|24/03/2019|   0.3    |  Adição do Causa-Efeito 2.2      |   Joberth Rogers  |
 |24/03/2019|   0.4    |  Adição do Causa-Efeito 2.3       |   Guilherme Aguiar  |
 
 ## Sumário
