@@ -32,6 +32,12 @@ O Rich Picture é uma técnica de requisitos de software, elaborada na fase de p
 
 ![RichPictureUserv3](img/DanielMaikeRichPictureADSv3.png)
 
+### Aplicativo e usuário
+
+#### Versão 1.0
+
+![UserAndAppRP](img/UserandAppRP.png)
+
 ## 3. Referências
 
 Slide 10 da aula 04 da disciplina de Requisitos de Software da UnB-Gama - Professores: Milene Serrano e Maurício Serrano <br>

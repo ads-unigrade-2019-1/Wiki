@@ -22,6 +22,10 @@ O diagrama de causa e efeito é utilizado para a análise de dispersões no proc
 
 ![Causa-Efeitov1](img/DanielMaikecausa-efeitoADSv1.png)
 
+### 2.2 Dificuldades e empecilhos dos alunos no período de matrícula
+
+![Causa-Efeitov2](img/JoberthRogersfishbones.png)
+
 ## 3. Referências
 
 https://gitlab.com/atlasds/ds2017 <br>
