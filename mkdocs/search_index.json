@@ -1,0 +1,479 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Desenho e Arquitura de Software",
+            "title": "Home"
+        },
+        {
+            "location": "/#desenho-e-arquitura-de-software",
+            "text": "",
+            "title": "Desenho e Arquitura de Software"
+        },
+        {
+            "location": "/definicoes_projeto/arquitetura/",
+            "text": "Arquitetura\n\n\nHist\u00f3rico de revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n23/03/2019\n\n\n0.1\n\n\nIniciando o documento\n\n\nGuilherme Aguiar\n\n\n\n\n\n\n24/03/2019\n\n\n0.2\n\n\nAdi\u00e7\u00e3o do t\u00f3picos sum\u00e1rio e API\n\n\nGabriel Carvalho\n\n\n\n\n\n\n24/03/2019\n\n\n0.3\n\n\nAdi\u00e7\u00e3o das refer\u00eancias\n\n\nGabriel Carvalho\n\n\n\n\n\n\n24/03/2019\n\n\n0.4\n\n\nCorre\u00e7\u00e3o de sum\u00e1rio e adi\u00e7\u00e3o de vis\u00e3o geral\n\n\nGeovana Ramos\n\n\n\n\n\n\n\n\n\n\nSum\u00e1rio\n\n\n1. Vis\u00e3o Geral\n \n\n\n2. App\n \n\n\n3. API\n \n\n\n4. Banco de Dados\n\n\n5. Refer\u00eancias\n\n\n1. Vis\u00e3o Geral\n\n\n\n\nO sistema ser\u00e1 composto pelo aplicativo Android, duas APIs e um banco de dados. O app ir\u00e1 fazer requisi\u00e7\u00f5es \u00e0 API Node para recuperar as disciplinas e montar as grades, a qual ir\u00e1 recuperar dados do banco. A API WebScraper ir\u00e1 varrer o matr\u00edcula web e salvar os dados no banco de dados MongoDB.\n\n\n2. App\n\n\nO aplicativo \u00e9 onde ocorre a intera\u00e7\u00e3o do usu\u00e1rio com o sistema. Por conta dos limites de tempo de desenvolvimento o aplicativo ser\u00e1 desenvolvido apenas para o sistema operacional Android, entretanto, por causa da modularidade proporcionada pelo uso de APIs, \u00e9 poss\u00edvel que em projetos futuros a disponibilidade do sistema aumente. \u00c9 responsabilidade da aplica\u00e7\u00e3o exibir para o usu\u00e1rio os conte\u00fados exposotos pela API Node e permitir a intera\u00e7\u00e3o para que ele alcance seus objetivos ao utilizar o sistema.\n\n\n2.1 Tecnologias\n\n\nA tecnologia escolhida para a cria\u00e7\u00e3o do aplicativo \u00e9 o Java, linguagem nativa do sistema operacional Android. Sua escolha \u00e9 influenciada por ser uma linguagem vers\u00e1til e com ampla documenta\u00e7\u00e3o, tanto de suas partes comuns quanto das partes exclusivas do Android. Outro fator que influenciou esta escolha \u00e9 a familiaridade \u00e0 linguagem que alguns membros do grupo possuem.\n\n\n3. API\n\n\nA API ser\u00e1 desenvolvida utilizando os princ\u00edpios REST (Representational State Transfer), que se comunica por meio do protocolo HTTP (Hypertext Transfer Protocol), onde \u00e9 poss\u00edvel enviar e receber dados utilizando os m\u00e9todos GET, POST, PUT e DELETE.\n\n\n\n\n3.1 Tecnologias\n\n\n\n\nPara o desenvolvimento da nossa API, iremos utilizar Node.js e o framework Express.js. Node foi escolhido por ser poss\u00edvel trabalhar com requisi\u00e7\u00f5es ass\u00edncronas, fazendo com que a API ganhe mais performance. Express.js foi escolhido por facilitar o desenvolvimento da API utilizando Node.js.\n\n\n\n\n4. Banco de Dados\n\n\n4.1 Tecnologias\n\n\n5. Refer\u00eancias\n\n\n\n\nReuni\u00e3o feita na aula do dia 22/03/2019.\n\n\nMapa Mental feito na aula\n\n\nArchitectural Styles and the Design of Network-based Software Architectures\n. Fielding, Roy Thomas.\n\n\nREST: Princ\u00edpios e boas pr\u00e1ticas\n. Ferreira, Rodrigo.",
+            "title": "Arquitetura"
+        },
+        {
+            "location": "/definicoes_projeto/arquitetura/#arquitetura",
+            "text": "",
+            "title": "Arquitetura"
+        },
+        {
+            "location": "/definicoes_projeto/arquitetura/#historico-de-revisoes",
+            "text": "Data  Vers\u00e3o  Descri\u00e7\u00e3o  Autor(es)      23/03/2019  0.1  Iniciando o documento  Guilherme Aguiar    24/03/2019  0.2  Adi\u00e7\u00e3o do t\u00f3picos sum\u00e1rio e API  Gabriel Carvalho    24/03/2019  0.3  Adi\u00e7\u00e3o das refer\u00eancias  Gabriel Carvalho    24/03/2019  0.4  Corre\u00e7\u00e3o de sum\u00e1rio e adi\u00e7\u00e3o de vis\u00e3o geral  Geovana Ramos",
+            "title": "Hist\u00f3rico de revis\u00f5es"
+        },
+        {
+            "location": "/definicoes_projeto/arquitetura/#sumario",
+            "text": "1. Vis\u00e3o Geral    2. App    3. API    4. Banco de Dados  5. Refer\u00eancias",
+            "title": "Sum\u00e1rio"
+        },
+        {
+            "location": "/definicoes_projeto/arquitetura/#1-visao-geral",
+            "text": "O sistema ser\u00e1 composto pelo aplicativo Android, duas APIs e um banco de dados. O app ir\u00e1 fazer requisi\u00e7\u00f5es \u00e0 API Node para recuperar as disciplinas e montar as grades, a qual ir\u00e1 recuperar dados do banco. A API WebScraper ir\u00e1 varrer o matr\u00edcula web e salvar os dados no banco de dados MongoDB.",
+            "title": "1. Vis\u00e3o Geral"
+        },
+        {
+            "location": "/definicoes_projeto/arquitetura/#2-app",
+            "text": "O aplicativo \u00e9 onde ocorre a intera\u00e7\u00e3o do usu\u00e1rio com o sistema. Por conta dos limites de tempo de desenvolvimento o aplicativo ser\u00e1 desenvolvido apenas para o sistema operacional Android, entretanto, por causa da modularidade proporcionada pelo uso de APIs, \u00e9 poss\u00edvel que em projetos futuros a disponibilidade do sistema aumente. \u00c9 responsabilidade da aplica\u00e7\u00e3o exibir para o usu\u00e1rio os conte\u00fados exposotos pela API Node e permitir a intera\u00e7\u00e3o para que ele alcance seus objetivos ao utilizar o sistema.",
+            "title": "2. App"
+        },
+        {
+            "location": "/definicoes_projeto/arquitetura/#21-tecnologias",
+            "text": "A tecnologia escolhida para a cria\u00e7\u00e3o do aplicativo \u00e9 o Java, linguagem nativa do sistema operacional Android. Sua escolha \u00e9 influenciada por ser uma linguagem vers\u00e1til e com ampla documenta\u00e7\u00e3o, tanto de suas partes comuns quanto das partes exclusivas do Android. Outro fator que influenciou esta escolha \u00e9 a familiaridade \u00e0 linguagem que alguns membros do grupo possuem.",
+            "title": "2.1 Tecnologias"
+        },
+        {
+            "location": "/definicoes_projeto/arquitetura/#3-api",
+            "text": "A API ser\u00e1 desenvolvida utilizando os princ\u00edpios REST (Representational State Transfer), que se comunica por meio do protocolo HTTP (Hypertext Transfer Protocol), onde \u00e9 poss\u00edvel enviar e receber dados utilizando os m\u00e9todos GET, POST, PUT e DELETE.",
+            "title": "3. API"
+        },
+        {
+            "location": "/definicoes_projeto/arquitetura/#31-tecnologias",
+            "text": "Para o desenvolvimento da nossa API, iremos utilizar Node.js e o framework Express.js. Node foi escolhido por ser poss\u00edvel trabalhar com requisi\u00e7\u00f5es ass\u00edncronas, fazendo com que a API ganhe mais performance. Express.js foi escolhido por facilitar o desenvolvimento da API utilizando Node.js.",
+            "title": "3.1 Tecnologias"
+        },
+        {
+            "location": "/definicoes_projeto/arquitetura/#4-banco-de-dados",
+            "text": "",
+            "title": "4. Banco de Dados"
+        },
+        {
+            "location": "/definicoes_projeto/arquitetura/#41-tecnologias",
+            "text": "",
+            "title": "4.1 Tecnologias"
+        },
+        {
+            "location": "/definicoes_projeto/arquitetura/#5-referencias",
+            "text": "Reuni\u00e3o feita na aula do dia 22/03/2019.  Mapa Mental feito na aula  Architectural Styles and the Design of Network-based Software Architectures . Fielding, Roy Thomas.  REST: Princ\u00edpios e boas pr\u00e1ticas . Ferreira, Rodrigo.",
+            "title": "5. Refer\u00eancias"
+        },
+        {
+            "location": "/definicoes_projeto/metodologia/",
+            "text": "Metodologia\n\n\nHist\u00f3rico de revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n23/03/2019\n\n\n0.1\n\n\nIniciando o documento\n\n\nGuilherme Aguiar\n\n\n\n\n\n\n\n\n\n\n\n\nReuni\u00f5es\n\n\nSemanais\n\n\nRelat\u00f3rios e Grava\u00e7\u00f5es\n\n\nDefini\u00e7\u00e3o de tarefas\n\n\nPap\u00e9is\n\n\nDivis\u00e3o de Grupo (API e App)",
+            "title": "Metodologia"
+        },
+        {
+            "location": "/definicoes_projeto/metodologia/#metodologia",
+            "text": "",
+            "title": "Metodologia"
+        },
+        {
+            "location": "/definicoes_projeto/metodologia/#historico-de-revisoes",
+            "text": "Data  Vers\u00e3o  Descri\u00e7\u00e3o  Autor(es)      23/03/2019  0.1  Iniciando o documento  Guilherme Aguiar       Reuni\u00f5es  Semanais  Relat\u00f3rios e Grava\u00e7\u00f5es  Defini\u00e7\u00e3o de tarefas  Pap\u00e9is  Divis\u00e3o de Grupo (API e App)",
+            "title": "Hist\u00f3rico de revis\u00f5es"
+        },
+        {
+            "location": "/definicoes_projeto/tema/",
+            "text": "Tema\n\n\nHist\u00f3rico de revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n23/03/2019\n\n\n0.1\n\n\nIniciando o documento\n\n\nGuilherme Aguiar\n\n\n\n\n\n\n23/03/2019\n\n\n0.2\n\n\nAdicionando Vis\u00e3o Geral e Fluxo B\u00e1sico\n\n\nGabriela Medeiros\n\n\n\n\n\n\n\n\nVis\u00e3o Geral\n\n\nUniGrade \u00e9 uma aplica\u00e7\u00e3o Android j\u00e1 desenvolvida anteriormente por alguns membros do grupo que tem como objetivo oferecer a alunos da UnB v\u00e1rias op\u00e7\u00f5es de grade hor\u00e1ria a partir de alguns dados fornecidos pelo usu\u00e1rio. \n\n\nFluxo B\u00e1sico\n\n\nAo entrar no aplicativo, espera-se que o usu\u00e1rio insira as mat\u00e9rias e/ou turmas desejadas e suas prioridades, caso as tenha. Logo ap\u00f3s ter feito isso lhe ser\u00e3o fornecidas v\u00e1rias op\u00e7\u00f5es de grade, que poder\u00e3o ser filtradas ou ordenadas de acordo com suas prefer\u00eancias (hor\u00e1rios vagos, quantidade de mat\u00e9rias, entre outros). \nPor fim, o usu\u00e1rio ter\u00e1 a op\u00e7\u00e3o de salvar a sua grade - os detalhes desta funcionalidade ainda ser\u00e3o decididos.",
+            "title": "Tema"
+        },
+        {
+            "location": "/definicoes_projeto/tema/#tema",
+            "text": "",
+            "title": "Tema"
+        },
+        {
+            "location": "/definicoes_projeto/tema/#historico-de-revisoes",
+            "text": "Data  Vers\u00e3o  Descri\u00e7\u00e3o  Autor(es)      23/03/2019  0.1  Iniciando o documento  Guilherme Aguiar    23/03/2019  0.2  Adicionando Vis\u00e3o Geral e Fluxo B\u00e1sico  Gabriela Medeiros",
+            "title": "Hist\u00f3rico de revis\u00f5es"
+        },
+        {
+            "location": "/definicoes_projeto/tema/#visao-geral",
+            "text": "UniGrade \u00e9 uma aplica\u00e7\u00e3o Android j\u00e1 desenvolvida anteriormente por alguns membros do grupo que tem como objetivo oferecer a alunos da UnB v\u00e1rias op\u00e7\u00f5es de grade hor\u00e1ria a partir de alguns dados fornecidos pelo usu\u00e1rio.",
+            "title": "Vis\u00e3o Geral"
+        },
+        {
+            "location": "/definicoes_projeto/tema/#fluxo-basico",
+            "text": "Ao entrar no aplicativo, espera-se que o usu\u00e1rio insira as mat\u00e9rias e/ou turmas desejadas e suas prioridades, caso as tenha. Logo ap\u00f3s ter feito isso lhe ser\u00e3o fornecidas v\u00e1rias op\u00e7\u00f5es de grade, que poder\u00e3o ser filtradas ou ordenadas de acordo com suas prefer\u00eancias (hor\u00e1rios vagos, quantidade de mat\u00e9rias, entre outros). \nPor fim, o usu\u00e1rio ter\u00e1 a op\u00e7\u00e3o de salvar a sua grade - os detalhes desta funcionalidade ainda ser\u00e3o decididos.",
+            "title": "Fluxo B\u00e1sico"
+        },
+        {
+            "location": "/dinamica01/5w2h/",
+            "text": "5w2h\n\n\nHist\u00f3rico de revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n23/03/2019\n\n\n0.1\n\n\nIniciando o documento\n\n\nGuilherme Aguiar\n\n\n\n\n\n\n24/03/2019\n\n\n0.2\n\n\nAdi\u00e7\u00e3o dos t\u00f3pico Sum\u00e1rio, Introdu\u00e7\u00e3o e Refer\u00eancias\n\n\nDaniel Maike\n\n\n\n\n\n\n24/03/2019\n\n\n0.3\n\n\nAdi\u00e7\u00e3o do 5W2H\n\n\nDaniel Maike\n\n\n\n\n\n\n\n\nSum\u00e1rio\n\n\n1. Introdu\u00e7\u00e3o\n \n\n\n2. 5W2H\n \n\n\n3. Referencias\n\n\n1. Introdu\u00e7\u00e3o\n\n\nA ferramenta de gest\u00e3o 5W2H parte de uma meta para organizar as a\u00e7\u00f5es e determinar o que ser\u00e1 feito para ser alcan\u00e7ada, por qual raz\u00e3o, por quem, como, quando e onde ser\u00e1 feito e estimar o quanto isso custar\u00e1. A metodologia costuma ser utilizada em projetos para avaliar, acompanhar e garantir que as atividades sejam executadas com clareza e excel\u00eancia por todos os envolvidos a partir de sete perguntas: o que (what), por que (why), onde (where), quando (when), quem (who), como (how) e quanto custa (how much). \n [2] \n\n\n2. 5W2H\n\n\n2.1\n\n\n\n\n2.2\n\n\n\n\n3. Refer\u00eancias\n\n\n[1] https://gitlab.com/atlasds/ds2017 \n\n[2] Slide 12 e 13 da aula 02 da disciplina de Arquitetura e Desenho de Software da UnB-Gama - Professora: Milene Serrano \n\n[3] ROCHA, Hugo. 5W2H: o que significa, para que serve, como fazer e exemplos. Dispon\u00edvel em https://klickpages.com.br/blog/5w2h-o-que-significa/",
+            "title": "5w2h"
+        },
+        {
+            "location": "/dinamica01/5w2h/#5w2h",
+            "text": "",
+            "title": "5w2h"
+        },
+        {
+            "location": "/dinamica01/5w2h/#historico-de-revisoes",
+            "text": "Data  Vers\u00e3o  Descri\u00e7\u00e3o  Autor(es)      23/03/2019  0.1  Iniciando o documento  Guilherme Aguiar    24/03/2019  0.2  Adi\u00e7\u00e3o dos t\u00f3pico Sum\u00e1rio, Introdu\u00e7\u00e3o e Refer\u00eancias  Daniel Maike    24/03/2019  0.3  Adi\u00e7\u00e3o do 5W2H  Daniel Maike",
+            "title": "Hist\u00f3rico de revis\u00f5es"
+        },
+        {
+            "location": "/dinamica01/5w2h/#sumario",
+            "text": "1. Introdu\u00e7\u00e3o    2. 5W2H    3. Referencias",
+            "title": "Sum\u00e1rio"
+        },
+        {
+            "location": "/dinamica01/5w2h/#1-introducao",
+            "text": "A ferramenta de gest\u00e3o 5W2H parte de uma meta para organizar as a\u00e7\u00f5es e determinar o que ser\u00e1 feito para ser alcan\u00e7ada, por qual raz\u00e3o, por quem, como, quando e onde ser\u00e1 feito e estimar o quanto isso custar\u00e1. A metodologia costuma ser utilizada em projetos para avaliar, acompanhar e garantir que as atividades sejam executadas com clareza e excel\u00eancia por todos os envolvidos a partir de sete perguntas: o que (what), por que (why), onde (where), quando (when), quem (who), como (how) e quanto custa (how much).   [2]",
+            "title": "1. Introdu\u00e7\u00e3o"
+        },
+        {
+            "location": "/dinamica01/5w2h/#2-5w2h",
+            "text": "",
+            "title": "2. 5W2H"
+        },
+        {
+            "location": "/dinamica01/5w2h/#21",
+            "text": "",
+            "title": "2.1"
+        },
+        {
+            "location": "/dinamica01/5w2h/#22",
+            "text": "",
+            "title": "2.2"
+        },
+        {
+            "location": "/dinamica01/5w2h/#3-referencias",
+            "text": "[1] https://gitlab.com/atlasds/ds2017  \n[2] Slide 12 e 13 da aula 02 da disciplina de Arquitetura e Desenho de Software da UnB-Gama - Professora: Milene Serrano  \n[3] ROCHA, Hugo. 5W2H: o que significa, para que serve, como fazer e exemplos. Dispon\u00edvel em https://klickpages.com.br/blog/5w2h-o-que-significa/",
+            "title": "3. Refer\u00eancias"
+        },
+        {
+            "location": "/dinamica01/argumentacao/",
+            "text": "Argumenta\u00e7\u00e3o\n\n\nHist\u00f3rico de revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n24/03/2019\n\n\n0.1\n\n\nIniciando o documento\n\n\nGuilherme Deusdar\u00e1\n\n\n\n\n\n\n24/03/2019\n\n\n0.2\n\n\nAdicionando Argumenta\u00e7\u00e3o de Front-End\n\n\nGuilherme Deusdar\u00e1\n\n\n\n\n\n\n\n\nSum\u00e1rio\n\n\n1. Introdu\u00e7\u00e3o\n \n\n\n2. Argumenta\u00e7\u00f5es\n \n\n\n3. Referencias\n\n\n1. Introdu\u00e7\u00e3o\n\n\nSegundo Rahwan (2005) \n [1] \n, a argumenta\u00e7\u00e3o pode ser vista como uma intera\u00e7\u00e3o social\nbaseada em princ\u00edpios. Ela \u00e9 composta de argumentos incompat\u00edveis e almeja chegar a\numa conclus\u00e3o consistente e racional. Uma das principais metas da argumenta\u00e7\u00e3o \u00e9 a\nresolu\u00e7\u00e3o de pontos de vistas controversos. Estes pontos de vistas devem ser justific\u00e1veis\nou refut\u00e1veis dependendo da informa\u00e7\u00e3o disponibilizada. Isto distingue a argumenta\u00e7\u00e3o\ndo racioc\u00ednio dedutivo cl\u00e1ssico, em que o acr\u00e9scimo de novas premissas n\u00e3o influencia uma\nprova previamente definida.\n\n\n2. Argumenta\u00e7\u00f5es\n\n\n2.1 Escolha das Tecnologias\n\n\n\n\n3. Refer\u00eancias\n\n\n[1] RAHWAN, I. et al. Representing and classifying arguments on the semantic web. The \n\nKnowledge Engineering Review, v. 26, p. 487\u2013511, 12 2011. ISSN 1469-8005. Dispon\u00edvel \n\nem: \nhttp://journals.cambridge.org/article_S0269888911000191\n. Citado na p\u00e1gina 36.",
+            "title": "Argumentacao"
+        },
+        {
+            "location": "/dinamica01/argumentacao/#argumentacao",
+            "text": "",
+            "title": "Argumenta\u00e7\u00e3o"
+        },
+        {
+            "location": "/dinamica01/argumentacao/#historico-de-revisoes",
+            "text": "Data  Vers\u00e3o  Descri\u00e7\u00e3o  Autor(es)      24/03/2019  0.1  Iniciando o documento  Guilherme Deusdar\u00e1    24/03/2019  0.2  Adicionando Argumenta\u00e7\u00e3o de Front-End  Guilherme Deusdar\u00e1",
+            "title": "Hist\u00f3rico de revis\u00f5es"
+        },
+        {
+            "location": "/dinamica01/argumentacao/#sumario",
+            "text": "1. Introdu\u00e7\u00e3o    2. Argumenta\u00e7\u00f5es    3. Referencias",
+            "title": "Sum\u00e1rio"
+        },
+        {
+            "location": "/dinamica01/argumentacao/#1-introducao",
+            "text": "Segundo Rahwan (2005)   [1]  , a argumenta\u00e7\u00e3o pode ser vista como uma intera\u00e7\u00e3o social\nbaseada em princ\u00edpios. Ela \u00e9 composta de argumentos incompat\u00edveis e almeja chegar a\numa conclus\u00e3o consistente e racional. Uma das principais metas da argumenta\u00e7\u00e3o \u00e9 a\nresolu\u00e7\u00e3o de pontos de vistas controversos. Estes pontos de vistas devem ser justific\u00e1veis\nou refut\u00e1veis dependendo da informa\u00e7\u00e3o disponibilizada. Isto distingue a argumenta\u00e7\u00e3o\ndo racioc\u00ednio dedutivo cl\u00e1ssico, em que o acr\u00e9scimo de novas premissas n\u00e3o influencia uma\nprova previamente definida.",
+            "title": "1. Introdu\u00e7\u00e3o"
+        },
+        {
+            "location": "/dinamica01/argumentacao/#2-argumentacoes",
+            "text": "",
+            "title": "2. Argumenta\u00e7\u00f5es"
+        },
+        {
+            "location": "/dinamica01/argumentacao/#21-escolha-das-tecnologias",
+            "text": "",
+            "title": "2.1 Escolha das Tecnologias"
+        },
+        {
+            "location": "/dinamica01/argumentacao/#3-referencias",
+            "text": "[1] RAHWAN, I. et al. Representing and classifying arguments on the semantic web. The  \nKnowledge Engineering Review, v. 26, p. 487\u2013511, 12 2011. ISSN 1469-8005. Dispon\u00edvel  \nem:  http://journals.cambridge.org/article_S0269888911000191 . Citado na p\u00e1gina 36.",
+            "title": "3. Refer\u00eancias"
+        },
+        {
+            "location": "/dinamica01/causaefeito/",
+            "text": "Diagrama Causa-Efeito\n\n\nHist\u00f3rico de revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n23/03/2019\n\n\n0.1\n\n\nIniciando o documento\n\n\nGuilherme Aguiar\n\n\n\n\n\n\n24/03/2019\n\n\n0.2\n\n\nAdi\u00e7\u00e3o dos t\u00f3pico Sum\u00e1rio, Introdu\u00e7\u00e3o e Refer\u00eancias\n\n\nDaniel Maike\n\n\n\n\n\n\n24/03/2019\n\n\n0.3\n\n\nAdi\u00e7\u00e3o do Causa-Efeito\n\n\nDaniel Maike\n\n\n\n\n\n\n24/03/2019\n\n\n0.4\n\n\nAdi\u00e7\u00e3o do Causa-Efeito 2.3\n\n\nGuilherme Aguiar\n\n\n\n\n\n\n\n\nSum\u00e1rio\n\n\n1. Introdu\u00e7\u00e3o\n \n\n\n2. Causa-Efeito\n \n\n\n3. Referencias\n\n\n1. Introdu\u00e7\u00e3o\n\n\nO diagrama de causa e efeito \u00e9 utilizado para a an\u00e1lise de dispers\u00f5es no processo, visando fazer as pessoas pensarem sobre causa e raz\u00f5es poss\u00edveis que fazem com que um problema ocorra. \n [2] \n\n\n2. Causa-Efeito\n\n\n2.1 Montagem eficiente de grade hor\u00e1ria\n\n\n\n\n2.2 Dificuldades e empecilhos dos alunos no per\u00edodo de matr\u00edcula\n\n\n\n\n2.3 Complica\u00e7\u00f5es na implementa\u00e7\u00e3o do projeto\n\n\n\n\n3. Refer\u00eancias\n\n\n[1] https://gitlab.com/atlasds/ds2017 \n\n[2] Slides 18, 19 e 20 da aula 02 da disciplina de Arquitetura e Desenho de Software da UnB-Gama - Professora: Milene Serrano",
+            "title": "Causaefeito"
+        },
+        {
+            "location": "/dinamica01/causaefeito/#diagrama-causa-efeito",
+            "text": "",
+            "title": "Diagrama Causa-Efeito"
+        },
+        {
+            "location": "/dinamica01/causaefeito/#historico-de-revisoes",
+            "text": "Data  Vers\u00e3o  Descri\u00e7\u00e3o  Autor(es)      23/03/2019  0.1  Iniciando o documento  Guilherme Aguiar    24/03/2019  0.2  Adi\u00e7\u00e3o dos t\u00f3pico Sum\u00e1rio, Introdu\u00e7\u00e3o e Refer\u00eancias  Daniel Maike    24/03/2019  0.3  Adi\u00e7\u00e3o do Causa-Efeito  Daniel Maike    24/03/2019  0.4  Adi\u00e7\u00e3o do Causa-Efeito 2.3  Guilherme Aguiar",
+            "title": "Hist\u00f3rico de revis\u00f5es"
+        },
+        {
+            "location": "/dinamica01/causaefeito/#sumario",
+            "text": "1. Introdu\u00e7\u00e3o    2. Causa-Efeito    3. Referencias",
+            "title": "Sum\u00e1rio"
+        },
+        {
+            "location": "/dinamica01/causaefeito/#1-introducao",
+            "text": "O diagrama de causa e efeito \u00e9 utilizado para a an\u00e1lise de dispers\u00f5es no processo, visando fazer as pessoas pensarem sobre causa e raz\u00f5es poss\u00edveis que fazem com que um problema ocorra.   [2]",
+            "title": "1. Introdu\u00e7\u00e3o"
+        },
+        {
+            "location": "/dinamica01/causaefeito/#2-causa-efeito",
+            "text": "",
+            "title": "2. Causa-Efeito"
+        },
+        {
+            "location": "/dinamica01/causaefeito/#21-montagem-eficiente-de-grade-horaria",
+            "text": "",
+            "title": "2.1 Montagem eficiente de grade hor\u00e1ria"
+        },
+        {
+            "location": "/dinamica01/causaefeito/#22-dificuldades-e-empecilhos-dos-alunos-no-periodo-de-matricula",
+            "text": "",
+            "title": "2.2 Dificuldades e empecilhos dos alunos no per\u00edodo de matr\u00edcula"
+        },
+        {
+            "location": "/dinamica01/causaefeito/#23-complicacoes-na-implementacao-do-projeto",
+            "text": "",
+            "title": "2.3 Complica\u00e7\u00f5es na implementa\u00e7\u00e3o do projeto"
+        },
+        {
+            "location": "/dinamica01/causaefeito/#3-referencias",
+            "text": "[1] https://gitlab.com/atlasds/ds2017  \n[2] Slides 18, 19 e 20 da aula 02 da disciplina de Arquitetura e Desenho de Software da UnB-Gama - Professora: Milene Serrano",
+            "title": "3. Refer\u00eancias"
+        },
+        {
+            "location": "/dinamica01/cocomo/",
+            "text": "Modelo de Custo Produtivo (COnstructive COst MOdel - COCOMO)\n\n\nHist\u00f3rico de revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n24/03/2019\n\n\n0.1\n\n\nIniciando e elaborando documento\n\n\nGuilherme Aguiar\n\n\n\n\n\n\n24/03/2019\n\n\n0.2\n\n\nAjustes no desenvolvimento e refer\u00eancias\n\n\nGuilherme Aguiar\n\n\n\n\n\n\n\n\nSum\u00e1rio\n\n\n1. Introdu\u00e7\u00e3o\n \n\n\n2. Modelo de Custo Produtivo Intermedi\u00e1rio\n \n\n\n3. Resultados\n \n\n\n4. Referencias\n\n\n1. Introdu\u00e7\u00e3o\n\n\nO 'm\u00e9todo COCOMO' (ou COnstructive COst MOdel) \u00e9 um modelo de estimativa do tempo e esfor\u00e7o de desenvolvimento de um software.\n\n\nCOCOMO consiste em tr\u00eas implementa\u00e7\u00f5es: \n\n\n\n\nCOCOMO B\u00e1sico (Basic):\n computa o esfor\u00e7o e o custo de desenvolvimento considerando\numa estimativa do tamanho do programa.\n\n\nCOCOMO Intermedi\u00e1rio (Intermediate):\n computa o esfor\u00e7o e o custo de\ndesenvolvimento considerando uma estimativa do tamanho do programa e um conjunto de\ndirecionadores de custo (avalia\u00e7\u00f5es subjetivas do produto, do hardware, do pessoal e dos\natributos do projeto).\n\n\nCOCOMO Detalhado (Detailed):\n al\u00e9m das caracter\u00edsticas do COCOMO intermedi\u00e1rio,\ninclui uma avalia\u00e7\u00e3o do impacto dos direcionadores de custo sobre cada etapa do\ndesenvolvimento.\n\n\n\n\n2. Modelo de Custo Produtivo Intermedi\u00e1rio\n\n\nEste modelo amplia o modelo b\u00e1sico com a finalidadade de levar em considera\u00e7\u00e3o um\nconjunto de atributos direcionadores do custo que s\u00e3o agrupados em quatro categorias:\n\n\nAtributos do produto\n\n\n\n\nconfiabilidade exigida do software;\n\n\ntamanho do banco de dados;\n\n\ncomplexidade do produto.\n\n\n\n\nAtributos do hardware:\n\n\n\n\nrestri\u00e7\u00f5es ao tempo de execu\u00e7\u00e3o;\n\n\nrestri\u00e7\u00f5es de mem\u00f3ria;\n\n\nvolatilidade do ambiente de m\u00e1quina virtual;\n\n\ntempo de turnaround (tempo para completar o ciclo) exigido.\n\n\n\n\nAtributos de pessoal:\n\n\n\n\ncapacidade do analista;\n\n\nexperi\u00eancia em aplica\u00e7\u00f5es;\n\n\ncapacidade do programador;\n\n\nexperi\u00eancia em m\u00e1quina virtual;\n\n\nexperi\u00eancia com a linguagem de programa\u00e7\u00e3o.\n\n\n\n\nAtributos de projeto:\n\n\n\n\nuso de pr\u00e1ticas modernas de programa\u00e7\u00e3o;\n\n\nuso de ferramentas de software;\n\n\ncronograma exigido de desenvolvimento.\n\n\n\n\nCada um desses atributos deve ser classificado de acordo com uma escala que varia de \u201cmuito\nbaixo\u201d a \u201cextremamente elevado\u201d (em import\u00e2ncia e valor).A partir desta classifica\u00e7\u00e3o determina-se o Multiplicador de Esfor\u00e7o. O produto de todos os resultados de Multiplicadores\nde Esfor\u00e7os \u00e9 chamado de Fator de Ajustamento de Esfor\u00e7o Esta escala \u00e9 apresentada na\ntabela abaixo: \n\n\n\n\nC\u00e1lculo da estimativa de esfor\u00e7o (PESSOAS/M\u00caS)\n\n\nFinalmente, para  calcular a estimativa do esfor\u00e7o, utilizamos a seguinte equa\u00e7\u00e3o:\n\n\n\n\nPara Boehm (1981) os valores do coeficiente \u201ca\u201d e do expoente \u201cb\u201d do modelo COCOMO\nIntermedi\u00e1rio s\u00e3o apresentados na tabela abaixo:\n\n\n\n\nOnde: \n\n\n\n\n\n\nModo Org\u00e2nico:\n projetos simples, relativamente pequenos, com conjuntos de requisitos\nn\u00e3o t\u00e3o r\u00edgidos, com equipes pequenas e experientes.\n\n\n\n\n\n\nModo Semidestacado:\n projetos intermedi\u00e1rios (em tamanho e complexidade), com alguns\nrequisitos r\u00edgidos e outros n\u00e3o t\u00e3o r\u00edgidos, com n\u00edveis mistos de experi\u00eancia nas equipes.\n\n\n\n\n\n\nModo Embutido:\n projetos com conjunto r\u00edgido de restri\u00e7\u00f5es operacionais, tanto de\nhardware, quanto de software.\n\n\n\n\n\n\nC\u00e1lculo da estimativa de tempo (M\u00caS)\n\n\nO c\u00e1lculo para estimativa de tempo utiliza a seguinte equa\u00e7\u00e3o:\n\n\n\n\n3. Resultados\n\n\nEstimativa de tamanho\n\n\nLevando em conta a vers\u00e3o anterior do UniGrade feita na disciplina de Desenvolvimento de Software por alguns integrantes deste grupo, que contou com cerca de \n5268 linhas de c\u00f3digo\n, tamb\u00e9m o prov\u00e1vel amadurecimento das habilidades de ger\u00eanciamento e desenvolvimento de software da equipe e a ado\u00e7\u00e3o de novas t\u00e9cnologias que visam facilitar o desenvolvimento, nossa estimativa inicial do n\u00famero de linhas de c\u00f3digo \u00e9 de no m\u00ednino \n4000 linhas de c\u00f3digo\n. \n\n\n- S = 4000 LoC ou S = 4 KLoC\n\n\nLoC = Linhas de c\u00f3digo\n\n\nEstimativa de esfor\u00e7o\n\n\nSubstituindo os valores na equa\u00e7\u00e3o de esfor\u00e7o temos que:\n\n\n- E = a * S^b * fae\n\n\n- E = 3 * 4^1,12 * 0,89\n\n\n- E = 11,76 pessoas/m\u00eas\n\n\nO peso dado aos direcionadores de custo foi o seguinte:\n\n\n\n\nEstimativa de tempo\n\n\n- T = c * E^d\n\n\n- T = 2,5 * 11,76 ^0,35\n\n\n- T = 5,92 meses\n\n\n4. Refer\u00eancias\n\n\n[1] Meller, Maristela Corr\u00eaa. \nModelos Para Estimar Custos De Software: Estudo Comparativo Com Softwares De Pequeno Porte.\n 2002.  \n\n[2] Filho, Ant\u00f4nio M. da Silva, \"\nEstimativa de custo de software: roteiro e dicas para estimativas de projeto\n\". Revista Espa\u00e7o Acad\u00eamico, nro 156, Maio 2014.\n\n[3] Slides 29, 30 e 31 da aula 02 da disciplina de Arquitetura e Desenho de Software da UnB-Gama - Professora: Milene Serrano",
+            "title": "Cocomo"
+        },
+        {
+            "location": "/dinamica01/cocomo/#modelo-de-custo-produtivo-constructive-cost-model-cocomo",
+            "text": "",
+            "title": "Modelo de Custo Produtivo (COnstructive COst MOdel - COCOMO)"
+        },
+        {
+            "location": "/dinamica01/cocomo/#historico-de-revisoes",
+            "text": "Data  Vers\u00e3o  Descri\u00e7\u00e3o  Autor(es)      24/03/2019  0.1  Iniciando e elaborando documento  Guilherme Aguiar    24/03/2019  0.2  Ajustes no desenvolvimento e refer\u00eancias  Guilherme Aguiar",
+            "title": "Hist\u00f3rico de revis\u00f5es"
+        },
+        {
+            "location": "/dinamica01/cocomo/#sumario",
+            "text": "1. Introdu\u00e7\u00e3o    2. Modelo de Custo Produtivo Intermedi\u00e1rio    3. Resultados    4. Referencias",
+            "title": "Sum\u00e1rio"
+        },
+        {
+            "location": "/dinamica01/cocomo/#1-introducao",
+            "text": "O 'm\u00e9todo COCOMO' (ou COnstructive COst MOdel) \u00e9 um modelo de estimativa do tempo e esfor\u00e7o de desenvolvimento de um software.  COCOMO consiste em tr\u00eas implementa\u00e7\u00f5es:    COCOMO B\u00e1sico (Basic):  computa o esfor\u00e7o e o custo de desenvolvimento considerando\numa estimativa do tamanho do programa.  COCOMO Intermedi\u00e1rio (Intermediate):  computa o esfor\u00e7o e o custo de\ndesenvolvimento considerando uma estimativa do tamanho do programa e um conjunto de\ndirecionadores de custo (avalia\u00e7\u00f5es subjetivas do produto, do hardware, do pessoal e dos\natributos do projeto).  COCOMO Detalhado (Detailed):  al\u00e9m das caracter\u00edsticas do COCOMO intermedi\u00e1rio,\ninclui uma avalia\u00e7\u00e3o do impacto dos direcionadores de custo sobre cada etapa do\ndesenvolvimento.",
+            "title": "1. Introdu\u00e7\u00e3o"
+        },
+        {
+            "location": "/dinamica01/cocomo/#2-modelo-de-custo-produtivo-intermediario",
+            "text": "Este modelo amplia o modelo b\u00e1sico com a finalidadade de levar em considera\u00e7\u00e3o um\nconjunto de atributos direcionadores do custo que s\u00e3o agrupados em quatro categorias:",
+            "title": "2. Modelo de Custo Produtivo Intermedi\u00e1rio"
+        },
+        {
+            "location": "/dinamica01/cocomo/#atributos-do-produto",
+            "text": "confiabilidade exigida do software;  tamanho do banco de dados;  complexidade do produto.",
+            "title": "Atributos do produto"
+        },
+        {
+            "location": "/dinamica01/cocomo/#atributos-do-hardware",
+            "text": "restri\u00e7\u00f5es ao tempo de execu\u00e7\u00e3o;  restri\u00e7\u00f5es de mem\u00f3ria;  volatilidade do ambiente de m\u00e1quina virtual;  tempo de turnaround (tempo para completar o ciclo) exigido.",
+            "title": "Atributos do hardware:"
+        },
+        {
+            "location": "/dinamica01/cocomo/#atributos-de-pessoal",
+            "text": "capacidade do analista;  experi\u00eancia em aplica\u00e7\u00f5es;  capacidade do programador;  experi\u00eancia em m\u00e1quina virtual;  experi\u00eancia com a linguagem de programa\u00e7\u00e3o.",
+            "title": "Atributos de pessoal:"
+        },
+        {
+            "location": "/dinamica01/cocomo/#atributos-de-projeto",
+            "text": "uso de pr\u00e1ticas modernas de programa\u00e7\u00e3o;  uso de ferramentas de software;  cronograma exigido de desenvolvimento.   Cada um desses atributos deve ser classificado de acordo com uma escala que varia de \u201cmuito\nbaixo\u201d a \u201cextremamente elevado\u201d (em import\u00e2ncia e valor).A partir desta classifica\u00e7\u00e3o determina-se o Multiplicador de Esfor\u00e7o. O produto de todos os resultados de Multiplicadores\nde Esfor\u00e7os \u00e9 chamado de Fator de Ajustamento de Esfor\u00e7o Esta escala \u00e9 apresentada na\ntabela abaixo:",
+            "title": "Atributos de projeto:"
+        },
+        {
+            "location": "/dinamica01/cocomo/#calculo-da-estimativa-de-esforco-pessoasmes",
+            "text": "Finalmente, para  calcular a estimativa do esfor\u00e7o, utilizamos a seguinte equa\u00e7\u00e3o:   Para Boehm (1981) os valores do coeficiente \u201ca\u201d e do expoente \u201cb\u201d do modelo COCOMO\nIntermedi\u00e1rio s\u00e3o apresentados na tabela abaixo:   Onde:     Modo Org\u00e2nico:  projetos simples, relativamente pequenos, com conjuntos de requisitos\nn\u00e3o t\u00e3o r\u00edgidos, com equipes pequenas e experientes.    Modo Semidestacado:  projetos intermedi\u00e1rios (em tamanho e complexidade), com alguns\nrequisitos r\u00edgidos e outros n\u00e3o t\u00e3o r\u00edgidos, com n\u00edveis mistos de experi\u00eancia nas equipes.    Modo Embutido:  projetos com conjunto r\u00edgido de restri\u00e7\u00f5es operacionais, tanto de\nhardware, quanto de software.",
+            "title": "C\u00e1lculo da estimativa de esfor\u00e7o (PESSOAS/M\u00caS)"
+        },
+        {
+            "location": "/dinamica01/cocomo/#calculo-da-estimativa-de-tempo-mes",
+            "text": "O c\u00e1lculo para estimativa de tempo utiliza a seguinte equa\u00e7\u00e3o:",
+            "title": "C\u00e1lculo da estimativa de tempo (M\u00caS)"
+        },
+        {
+            "location": "/dinamica01/cocomo/#3-resultados",
+            "text": "",
+            "title": "3. Resultados"
+        },
+        {
+            "location": "/dinamica01/cocomo/#estimativa-de-tamanho",
+            "text": "Levando em conta a vers\u00e3o anterior do UniGrade feita na disciplina de Desenvolvimento de Software por alguns integrantes deste grupo, que contou com cerca de  5268 linhas de c\u00f3digo , tamb\u00e9m o prov\u00e1vel amadurecimento das habilidades de ger\u00eanciamento e desenvolvimento de software da equipe e a ado\u00e7\u00e3o de novas t\u00e9cnologias que visam facilitar o desenvolvimento, nossa estimativa inicial do n\u00famero de linhas de c\u00f3digo \u00e9 de no m\u00ednino  4000 linhas de c\u00f3digo .",
+            "title": "Estimativa de tamanho"
+        },
+        {
+            "location": "/dinamica01/cocomo/#-s-4000-loc-ou-s-4-kloc",
+            "text": "",
+            "title": "- S = 4000 LoC ou S = 4 KLoC"
+        },
+        {
+            "location": "/dinamica01/cocomo/#loc-linhas-de-codigo",
+            "text": "",
+            "title": "LoC = Linhas de c\u00f3digo"
+        },
+        {
+            "location": "/dinamica01/cocomo/#estimativa-de-esforco",
+            "text": "Substituindo os valores na equa\u00e7\u00e3o de esfor\u00e7o temos que:",
+            "title": "Estimativa de esfor\u00e7o"
+        },
+        {
+            "location": "/dinamica01/cocomo/#-e-a-sb-fae",
+            "text": "",
+            "title": "- E = a * S^b * fae"
+        },
+        {
+            "location": "/dinamica01/cocomo/#-e-3-4112-089",
+            "text": "",
+            "title": "- E = 3 * 4^1,12 * 0,89"
+        },
+        {
+            "location": "/dinamica01/cocomo/#-e-1176-pessoasmes",
+            "text": "O peso dado aos direcionadores de custo foi o seguinte:",
+            "title": "- E = 11,76 pessoas/m\u00eas"
+        },
+        {
+            "location": "/dinamica01/cocomo/#estimativa-de-tempo",
+            "text": "",
+            "title": "Estimativa de tempo"
+        },
+        {
+            "location": "/dinamica01/cocomo/#-t-c-ed",
+            "text": "",
+            "title": "- T = c * E^d"
+        },
+        {
+            "location": "/dinamica01/cocomo/#-t-25-1176-035",
+            "text": "",
+            "title": "- T = 2,5 * 11,76 ^0,35"
+        },
+        {
+            "location": "/dinamica01/cocomo/#-t-592-meses",
+            "text": "",
+            "title": "- T = 5,92 meses"
+        },
+        {
+            "location": "/dinamica01/cocomo/#4-referencias",
+            "text": "[1] Meller, Maristela Corr\u00eaa.  Modelos Para Estimar Custos De Software: Estudo Comparativo Com Softwares De Pequeno Porte.  2002.   \n[2] Filho, Ant\u00f4nio M. da Silva, \" Estimativa de custo de software: roteiro e dicas para estimativas de projeto \". Revista Espa\u00e7o Acad\u00eamico, nro 156, Maio 2014. \n[3] Slides 29, 30 e 31 da aula 02 da disciplina de Arquitetura e Desenho de Software da UnB-Gama - Professora: Milene Serrano",
+            "title": "4. Refer\u00eancias"
+        },
+        {
+            "location": "/dinamica01/dinamica01/",
+            "text": "Din\u00e2mica e Semin\u00e1rio I\n\n\nM\u00f3dulo Projeto/Desenho de Software N\u00e3o Orientado a Abordagens Espec\u00edficas\n\n\nHist\u00f3rico de revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n22/03/2019\n\n\n0.1\n\n\nIniciando o documento\n\n\nGuilherme Aguiar\n\n\n\n\n\n\n\n\nArtefatos\n\n\n\n\n5W2H\n\n\nRich Picture\n\n\nDiagrama Causa-Efeito\n\n\nMapa Mental\n\n\nestimativa, lexico, gloss\u00e1rio,",
+            "title": "Dinamica01"
+        },
+        {
+            "location": "/dinamica01/dinamica01/#dinamica-e-seminario-i",
+            "text": "M\u00f3dulo Projeto/Desenho de Software N\u00e3o Orientado a Abordagens Espec\u00edficas",
+            "title": "Din\u00e2mica e Semin\u00e1rio I"
+        },
+        {
+            "location": "/dinamica01/dinamica01/#historico-de-revisoes",
+            "text": "Data  Vers\u00e3o  Descri\u00e7\u00e3o  Autor(es)      22/03/2019  0.1  Iniciando o documento  Guilherme Aguiar",
+            "title": "Hist\u00f3rico de revis\u00f5es"
+        },
+        {
+            "location": "/dinamica01/dinamica01/#artefatos",
+            "text": "5W2H  Rich Picture  Diagrama Causa-Efeito  Mapa Mental  estimativa, lexico, gloss\u00e1rio,",
+            "title": "Artefatos"
+        },
+        {
+            "location": "/dinamica01/mapamental/",
+            "text": "Mapa Mental\n\n\nHist\u00f3rico de revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n23/03/2019\n\n\n0.1\n\n\nIniciando o documento\n\n\nGuilherme Aguiar\n\n\n\n\n\n\n24/03/2019\n\n\n0.2\n\n\nAdicionando vers\u00e3o 1 e 2 do mapa mental geral\n\n\nGabriela Medeiros\n\n\n\n\n\n\n\n\nGeral",
+            "title": "Mapamental"
+        },
+        {
+            "location": "/dinamica01/mapamental/#mapa-mental",
+            "text": "",
+            "title": "Mapa Mental"
+        },
+        {
+            "location": "/dinamica01/mapamental/#historico-de-revisoes",
+            "text": "Data  Vers\u00e3o  Descri\u00e7\u00e3o  Autor(es)      23/03/2019  0.1  Iniciando o documento  Guilherme Aguiar    24/03/2019  0.2  Adicionando vers\u00e3o 1 e 2 do mapa mental geral  Gabriela Medeiros",
+            "title": "Hist\u00f3rico de revis\u00f5es"
+        },
+        {
+            "location": "/dinamica01/mapamental/#geral",
+            "text": "",
+            "title": "Geral"
+        },
+        {
+            "location": "/dinamica01/richpicture/",
+            "text": "Rich Picture\n\n\nHist\u00f3rico de revis\u00f5es\n\n\n\n\n\n\n\n\nData\n\n\nVers\u00e3o\n\n\nDescri\u00e7\u00e3o\n\n\nAutor(es)\n\n\n\n\n\n\n\n\n\n\n23/03/2019\n\n\n0.1\n\n\nIniciando o documento\n\n\nGuilherme Aguiar\n\n\n\n\n\n\n24/03/2019\n\n\n0.2\n\n\nAdi\u00e7\u00e3o dos t\u00f3pico Sum\u00e1rio, Introdu\u00e7\u00e3o e Refer\u00eancias\n\n\nDaniel Maike\n\n\n\n\n\n\n24/03/2019\n\n\n0.3\n\n\nAdi\u00e7\u00e3o do RichPicture de usu\u00e1rio\n\n\nDaniel Maike\n\n\n\n\n\n\n\n\nSum\u00e1rio\n\n\n1. Introdu\u00e7\u00e3o\n \n\n\n2. RichPictures\n \n\n\n3. Referencias\n\n\n1. Introdu\u00e7\u00e3o\n\n\nO Rich Picture \u00e9 uma t\u00e9cnica de requisitos de software, elaborada na fase de pr\u00e9-rastreabilidade. S\u00e3o desenho feitos a m\u00e3o ou digitalmente a fim de expressar ideias, que representam um subsistema de um sistema maior. \u00c9 um artefato considerado informal e muito \u00fatil na identifica\u00e7\u00e3o das partes envolvidas, a fim abrir espa\u00e7o para discuss\u00f5es e ser uma forma de compreender o problema amplamente. \n [1] \n \n [2] \n\n\n2. RichPictures\n\n\nUsu\u00e1rio\n\n\nRich Picture com foco no usu\u00e1rio e nas a\u00e7\u00f5es que ele pode realizar no sistema.\n\n\nVers\u00e3o 1.0\n\n\n\n\nVers\u00e3o 2.0\n\n\n\n\nVers\u00e3o 3.0\n\n\n\n\nAplicativo e usu\u00e1rio\n\n\nRich picture que descreve como o aplicativo processa os dados e disponibilza ao usu\u00e1rio. \n\n\nVers\u00e3o 1.0\n\n\n\n\n3. Refer\u00eancias\n\n\n[1] Slide 10 da aula 04 da disciplina de Requisitos de Software da UnB-Gama - Professores: Milene Serrano e Maur\u00edcio Serrano \n\n[2] Slides 15, 16 e 17 da aula 02 da disciplina de Arquitetura e Desenho de Software da UnB-Gama - Professora: Milene Serrano \n\n[3] https://rockcontent.com/blog/web-crawler/ \n\n[4] https://gitlab.com/atlasds/ds2017",
+            "title": "Richpicture"
+        },
+        {
+            "location": "/dinamica01/richpicture/#rich-picture",
+            "text": "",
+            "title": "Rich Picture"
+        },
+        {
+            "location": "/dinamica01/richpicture/#historico-de-revisoes",
+            "text": "Data  Vers\u00e3o  Descri\u00e7\u00e3o  Autor(es)      23/03/2019  0.1  Iniciando o documento  Guilherme Aguiar    24/03/2019  0.2  Adi\u00e7\u00e3o dos t\u00f3pico Sum\u00e1rio, Introdu\u00e7\u00e3o e Refer\u00eancias  Daniel Maike    24/03/2019  0.3  Adi\u00e7\u00e3o do RichPicture de usu\u00e1rio  Daniel Maike",
+            "title": "Hist\u00f3rico de revis\u00f5es"
+        },
+        {
+            "location": "/dinamica01/richpicture/#sumario",
+            "text": "1. Introdu\u00e7\u00e3o    2. RichPictures    3. Referencias",
+            "title": "Sum\u00e1rio"
+        },
+        {
+            "location": "/dinamica01/richpicture/#1-introducao",
+            "text": "O Rich Picture \u00e9 uma t\u00e9cnica de requisitos de software, elaborada na fase de pr\u00e9-rastreabilidade. S\u00e3o desenho feitos a m\u00e3o ou digitalmente a fim de expressar ideias, que representam um subsistema de um sistema maior. \u00c9 um artefato considerado informal e muito \u00fatil na identifica\u00e7\u00e3o das partes envolvidas, a fim abrir espa\u00e7o para discuss\u00f5es e ser uma forma de compreender o problema amplamente.   [1]     [2]",
+            "title": "1. Introdu\u00e7\u00e3o"
+        },
+        {
+            "location": "/dinamica01/richpicture/#2-richpictures",
+            "text": "",
+            "title": "2. RichPictures"
+        },
+        {
+            "location": "/dinamica01/richpicture/#usuario",
+            "text": "Rich Picture com foco no usu\u00e1rio e nas a\u00e7\u00f5es que ele pode realizar no sistema.",
+            "title": "Usu\u00e1rio"
+        },
+        {
+            "location": "/dinamica01/richpicture/#versao-10",
+            "text": "",
+            "title": "Vers\u00e3o 1.0"
+        },
+        {
+            "location": "/dinamica01/richpicture/#versao-20",
+            "text": "",
+            "title": "Vers\u00e3o 2.0"
+        },
+        {
+            "location": "/dinamica01/richpicture/#versao-30",
+            "text": "",
+            "title": "Vers\u00e3o 3.0"
+        },
+        {
+            "location": "/dinamica01/richpicture/#aplicativo-e-usuario",
+            "text": "Rich picture que descreve como o aplicativo processa os dados e disponibilza ao usu\u00e1rio.",
+            "title": "Aplicativo e usu\u00e1rio"
+        },
+        {
+            "location": "/dinamica01/richpicture/#versao-10_1",
+            "text": "",
+            "title": "Vers\u00e3o 1.0"
+        },
+        {
+            "location": "/dinamica01/richpicture/#3-referencias",
+            "text": "[1] Slide 10 da aula 04 da disciplina de Requisitos de Software da UnB-Gama - Professores: Milene Serrano e Maur\u00edcio Serrano  \n[2] Slides 15, 16 e 17 da aula 02 da disciplina de Arquitetura e Desenho de Software da UnB-Gama - Professora: Milene Serrano  \n[3] https://rockcontent.com/blog/web-crawler/  \n[4] https://gitlab.com/atlasds/ds2017",
+            "title": "3. Refer\u00eancias"
+        }
+    ]
+}
