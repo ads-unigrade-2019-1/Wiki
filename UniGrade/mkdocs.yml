@@ -1,5 +1,5 @@
 site_name: UniGrade
-theme: readthedocs
+theme: material
 nav:
     - Início: index.md
     - Definições do projeto:
