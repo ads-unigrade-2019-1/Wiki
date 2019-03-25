@@ -7,7 +7,8 @@
 |24/03/2019|   0.2   | Adição dos tópico Sumário, Introdução e Referências      |   Daniel Maike  |
 |24/03/2019|   0.3    |  Adição do RichPicture de usuário       |   Daniel Maike  |
 |24/03/2019|   0.4    |  Adição do RichPicture do aplicativo e usuário       |   joberth Rogers  |
-|24/03/2019|   0.4    |  Adição do RichPicture do fluxo de dados       |   Guilherme Guy  |
+|24/03/2019|   0.5    |  Adição do RichPicture do fluxo de dados       |   Guilherme Guy  |
+|24/03/2019|   0.6    |  Adição do RichPicture da problemática       |   Gabriela Medeiros  |
 
 ## Sumário
 [1. Introdução](#1-introduçao) <br>
@@ -43,6 +44,16 @@ Rich picture que descreve como o aplicativo processa os dados e disponibilza ao 
 #### Versão 1.0
 
 ![UserAndAppRP](img/UserandAppRP.png)
+
+### Problemática
+
+#### Versão 1.0
+
+![RichPictureProblematica1](img/RichPictureProblematicaPapel.jpeg)
+
+#### Versão 2.0
+
+![RichPictureProblematica](img/RichPictureProblematicaDesenho.jpg)
 
 ### Fluxo de Dados
 

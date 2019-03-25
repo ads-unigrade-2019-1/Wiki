@@ -9,8 +9,8 @@
 ## Geral
 
 ### Versão 1
-![mapaMental1](img/VisãoGeral-MapaMental1.jpeg)
+![mapaMental1](img/VisaoGeralMapaMental1.jpeg)
 
 #Versão 2
 
-![mapaMental1](img/VisãoGeral-MapaMental.jpg)
+![mapaMental1](img/VisaoGeralMapaMental.jpg)
