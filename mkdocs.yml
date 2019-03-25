@@ -19,3 +19,7 @@ nav:
         - Diagrama Causa-Efeito: dinamica01/causaefeito.md
         - Mapa Mental: dinamica01/mapamental.md
         - Modelo de Custo Produtivo: dinamica01/cocomo.md 
+    - Iniciativas Extras:
+        - Relatórios das Reuniões:
+            - Relatório I: iniciativas_extras/relatorios/relatorio1.md
+            - Relatório II: iniciativas_extras/relatorios/relatorio2.md
