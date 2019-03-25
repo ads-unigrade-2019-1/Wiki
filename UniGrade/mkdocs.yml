@@ -1,5 +1,11 @@
 site_name: UniGrade
-theme: material
+theme: 
+    name: material
+    language: 'pt'
+
+repo_name: 'Unigrade'
+repo_url: 'https://github.com/ads-unigrade-2019-1'
+    
 nav:
     - Início: index.md
     - Definições do projeto:
