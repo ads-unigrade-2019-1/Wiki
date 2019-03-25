@@ -9,6 +9,7 @@
 |24/03/2019|   0.4    | Correção de sumário e adição de visão geral |   Geovana Ramos |
 |24/03/2019|   0.5    | Correção de links|   Joberth Rogers |
 |24/03/2019|   0.6    | Adição do tópico banco de dados |  Ezequiel De Oliveira |
+|24/03/2019|   0.7    | link para tópico relacionado |  Ezequiel De Oliveira |
 
 -------------------------
 
@@ -49,7 +50,9 @@ Para o desenvolvimento da nossa API, iremos utilizar Node.js e o framework Expre
 ### 4.1 Tecnologias
 ![Mongodb](img/MongodbLogo.jpg)
 
-A tecnologia escolhida para ser integrada na API como banco de dados é o Mongodb sendo um banco de dados NoSql (Not only SQL), Mongodb é um banco de dados não relacional, orientado a documentos, onde guarda os dados em arquivos no formato Json.
+A tecnologia escolhida para ser integrada na [API](#3-api) como banco de dados é o Mongodb sendo um banco de dados NoSql (Not only SQL), Mongodb é um banco de dados não relacional, orientado a documentos, onde guarda os dados em arquivos no formato Json.
+
+O motivo da escolha de tal tecnologia foi pela boa integração com Nodejs/Express
 
 ### 5. Referências
 [1] Reunião feita na aula do dia 22/03/2019.
