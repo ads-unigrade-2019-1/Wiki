@@ -2,24 +2,25 @@
 
 ## Histórico de Revisão
 
-| Data | Descrição | Autor(es) |
-|:--:|:--:|:--:|
-| 26/03/2019 | Criação do Documento de GCS | Daniel Maike |
-| 26/03/2019 | Adequação das políticas com base em interesses e necessidades do grupo | Guilherme Guy |
+|   Data   |  Versão  |        Descrição       |          Autor(es)          |
+|:--------:|:--------:|:----------------------:|:---------------------------:|
+|26/03/2019|   0.1    | Criação do Documento de GCS           |   Daniel Maike  |
+|26/03/2019|   0.2    | Adequação das políticas com base em interesses e necessidades do grupo |   Guilherme Guy |
+|26/03/2019|   0.3    | Arrumando links         |   Daniel Maike  |
 
 ## Sumário
 
-[1. Introdução](#1.-introdução)
+[1. Introdução](#1-introducao)
 
-[2. Itens de Configuração](#2.-itens-de-configuração)
+[2. Itens de Configuração](#2-itens-de-configuracao)
 
-[3. Políticas](#3.-políticas)
+[3. Políticas](#3-politicas)
 
-[4. Uso de Issues](#4.-uso-de-issues)
+[4. Uso de Issues](#4-uso-de-issues)
 
-[5. Repositório de Documentação](#5.-repositório-de-documentação)
+[5. Repositório de Documentação](#5-repositorio-de-documentacao)
 
-[6. Referências](#6.-referências)
+[6. Referências](#6-referencias)
 
 
 ## 1. Introdução

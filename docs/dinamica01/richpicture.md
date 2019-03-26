@@ -12,13 +12,13 @@
 |26/03/2019|   0.7    |  Arrumando links      |   Daniel Maike |
 
 ## Sumário
-[1. Introdução](#1-introdução) <br>
+[1. Introdução](#1-introducao) <br>
 [2. RichPictures](#2-richpictures) <br>
-[3. Referências](#3-referências)
+[3. Referências](#3-referencias)
 
 ## 1. Introdução
 
-O Rich Picture é uma técnica de requisitos de software, elaborada na fase de pré-rastreabilidade. São desenho feitos a mão ou digitalmente a fim de expressar ideias, que representam um subsistema de um sistema maior. É um artefato considerado informal e muito útil na identificação das partes envolvidas, a fim abrir espaço para discussões e ser uma forma de compreender o problema amplamente. [ [1] ](#referências) [ [2] ](#referências)
+O Rich Picture é uma técnica de requisitos de software, elaborada na fase de pré-rastreabilidade. São desenho feitos a mão ou digitalmente a fim de expressar ideias, que representam um subsistema de um sistema maior. É um artefato considerado informal e muito útil na identificação das partes envolvidas, a fim abrir espaço para discussões e ser uma forma de compreender o problema amplamente. [ [1] ](#3-referencias) [ [2] ](#3-referencias)
 
 ## 2. RichPictures
 

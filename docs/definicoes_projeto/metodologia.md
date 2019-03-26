@@ -11,12 +11,12 @@
 ---------------------------
 
 ## Sumário
-[1. Introdução](#1-introdução) <br>
-[2. Reuniões](#2-reuniões) <br>
-[3. Relatórios e Gravações](#3-relatórios-e-gravações) <br>
-[4. Definição de tarefas](#4-definição-de-tarefas) <br>
-[5. Divisão de Grupo (API e App)](#5-divisão-de-grupo)<br>
-[6. Referências ](#6-referências)
+[1. Introdução](#1-introducao) <br>
+[2. Reuniões](#2-reunioes) <br>
+[3. Relatórios e Gravações](#3-relatorios-e-gravacoes) <br>
+[4. Definição de tarefas](#4-definicao-de-tarefas) <br>
+[5. Divisão de Grupo (API e App)](#5-divisao-de-grupo)<br>
+[6. Referências ](#6-referencias)
 
 
 ## 1. Introdução

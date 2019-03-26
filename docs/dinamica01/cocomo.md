@@ -8,10 +8,10 @@
 
 
 ## Sumário
-[1. Introdução](#1.-introdução) <br>
-[2. Modelo de Custo Produtivo Intermediário](#2.-Modelo) <br>
-[3. Resultados](#3.-resultados) <br>
-[4. Referências](#4.-referências)
+[1. Introdução](#1-introducao) <br>
+[2. Modelo de Custo Produtivo Intermediário](#2-modelo-de-custo-produtivo-intermediario) <br>
+[3. Resultados](#3-resultados) <br>
+[4. Referências](#4-referencias)
 
 ## 1. Introdução
 O 'método COCOMO' (ou COnstructive COst MOdel) é um modelo de estimativa do tempo e esforço de desenvolvimento de um software.

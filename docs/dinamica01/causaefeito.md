@@ -11,13 +11,13 @@
 |26/03/2019|   0.5    |  Arrumando links      |   Daniel Maike |
 
 ## Sumário
-[1. Introdução](#1.-introdução) <br>
-[2. Causa-Efeito](#2.-causa-efeito) <br>
-[3. Referências](#3.-referências)
+[1. Introdução](#1-introducao) <br>
+[2. Causa-Efeito](#2-causa-efeito) <br>
+[3. Referências](#3-referencias)
 
 ## 1. Introdução
 
-O diagrama de causa e efeito é utilizado para a análise de dispersões no processo, visando fazer as pessoas pensarem sobre causa e razões possíveis que fazem com que um problema ocorra. [ [2] ](#referências)
+O diagrama de causa e efeito é utilizado para a análise de dispersões no processo, visando fazer as pessoas pensarem sobre causa e razões possíveis que fazem com que um problema ocorra. [ [2] ](#referencias)
 
 ## 2. Causa-Efeito
 
