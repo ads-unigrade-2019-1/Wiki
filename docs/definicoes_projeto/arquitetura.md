@@ -10,15 +10,16 @@
 |24/03/2019|   0.5    | Correção de links|   Joberth Rogers |
 |24/03/2019|   0.6    | Adição do tópico banco de dados |  Ezequiel De Oliveira |
 |24/03/2019|   0.7    | link para tópico relacionado |  Ezequiel De Oliveira |
+|26/03/2019|   0.8    |  Arrumando links      |   Daniel Maike |
 
 -------------------------
 
 ## Sumário
-[1. Visão Geral](#1-visao-geral) <br>
+[1. Visão Geral](#1-visão-geral) <br>
 [2. App](#2-app) <br>
 [3. API](#3-api) <br>
 [4. Banco de Dados](#4-banco-de-dados)<br>
-[5. Referências](#5-referencias)<br>
+[5. Referências](#5-referências)<br>
 
 ## 1. Visão Geral
 ![VisaoGeral](img/GeovanaVisaoArquitetura.png)

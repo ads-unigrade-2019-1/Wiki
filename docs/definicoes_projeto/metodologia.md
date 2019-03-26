@@ -6,21 +6,22 @@
 |23/03/2019|   0.1    | Iniciando o documento       |   Guilherme Aguiar  |
 |24/03/2019|   0.2    | Organizando documento       |   Guilherme Deusdará |
 |24/03/2019|   0.3    | Adicionando artefatos       |   Joberth Rogers |
+|26/03/2019|   0.4    |  Arrumando links      |   Daniel Maike |
 
 ---------------------------
 
 ## Sumário
-[1. Introdução](#1-introducao) <br>
-[2. Reuniões](#2-reunioes) <br>
-[3. Relatórios e Gravações](#3-relatorios-e-gravaçoes) <br>
-[4. Definição de tarefas](#4-definiçao-de-tarefas) <br>
-[5. Divisão de Grupo (API e App)](#5-divisao-de-grupo)<br>
-[6. Referências ](#6-referencias)
+[1. Introdução](#1-introdução) <br>
+[2. Reuniões](#2-reuniões) <br>
+[3. Relatórios e Gravações](#3-relatórios-e-gravações) <br>
+[4. Definição de tarefas](#4-definição-de-tarefas) <br>
+[5. Divisão de Grupo (API e App)](#5-divisão-de-grupo)<br>
+[6. Referências ](#6-referências)
 
 
 ## 1. Introdução
 
-A metodologia que irá ser usada no projeto foi pensada e discutida nas primeiras reuniões presenciais do grupo, todos entraram em um consenso e estipularam todos os itens que serão abordados nos itens abaixo. [ [1] ](#6-referencias) 
+A metodologia que irá ser usada no projeto foi pensada e discutida nas primeiras reuniões presenciais do grupo, todos entraram em um consenso e estipularam todos os itens que serão abordados nos itens abaixo. [ [1] ](#6-referências) 
 
 
 ## 2. Reuniões
