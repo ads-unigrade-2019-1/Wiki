@@ -5,7 +5,9 @@ theme:
 
 repo_name: 'Unigrade'
 repo_url: 'https://github.com/ads-unigrade-2019-1'
-    
+
+edit_uri: ''
+
 nav:
     - Início: index.md
     - Definições do projeto:
