@@ -14,6 +14,7 @@ nav:
         - Tema: definicoes_projeto/tema.md
         - Metodologia: definicoes_projeto/metodologia.md
         - Arquitetura: definicoes_projeto/arquitetura.md
+        - Plano de Gestão e Configuração de Software: definicoes_projeto/GCS.md
     - Dinâmica e Seminário I:
         - 5w2h: dinamica01/5w2h.md
         - Rich Picture: dinamica01/richpicture.md
