@@ -12,7 +12,6 @@ nav:
     - Início: index.md
     - Definições do projeto:
         - Tema: definicoes_projeto/tema.md
-        - Metodologia: definicoes_projeto/metodologia.md
         - Arquitetura: definicoes_projeto/arquitetura.md
         - Plano de Gestão e Configuração de Software: definicoes_projeto/GCS.md
     - Dinâmica e Seminário I:
@@ -22,6 +21,8 @@ nav:
         - Diagrama Causa-Efeito: dinamica01/causaefeito.md
         - Mapa Mental: dinamica01/mapamental.md
         - Modelo de Custo Produtivo: dinamica01/cocomo.md 
+    - Dinâmica e Seminário II:
+        - Metodologia: dinamica02/metodologia.md
     - Iniciativas Extras:
         - Relatórios das Reuniões:
             - Relatório I: iniciativas_extras/relatorios/relatorio1.md
