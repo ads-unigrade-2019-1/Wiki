@@ -803,6 +803,12 @@
 <td align="center">Arrumando links</td>
 <td align="center">Daniel Maike</td>
 </tr>
+<tr>
+<td align="center">03/04/2019</td>
+<td align="center">0.4</td>
+<td align="center">Adequação do padrão de issues e branches à metodologia determinada pelo grupo</td>
+<td align="center">Daniel Maike</td>
+</tr>
 </tbody>
 </table>
 <h2 id="sumario">Sumário</h2>
@@ -829,7 +835,7 @@
 </ul>
 <p><code>&lt;Texto começando com letra maiúscula, verbo no particípio, e com ponto final&gt;.</code></p>
 <ul>
-<li>Exemplo: </li>
+<li>Exemplo:</li>
 </ul>
 <p><code>Created user structure</code></p>
 </p>
@@ -839,7 +845,7 @@
 <li>Devem ser simples e concisos, possuindo títulos curtos</li>
 <li>Commits devem descrever o que está sendo alterado, se houver mais de uma alteração (pertinente ao commit) ela deve ser adicionada na descrição do commit</li>
 <li>Devem iniciar com letras maiúsculas.</li>
-<li>Devem iniciar com um verbo no particípio informando seu objetivo. Ex: "Created new main page"</li>
+<li>Devem iniciar com um verbo no particípio informando seu objetivo. Ex: "Created new main page."</li>
 </ul>
 <h3 id="32-politica-de-branches">3.2 Política de Branches</h3>
 <p><br></p>
@@ -853,12 +859,12 @@
 <p><p align = "justify">A <i>Master</i> será a branch estável do projeto, sendo ela proveniente da develop quando o pull request for aprovado, ao fim de cada release ou quando houver necessidade. Nenhum membro será autorizado a fazer commits diretamente na <i>Master</i>.</p></p>
 </li>
 <li>
-<p><p align = "justify">As branches auxiliares são para a criação das funcionalidades ou correções de erro. Cada <i>História de Usuário</i> ou <i>bugfix</i> terá sua própria branch, criada a partir da develop, e terá como nomenclatura o seguinte padrão: </p></p>
+<p><p align = "justify">As branches auxiliares são para a criação das funcionalidades ou correções de erro. Cada <i>Tarefa</i> ou <i>bugfix</i> terá sua própria branch, criada a partir da develop, e terá como nomenclatura o seguinte padrão: </p></p>
 </li>
 </ul>
-<p><code>US[ID da História de Usuário no backlog]-[Nome representativo da História de Usuário]</code> ou<br>
-   <code>FIX_[ID da issue a ser resolvida]-[Nome representativo da issue]</code> ou<br>
-   <code>FIX_[Nome da correcao ou configuracao]</code> <br></p>
+<p><code>TF[ID da Tarefa no RoadMap]-[Nome representativo da Tarefa]</code> ou <br>
+   <code>FIX[ID da issue a ser resolvida]-[Nome representativo da issue]</code> ou <br>
+   <code>FIX[Nome da correcao ou configuracao]</code> <br></p>
 <ul>
 <li>
 <p>As branches develop e master têm papel importante no fluxo seguido. Portanto, nenhuma dessas deve receber um commit diretamente pelo time de desenvolvimento de nenhuma Feature ou Correção.</p>
@@ -900,14 +906,11 @@
 <p><p align = "justify"> O padrão do nome das issues terá o seguinte formato: </p></p>
 </li>
 </ul>
-<p><code>US&lt;número da issue&gt; - &lt;Nome definido  pela equipe para história de usuário&gt;</code> <br>
-   <code>TS&lt;número da issue&gt; - &lt;Nome definido pela equipe para história técnica&gt;</code> <br>
-   <code>BUG - &lt;Nome definido para a história pela equipe&gt;</code>
-<br></p>
+<p><code>TAREFA &lt;ID da Tarefa no RoadMap&gt; - &lt;Nome definido  pela equipe para a tarefa&gt;</code> <br>
+   <code>BUG - &lt;Nome definido para a história pela equipe&gt;</code> <br></p>
 <ul>
-<li>Exemplo : "US01-Historia de Usuario".</li>
+<li>Exemplo : "TAREFA 1.1 - Tarefa". <br></li>
 </ul>
-<p><br></p>
 <h2 id="5-repositorio-de-documentacao">5. Repositório de documentação</h2>
 <p>O repositório de documentação é encontrado na <a href="#https://ads-unigrade-2019-1.github.io/Wiki/">wiki</a> do projeto. Seu objetivo é armazenar a documentação proveniente do projeto, bem como, as práticas adotadas pela equipe de desenvolvimento. Este repositório segue especificações semelhantes ao repositório de código. Os commits devem seguir o mesmo padrão. Porém, os documentos devem ser mantidos na branch master e não há instruções a respeito da criações de novas branches.</p>
 <h2 id="6-referencias">6. Referências</h2>
