@@ -7,6 +7,7 @@
 |26/03/2019|   0.1    | Criação do Documento de GCS           |   Daniel Maike  |
 |26/03/2019|   0.2    | Adequação das políticas com base em interesses e necessidades do grupo |   Guilherme Guy |
 |26/03/2019|   0.3    | Arrumando links         |   Daniel Maike  |
+|03/04/2019|   0.4    | Adequação do padrão de issues e branches à metodologia determinada pelo grupo         |   Daniel Maike  |
 
 ## Sumário
 
@@ -21,7 +22,6 @@
 [5. Repositório de Documentação](#5-repositorio-de-documentacao)
 
 [6. Referências](#6-referencias)
-
 
 ## 1. Introdução
 
@@ -42,9 +42,9 @@ Serão tratados como itens de configuração para este projeto o código e a doc
 
    ```<Texto começando com letra maiúscula, verbo no particípio, e com ponto final>.```
 
-* Exemplo: 
+* Exemplo:
 
-   ```Created user structure```
+   ```Created user structure.```
 
 </p>
 
@@ -52,8 +52,7 @@ Serão tratados como itens de configuração para este projeto o código e a doc
 * Devem ser simples e concisos, possuindo títulos curtos
 * Commits devem descrever o que está sendo alterado, se houver mais de uma alteração (pertinente ao commit) ela deve ser adicionada na descrição do commit
 * Devem iniciar com letras maiúsculas.
-* Devem iniciar com um verbo no particípio informando seu objetivo. Ex: "Created new main page"
-
+* Devem iniciar com um verbo no particípio informando seu objetivo. Ex: "Created new main page."
 
 ### 3.2 Política de Branches
 
@@ -67,12 +66,12 @@ Serão tratados como itens de configuração para este projeto o código e a doc
 
 * <p align = "justify">A <i>Master</i> será a branch estável do projeto, sendo ela proveniente da develop quando o pull request for aprovado, ao fim de cada release ou quando houver necessidade. Nenhum membro será autorizado a fazer commits diretamente na <i>Master</i>.</p>
 
-* <p align = "justify">As branches auxiliares são para a criação das funcionalidades ou correções de erro. Cada <i>História de Usuário</i> ou <i>bugfix</i> terá sua própria branch, criada a partir da develop, e terá como nomenclatura o seguinte padrão: </p>
+* <p align = "justify">As branches auxiliares são para a criação das funcionalidades ou correções de erro. Cada <i>Tarefa</i> ou <i>bugfix</i> terá sua própria branch, criada a partir da develop, e terá como nomenclatura o seguinte padrão: </p>
 
-   ``` US[ID da História de Usuário no backlog]-[Nome representativo da História de Usuário] ``` ou<br>
-   ``` FIX_[ID da issue a ser resolvida]-[Nome representativo da issue] ``` ou<br>
-   ``` FIX_[Nome da correcao ou configuracao] ``` <br>
-   
+   ``` TF[ID da Tarefa no RoadMap]-[Nome representativo da Tarefa] ``` ou <br>
+   ``` FIX[ID da issue a ser resolvida]-[Nome representativo da issue] ``` ou <br>
+   ``` FIX[Nome da correcao ou configuracao] ``` <br>
+
 * As branches develop e master têm papel importante no fluxo seguido. Portanto, nenhuma dessas deve receber um commit diretamente pelo time de desenvolvimento de nenhuma Feature ou Correção.
 
 * Para cada Feature uma nova branch deve ser criada com base no último commit da develop. De acordo com o modelo acima.
@@ -101,17 +100,12 @@ Se um pull request causar algum tipo de conflito, deve ser resolvido primeiro pe
 
 * <p align = "justify"> Caso o time sinta a necessidade de acrescentar uma nova label, este documento deverá ser atualizado.</p>
 
-
 * <p align = "justify"> O padrão do nome das issues terá o seguinte formato: </p>
 
-   ``` US<número da issue> - <Nome definido  pela equipe para história de usuário> ``` <br>
-   ``` TS<número da issue> - <Nome definido pela equipe para história técnica> ``` <br>
-   ``` BUG - <Nome definido para a história pela equipe> ```
-<br>
+   ``` TAREFA <ID da Tarefa no RoadMap> - <Nome definido  pela equipe para a tarefa> ``` <br>
+   ``` BUG - <Nome definido para a história pela equipe> ``` <br>
 
-* Exemplo : "US01-Historia de Usuario".
-
-<br>
+* Exemplo : "TAREFA 1.1 - Tarefa". <br>
 
 ## 5. Repositório de documentação
 
