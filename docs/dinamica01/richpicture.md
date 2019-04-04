@@ -4,9 +4,9 @@
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |23/03/2019|   0.1    | Iniciando o documento       |   Guilherme Aguiar  |
-|24/03/2019|   0.2   | Adição dos tópico Sumário, Introdução e Referências      |   Daniel Maike  |
+|24/03/2019|   0.2   | Adição dos tópicos Sumário, Introdução e Referências      |   Daniel Maike  |
 |24/03/2019|   0.3    |  Adição do RichPicture de usuário       |   Daniel Maike  |
-|24/03/2019|   0.4    |  Adição do RichPicture do aplicativo e usuário       |   joberth Rogers  |
+|24/03/2019|   0.4    |  Adição do RichPicture do aplicativo e usuário       |   Joberth Rogers  |
 |24/03/2019|   0.5    |  Adição do RichPicture do fluxo de dados       |   Guilherme Guy  |
 |24/03/2019|   0.6    |  Adição do RichPicture da problemática       |   Gabriela Medeiros  |
 |26/03/2019|   0.7    |  Arrumando links      |   Daniel Maike |

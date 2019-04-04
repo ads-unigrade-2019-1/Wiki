@@ -24,6 +24,8 @@ nav:
         - Metodologia: dinamica02/metodologia.md
         - Plano de Gestão e Configuração de Software: dinamica02/GCS.md
         - Diagrama de Gantt: dinamica02/DiagramaGantt.md
+        - Paralelo com Outras Metodologias: dinamica02/ParaleloMetodologias.md
+        - Desenho da Metodologia: dinamica02/BPMN.md
     - Iniciativas Extras:
         - Relatórios das Reuniões:
             - Relatório I: iniciativas_extras/relatorios/relatorio1.md
