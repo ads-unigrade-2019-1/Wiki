@@ -16,6 +16,8 @@ Esse diagrama é uma ferramenta visual no qual é usada para controlar o conogra
 
 ## 2. Diagrama
 
+![Diagrama de Gantt](img/DiagramaGantt.jpg)
+
 ## 3. Referências
 
 [1] https://www.projectbuilder.com.br/blog/grafico-de-gantt-como-e-por-que-utiliza-lo-para-gerenciar-projetos/
