@@ -14,7 +14,7 @@
 [1. Introdução](#1-introducao) <br>
 [2. Reuniões](#2-reunioes) <br>
 [3. Relatórios e Gravações](#3-relatorios-e-gravacoes) <br>
-[4. Definição de tarefas](#4-definicao-de-tarefas) <br>
+[4. Gerentes](#4-gerentes) <br>
 [5. Divisão de Grupo (API e App)](#5-divisao-de-grupo)<br>
 [6. Referências ](#6-referencias)
 
@@ -32,14 +32,21 @@ Foi decidido pelo grupo que haverá reuniões presenciais marcadas para segundas
 
 Para ter uma rastreabilidade maior do que será abordado no projeto e o porquê de determinado artefato ou requisito está sendo desenvolvido, todas as reuniões serão gravadas por algum membro da equipe, além de ser elaborado um relatório para cada encontro realizado, contendo os principais tópico abordados na reunião.
 
-## 4. Definição de tarefas
+## 4. Gerentes
 
 O time entrou em um acordo onde todos os integrantes irão participar ativamente como desenvolvedores, além de levantar requisitos e ajudar no que for mais importante no projeto durante o semestre. A única diferença será em papeis específicos, possivelmente fixos em tarefas que demandam um pouco mais de atenção para a organização do projeto, sendo elas o deploy, planejamento das pautas de reuniões, planejamentos das apresentações e wiki.  
  
 
 ## 5. Divisão de Grupo
 
-No planejamento foi decidido a divisão do projeto em questão arquitetural em três grupos, sendo eles a API, APP e Web Crawler. Na parte da API será desenvolvido todas as lógicas responsáveis por pegar os dados salvos no banco de dados e tratar passando ao APP.  O APP será o lugar onde todos os dados tratados na API serão resgatados e renderizados na tela da forma mais objetiva e intuitiva possível para o usuário. E o Web Crawler será um script executado em um determinado espaço de tempo que pegará todos os dados das ofertas disponibilizadas pelo matrícula web
+No planejamento foi decidido a divisão do projeto em questão arquitetural em três grupos, sendo eles a API, APP e Web Crawler. Na parte da API será desenvolvido todas as lógicas responsáveis por pegar os dados salvos no banco de dados e tratar passando ao APP.  O APP será o lugar onde todos os dados tratados na API serão resgatados e renderizados na tela da forma mais objetiva e intuitiva possível para o usuário. E o Web Crawler será um script executado em um determinado espaço de tempo que pegará todos os dados das ofertas disponibilizadas pelo matrícula web.
+
+## Repositórios 
+
+## Issues
+
+
+## Paralelo com outras metodologias
 
 ## 6. Referências
 

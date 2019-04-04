@@ -12,8 +12,7 @@ nav:
     - Início: index.md
     - Definições do projeto:
         - Tema: definicoes_projeto/tema.md
-        - Arquitetura: definicoes_projeto/arquitetura.md
-        - Plano de Gestão e Configuração de Software: definicoes_projeto/GCS.md
+        - Plano de Arquitetura: definicoes_projeto/arquitetura.md
     - Dinâmica e Seminário I:
         - 5w2h: dinamica01/5w2h.md
         - Rich Picture: dinamica01/richpicture.md
@@ -23,6 +22,7 @@ nav:
         - Modelo de Custo Produtivo: dinamica01/cocomo.md 
     - Dinâmica e Seminário II:
         - Metodologia: dinamica02/metodologia.md
+        - Plano de Gestão e Configuração de Software: dinamica02/GCS.md
     - Iniciativas Extras:
         - Relatórios das Reuniões:
             - Relatório I: iniciativas_extras/relatorios/relatorio1.md
