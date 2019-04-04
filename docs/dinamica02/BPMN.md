@@ -15,14 +15,23 @@
 
 ## 1. Introdução
 
+Com o objetivo de descrever e especificar o processo metodológico do projeto, foi utilizada a notação Business Process Model and Notation (BPMN ou em português Modelo e Notação de Processos de Negócio), trata-se de uma notação da metodologia de gerenciamento de processos de negócio, composta de uma série de ícones padrões para desenho de processos para facilitar o entedimento e o alinhamento entre os membros da equipe. Com o BPMN foram modeladas em fluxograma as etapas do projeto de decisões, planejamentos, desenvolvimento e homologação.
+
 ## 2. Business Process Model and Notation
 
-### 2.1 Desenvolvimento
-
-![BPMN1](img/bpmn_desenvolvimento.png)
-
-### 2.2 Geral
+### 2.1 Geral
 
 ![BPMN2](img/bpmn_geral.png)
 
+Fluxograma com a notação Business Process Model and Notation para descrever as etapas gerais do projeto.
+
+### 2.2 Desenvolvimento
+
+![BPMN1](img/bpmn_desenvolvimento.png)
+
+Fluxograma com a notação Business Process Model and Notation para descrever as etapas de desenvolvimetno do projeto, envolvendo planejamento, desenvolvimento e homologação.
+
 ## 3. Referências
+https://www.lucidchart.com/pages/pt/o-que-e-bpmn <br>
+https://pt.wikipedia.org/wiki/Business_Process_Model_and_Notation <br>
+https://pt.wikipedia.org/wiki/Arquitetura_de_processos
