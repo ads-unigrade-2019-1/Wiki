@@ -23,6 +23,7 @@ nav:
     - Dinâmica e Seminário II:
         - Metodologia: dinamica02/metodologia.md
         - Plano de Gestão e Configuração de Software: dinamica02/GCS.md
+        - Diagrama de Gantt: dinamica02/DiagramaGantt.md
     - Iniciativas Extras:
         - Relatórios das Reuniões:
             - Relatório I: iniciativas_extras/relatorios/relatorio1.md
