@@ -7,6 +7,7 @@
 |24/03/2019|   0.2    | Organizando documento       |   Guilherme Deusdará |
 |24/03/2019|   0.3    | Adicionando artefatos       |   Joberth Rogers |
 |26/03/2019|   0.4    |  Arrumando links      |   Daniel Maike |
+|04/04/2019|   0.5    |  Adição de tópicos para o seminário II   | Geovana Ramos |
 
 ---------------------------
 
@@ -16,7 +17,10 @@
 [3. Relatórios e Gravações](#3-relatorios-e-gravacoes) <br>
 [4. Gerentes](#4-gerentes) <br>
 [5. Divisão de Grupo (API e App)](#5-divisao-de-grupo)<br>
-[6. Referências ](#6-referencias)
+[6. Repositórios](#6-repositorios)<br>
+[7. Issues](#7-issues)<br>
+[8. Paralelo com Outras Metodologias](#8-paralelo-com-outras-metodologias)<br>
+[9. Referências ](#9-referencias)
 
 
 ## 1. Introdução
@@ -41,13 +45,13 @@ O time entrou em um acordo onde todos os integrantes irão participar ativamente
 
 No planejamento foi decidido a divisão do projeto em questão arquitetural em três grupos, sendo eles a API, APP e Web Crawler. Na parte da API será desenvolvido todas as lógicas responsáveis por pegar os dados salvos no banco de dados e tratar passando ao APP.  O APP será o lugar onde todos os dados tratados na API serão resgatados e renderizados na tela da forma mais objetiva e intuitiva possível para o usuário. E o Web Crawler será um script executado em um determinado espaço de tempo que pegará todos os dados das ofertas disponibilizadas pelo matrícula web.
 
-## Repositórios 
+## 6. Repositórios 
 
-## Issues
+## 7. Issues
 
 
-## Paralelo com outras metodologias
+## 8. Paralelo com Outras Metodologias
 
-## 6. Referências
+## 9. Referências
 
 [1] Audios Reunião dia 18/03/2018, presente no link: https://drive.google.com/drive/folders/1krGcJWnMwMN8nvdFoCcBlZBWBollCCqw
