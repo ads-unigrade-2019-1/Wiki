@@ -7,6 +7,7 @@
 |04/04/2019|   0.1    | Criação do documento       |   Daniel Maike  |
 |04/04/2019|   0.2   | Adição dos tópicos Sumário, Introdução e Referências      |   Daniel Maike, Guilherme Guy  |
 |04/04/2019|   0.3   | Adição dos Business Process Model and Notation      |   Daniel Maike, Guilherme Guy  |
+|05/04/2019|   0.4   | Correção de erro na notação      |   Guilherme Guy  |
 
 ## Sumário
 
