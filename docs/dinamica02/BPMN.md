@@ -9,6 +9,7 @@
 |04/04/2019|   0.3   | Adição dos Business Process Model and Notation      |   Daniel Maike, Guilherme Guy  |
 
 ## Sumário
+
 [1. Introdução](#1-introducao) <br>
 [2. Business Process Model and Notation](#2-business-process-model-and-notation) <br>
 [3. Referências](#3-referencias)
@@ -32,6 +33,6 @@ Fluxograma com a notação Business Process Model and Notation para descrever as
 Fluxograma com a notação Business Process Model and Notation para descrever as etapas de desenvolvimetno do projeto, envolvendo planejamento, desenvolvimento e homologação.
 
 ## 3. Referências
-https://www.lucidchart.com/pages/pt/o-que-e-bpmn <br>
-https://pt.wikipedia.org/wiki/Business_Process_Model_and_Notation <br>
-https://pt.wikipedia.org/wiki/Arquitetura_de_processos
+* <https://www.lucidchart.com/pages/pt/o-que-e-bpmn> <br>
+* <https://pt.wikipedia.org/wiki/Business_Process_Model_and_Notation> <br>
+* <https://pt.wikipedia.org/wiki/Arquitetura_de_processos>
