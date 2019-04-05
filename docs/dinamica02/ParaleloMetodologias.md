@@ -6,7 +6,7 @@
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |04/04/2019|   0.1    | Criação do documento       |   Daniel Maike  |
 |04/04/2019|   0.2    | Adicionados tópicos Introdução, SCRUM e KanBan       |   Daniel Maike  |
-|04/04/2019|   0.2    | Adicionados tópicos RUP e XP      |   Guilherme Deusdará  |
+|04/04/2019|   0.3    | Adicionados tópicos RUP e XP      |   Guilherme Deusdará  |
 
 ## Sumário
 
@@ -14,7 +14,7 @@
 [2. SCRUM](#2-scrum) <br>
 [3. Kanban](#3-scrum) <br>
 [4. RUP](#4-rup) <br>
-[5. XP](#5-extreme-programming-(xp)) <br>
+[5. XP](#5-extreme-programming-xp) <br>
 [6. Referências](#6-referencias)
 
 ## 1. Introdução
@@ -49,6 +49,7 @@ Kanban é um termo de origem japonesa e significa literalmente “cartão” ou 
 O grupo está utilizando o quadro de tarefas por meio do GitHub para uma melhor organização, com as seguintes colunas: To Do, In progress, Review in progress, Review approved e Done. Com o objetivo de definir quais funcionalidades estão no Backlog da Sprint, bem como aquelas que estão sendo feitas, revisadas ou concluídas. Disponível em: <https://github.com/orgs/ads-unigrade-2019-1/projects/1>
 
 ## 4. RUP
+
 O RUP é um processo de desenvolvimento de software. Ele engloba as ações necessárias para transformar um conjunto de requisitos do cliente em um sistema de software. O RUP combina os ciclos de vida iterativo e incremental de forma que cada entrega do software em um ciclo agrega mais valor ao produto em relação ao ciclo anterior. A grande vantagem em desenvolver um grande sistema usando um processo incremental é a diminuição do risco, pois cada entrega pode ser avaliada e o passe seguinte alinhado com os objetivos do cliente, que nem sempre permanecem constantes durante o desenvolvimento de um projeto.
 
 As fases do RUP são:
@@ -59,6 +60,7 @@ As fases do RUP são:
 * Fase de Transição: ênfase na implantação. 
 
 ## 4.1. Recursos utilizados
+
 * A pré-fase do projeto será baseada nas fases de Concepção e Elaboração. Serão utilizados os seguintes elementos da fase de Concepção: 
     * definição e documentação o escopo, 
     * elicitação, modelagem dos requisitos, que serão transformados em histórias de usuário
@@ -75,15 +77,17 @@ Dentre as variáveis de controle em projetos (custo, tempo, qualidade e escopo),
 A XP incentiva o controle da qualidade como variável do projeto, pois o pequeno ganho de curto prazo na produtividade, ao diminuir qualidade, não é compensado por perdas (ou até impedimentos) a médio e longo prazo.
 
 ## 5.1. Recursos utilizados
+
 * Pair Programming: é a programação em par/dupla num único computador. Desta forma, cada issue será feita por duas pessoas, evitando e diminuindo assim a possibilidade de defeitos. Com isto busca-se sempre a evolução da equipe, melhorando a qualidade do código fonte gerado.
 * Sustainable Pace: Trabalhar com qualidade, buscando ter ritmo de trabalho saudável.
 * Coding Standards (Padronização do código): A equipe de desenvolvimento precisa estabelecer regras para programar e todos devem seguir estas regras.
 * Continuous Integration: Sempre que a equipe produzir uma nova funcionalidade, nunca esperar uma semana para integrar à versão atual do sistema. Isto só aumenta a possibilidade de conflitos e a possibilidade de erros no código fonte. Integrar de forma contínua permite saber o status real da programação.
 
 ## 6. Referências
-* <https://github.com/2018-2-Desenho/CabecaVoleiJoelhoPe> <br>
+
 * <https://www.significados.com.br/kanban/> <br>
 * <https://www.desenvolvimentoagil.com.br/scrum/> <br>
 * <https://www.desenvolvimentoagil.com.br/xp/> <br>
+* <https://github.com/2018-2-Desenho/CabecaVoleiJoelhoPe> <br>
 * <http://www.metodoagil.com/scrum/> <br>
 * <https://www.significados.com.br/metodologia/> <br>
