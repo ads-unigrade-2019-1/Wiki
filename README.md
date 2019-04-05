@@ -25,14 +25,14 @@ Repositório contendo a Wiki do projeto. Ela está disponível em forma compilad
 
 ### Para executar um servidor local para testes
 
-> * ``` mkdocs serve ```
+> ``` mkdocs serve ```
 
 ### Build
 
-> mkdocs build
+> ``` mkdocs build ```
 
 ### Deploy
 
-> mkdocs gh-deploy
+> ``` mkdocs gh-deploy ```
 
 * **A build e o deploy são feitos automaticamente pelo Travis**
