@@ -48,7 +48,7 @@ A organização do Unigrade no github tem, atualmente, 4 repositórios :
 
 * **APP**: Repositório que contém o código do aplicativo mobile que está sendo feito em Java.
 * **API**: Repositório que tem o código da API do aplicativo
-* **MWScaner**: Repositório que tem o código do Web Crawler, que faz a coleta de dados do matrícula web e armazena no banco de dados.
+* **MWScanner**: Repositório que tem o código do Web Crawler, que faz a coleta de dados do matrícula web e armazena no banco de dados.
 * **Wiki**: Repositório que contém os arquivos do mkdocs (github pages), documentos e artefatos da nossa wiki.
 
 
