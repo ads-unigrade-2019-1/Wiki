@@ -40,11 +40,11 @@ Serão tratados como itens de configuração para este projeto o código e a doc
 
 * <p align = "justify">Os commits devem ser criados logo em seguida à finalização de um conjunto conexo de alterações, descrevendo-o de forma sucinta e atômica. O texto deve descrever o que foi produzido, de forma resumida e em inglês, com o tempo verbal no particípio. Como no seguinte formato:
 
-   ```<Texto começando com letra maiúscula, verbo no particípio, e com ponto final>.```
+   ```<Texto começando com letra maiúscula e com o verbo no particípio>.```
 
 * Exemplo:
 
-   ```Created user structure.```
+   ```Created user structure```
 
 </p>
 
@@ -52,7 +52,7 @@ Serão tratados como itens de configuração para este projeto o código e a doc
 * Devem ser simples e concisos, possuindo títulos curtos
 * Commits devem descrever o que está sendo alterado, se houver mais de uma alteração (pertinente ao commit) ela deve ser adicionada na descrição do commit
 * Devem iniciar com letras maiúsculas.
-* Devem iniciar com um verbo no particípio informando seu objetivo. Ex: "Created new main page."
+* Devem iniciar com um verbo no particípio informando seu objetivo. Ex: "Created new main page"
 
 ### 3.2 Política de Branches
 
