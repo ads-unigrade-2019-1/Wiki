@@ -9,7 +9,7 @@
 |26/03/2019|   0.4    |  Arrumando links      |   Daniel Maike |
 |04/04/2019|   0.5    |  Adição de tópicos para o seminário II   | Geovana Ramos |
 |04/04/2019|   0.6    |  Adição de tópico repositórios  | Gabriel Carvalho |
-
+|04/04/2019|   0.7    |  Modificação do conteúdo do tópico 2  | Gabriela Medeiros |
 ---------------------------
 
 ## Sumário
@@ -28,7 +28,17 @@ A metodologia que irá ser usada no projeto foi pensada e discutida nas primeira
 
 ## 2. Reuniões
 
-Foi decidido pelo grupo que haverá reuniões presenciais marcadas para segundas feira as 13 hora para a discussão do escopo do projeto e review da sprint. Caso haja necessidade poderão ser marcada mais de uma reunião na mesma semana. As reuniões serão previamente planejadas para poderem ser discutida no dia.  
+**Dia:** _Segunda-feira_
+
+**Hora:** _13h_
+
+**Frequência:** _Semanal_
+
+**Objetivo:** _Discussão sobre o escopo e esclarecimento das tarefas da sprint corrente_
+
+Por decisão do grupo, haverão reuniões presenciais nas segundas feiras às 13h00 para discussão e, se necessário, retificação do escopo do projeto e review da sprint. 
+Havendo necessidade, estará em aberto a opção de ocorrer mais de uma reunião semanal, conforme a demanda do grupo. 
+As reuniões de segunda-feira serão planejadas pela responsável pelo planejamento geral do grupo, Geovana Ramos, para que haja a otimização do tempo da equipe em conjunto.   
 
 ## 3. Relatórios e Gravações
 
