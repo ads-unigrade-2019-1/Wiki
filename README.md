@@ -14,4 +14,25 @@ Repositório contendo a Wiki do projeto. Ela está disponível em forma compilad
 | Guilherme de Oliveira Aguiar  | 16/0123119 | [Guilherme-Aguiar](https://github.com/Guilherme-Aguiar)   | gui9627oli@gmail.com                 |
 | Guilherme Deusdará            | 16/0122996 | [gdeusdara](https://github.com/gdeusdara)          | guibanci@gmail.com                   |
 | Guilherme Guy de Andrade      | 16/0123186 | [guilherme1guy](https://github.com/guilherme1guy)      | guilhermeguy349@gmail.com            |
-| Joberth Rogers Tavares Costa  | 16/0128013 | [joberthrogers18](https://github.com/joberthrogers18)    | joberth.rogers18@gmail.com           |
+| Joberth Rogers Tavares Costa  | 16/0128013 | [joberthrogers18](https://github.com/joberthrogers18)    | joberth.rogers18@gmail.com    |
+
+## Instalação
+
+> * ``` git clone https://github.com/ads-unigrade-2019-1/Wiki.git ``` <br> <br>
+> * ``` pip3 install -r requirements.txt```
+
+## Execução
+
+### Para executar um servidor local para testes
+
+> * ``` mkdocs serve ```
+
+### Build
+
+> mkdocs build
+
+### Deploy
+
+> mkdocs gh-deploy
+
+* **A build e o deploy são feitos automaticamente pelo Travis**
