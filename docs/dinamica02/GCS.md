@@ -92,8 +92,7 @@ Se um pull request causar algum tipo de conflito, deve ser resolvido primeiro pe
 
 * <p align = "justify">As issues serão divididas em labels, para que se possa indicar sua natureza. As labels definidas para o projeto serão:</p>
 
-   * **História de Usuário**: Utilizada para as issues que representam histórias de usuário.
-   * **História Técnica**: Utilizada para as issues que representam histórias técnicas.  
+   * **Tarefa**: Utilizada para issues que representam features ou atividades do projeto. 
    * **Refatoração**: Utilizada para issues que representam refatoração do código.  
    * **Front**: Utilizada para issues que representam refatoração do layout.
    * **Bug**: Utilizada para issues que representam correção de bugs.
