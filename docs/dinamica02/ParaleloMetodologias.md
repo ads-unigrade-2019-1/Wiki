@@ -1,10 +1,11 @@
 # Paralelo com Outras Metodologias
 
 ## Histórico de revisões
+
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |04/04/2019|   0.1    | Criação do documento       |   Daniel Maike  |
-|04/04/2019|   0.2    | Criação do documento       |   Daniel Maike  |
+|04/04/2019|   0.2    | Adicionados tópicos Introdução, SCRUM e KanBan       |   Daniel Maike  |
 
 ## Sumário
 
