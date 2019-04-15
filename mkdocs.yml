@@ -27,7 +27,6 @@ nav:
         - Paralelo com Outras Metodologias: dinamica02/ParaleloMetodologias.md
         - Desenho da Metodologia: dinamica02/BPMN.md
     - Dinâmica e Seminário III:
-        - Protótipo: dinamica03/prototipo.md
         - Modelo estático - API e Banco: dinamica03/apiebanco.md
         - Modelo estático - App: dinamica03/app.md
         - Modelo estático - WebScrapper: dinamica03/webscrapper.md
