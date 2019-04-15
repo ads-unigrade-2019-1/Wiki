@@ -29,12 +29,12 @@ O diagrama de implementação é usado para modelar a arquitetura física de um 
 
 ## 3. Diagrama de Classes
 Por questões didáticas, o banco de dados não relacional obteve uma diagramação buscando maior proximidade a um banco relacional, para melhor entendimento
-### Relacional
+### Não-Relacional
 #### Versão 1.0
 
 ![dados](img/banco_de_dados_UML.jpg)
 
-### Não-Relacional
+### Relacional
 #### Versão 1.0
 
 ![dados2](img/Banco_de_dados_UML_relacional.jpg)
