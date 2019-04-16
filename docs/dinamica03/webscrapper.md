@@ -9,6 +9,7 @@
 |15/04/2019|   0.3    | Adição do diagrama de classes do MWScanner     |   Daniel Maike  |
 |15/04/2019|   0.4    | Adição do diagrama de classes da conexão com o banco de dados     |   Joberth Rogers |
 |15/04/2019|   0.5    | Adição do diagrama geral do WebScrapper     |  Daniel Maike e Joberth Rogers |
+|15/04/2019|   0.6    | Adição da versão 2.0 dos diagramas MWScanner e geral do WebScrapper     |  Daniel Maike |
 
 ## Sumário
 
@@ -27,7 +28,13 @@ Com o diagrama de classes foram representadas as classes do WebScrapper que é c
 
 O diagrama representa as classes do MWScanner, responsável por extrair os dados do Matrícula Web de Campus, Departamentos, Disciplinas, Ofertas das Disciplinas, Cursos e Habilitações.
 
+#### Versão 1.0
+
 ![mwscanner](img/MWScanner.png)
+
+#### Versão 2.0
+
+![mwscannerv2](img/MWScannerv2.jpg)
 
 ### Diagrama de classes da conexão com o banco
 
@@ -39,7 +46,13 @@ O diagrama representa as classes da conexão com o banco de dados, responsável 
 
 O diagrama representa o funcionamento geral do WebScrapper. A main executa o WebScrapper.
 
+#### Versão 1.0
+
 ![geral](img/scannerEBanco.png)
+
+#### Versão 2.0
+
+![geralv2](img/scannerEBancov2.jpg)
 
 ## 3. Referências
 
