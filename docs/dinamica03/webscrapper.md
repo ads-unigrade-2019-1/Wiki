@@ -10,6 +10,7 @@
 |15/04/2019|   0.4    | Adição do diagrama de classes da conexão com o banco de dados     |   Joberth Rogers |
 |15/04/2019|   0.5    | Adição do diagrama geral do WebScrapper     |  Daniel Maike e Joberth Rogers |
 |15/04/2019|   0.6    | Adição da versão 2.0 dos diagramas MWScanner e geral do WebScrapper     |  Daniel Maike |
+|16/04/2019|   0.7    | Adição da versão 3.0 dos diagramas MWScanner e geral do WebScrapper     |  Daniel Maike |
 
 ## Sumário
 
@@ -36,6 +37,10 @@ O diagrama representa as classes do MWScanner, responsável por extrair os dados
 
 ![mwscannerv2](img/MWScannerv2.jpg)
 
+#### Versão 3.0
+
+![mwscannerv3](img/MWScannerv3.jpg)
+
 ### Diagrama de classes da conexão com o banco
 
 O diagrama representa as classes da conexão com o banco de dados, responsável por tratar e preparar os dados extraídos pelo MWScanner para serem enviados ao banco de dados.
@@ -53,6 +58,10 @@ O diagrama representa o funcionamento geral do WebScrapper. A main executa o Web
 #### Versão 2.0
 
 ![geralv2](img/scannerEBancov2.jpg)
+
+#### Versão 3.0
+
+![geralv3](img/scannerEBancov3.jpg)
 
 ## 3. Referências
 
