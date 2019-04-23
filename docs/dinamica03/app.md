@@ -15,12 +15,16 @@
 
 ## 1. Introdução
 O diagrama de pacotes mostra o arranjo e a organização dos elementos do modelo em projetos de médio a grande porte que podem ser usados para mostrar a estrutura e as dependências entre subsistemas ou módulos, como por exemplo: classes, interfaces e até mesmo outros pacotes de acordo com a semântica. Eles são bastante utilizados para representar a arquitetura do projeto.<br>
-No contexto do projeto Unigrade, utilizaremos um diagrama de pacotes para descrever o modelo MVC no que diz respeito ao aplicativo.
+No contexto do projeto Unigrade, utilizaremos um diagrama de pacotes para descrever a arquitetura de pacotes das camadas do APP Android.
 
 ## 2. Diagrama de pacotes: MVC
 ###Versão 1.0
 
 ![pacotes](img/app_diagramadepacotes.png)
+
+###Versão 2.0
+
+![pacotes2](img/app_diagramadepacotes2.png)
 
 ## 3. Referências
 * <https://online.visual-paradigm.com/tutorials/package-diagram-tutorial/> <br>
