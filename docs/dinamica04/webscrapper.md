@@ -5,6 +5,7 @@
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 | 26/04/2019 | 0.1 | Criado documento, adicionado diagrama de sequência, sumário e referências | Joberth Rogers |
 | 26/04/2019 | 0.2 | Adicionado versão 1 e 2 do diagrama de atividades, introdução e referências | Daniel Maike |
+| 26/04/2019 | 0.3 | Adicionado diagrama de colaboração | Daniel Maike |
 
 ## Sumário
 
@@ -12,14 +13,16 @@
 [2. Diagrama de Sequência](#2-diagrama-de-sequencia) <br>
 [3. Diagrama de Atividades](#3-diagrama-de-atividades) <br>
 [4. Diagrama de Estados](#4-diagrama-de-estados) <br>
-[5. Referências](#5-referencias) <br>
+[4. Diagrama de Colaboração](#4-diagrama-de-colaboracao) <br>
+[6. Referências](#6-referencias) <br>
 
 ## 1. Introdução
 
 A UML oferece diversos diagramas dinâmicos e dentre eles os mais relevantes são o de Sequência, Colaboração, Atividades e Estados.
-O diagrama de sequência representa as particularidades das interações entre os objetos do WebScrapper distribuídos entre várias linhas de vida.
-O diagrama de atividades representa o fluxo de ações entre os objetos do WebScrapper, demonstrando as fases em que o código percorre desde o ínicio até o salvamento no banco de dados.
-O diagrama de estados demonstra os vários estados que o processo de carregamento da página web para passa pelo WebScrapper.
+O Diagrama de Sequência representa as particularidades das interações entre os objetos do WebScrapper distribuídos entre várias linhas de vida.
+O Diagrama de Atividades representa o fluxo de ações entre os objetos do WebScrapper, demonstrando as fases em que o código percorre desde o ínicio até o salvamento no banco de dados.
+O Diagrama de Estados demonstra os vários estados que o processo de carregamento da página web para passa pelo WebScrapper.
+O Diagrama de Colaboração tem foco em mostrar as interações entre as partes do WebScrapper usando mensagens sequenciais.
 
 ## 2. Diagrama de sequência
 
@@ -49,8 +52,18 @@ bla bla bla
 
 ![blabla](img/blabla.png)
 
-### 5. Referências
+## 5. Diagrama de Colaboração
 
-* <https://www.uml-diagrams.org/sequence-diagrams.html> <br>
+O diagrama demonstra a interação entre as partes do WebScrapper com ênfase na ordem em que as interações ocorrem. As partes são o MWScanner, databaseConfig, main e o Matrícula Web.
+
+### Versão 1.0
+
+![diagramacolaboracao](img/diagramacolaboracao.png)
+
+### 6. Referências
+
 * Slide ARQUITETURA E DESENHO DE SOFTWARE aula 11 - Milene Serrano <br>
+* <https://www.uml-diagrams.org/sequence-diagrams.html> <br>
 * <https://www.uml-diagrams.org/activity-diagrams.html> <br>
+* <https://www.uml-diagrams.org/communication-diagrams.html> <br>
+* <https://www.uml-diagrams.org/state-machine-diagrams.html> <br>
