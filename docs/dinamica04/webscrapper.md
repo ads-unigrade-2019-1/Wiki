@@ -13,7 +13,7 @@
 [2. Diagrama de Sequência](#2-diagrama-de-sequencia) <br>
 [3. Diagrama de Atividades](#3-diagrama-de-atividades) <br>
 [4. Diagrama de Estados](#4-diagrama-de-estados) <br>
-[4. Diagrama de Colaboração](#4-diagrama-de-colaboracao) <br>
+[5. Diagrama de Colaboração](#5-diagrama-de-colaboracao) <br>
 [6. Referências](#6-referencias) <br>
 
 ## 1. Introdução
