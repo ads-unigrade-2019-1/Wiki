@@ -683,9 +683,29 @@
   
 </li>
         
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-diagrama-de-colaboracao" title="5. Diagrama de Colaboração" class="md-nav__link">
+    5. Diagrama de Colaboração
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
           <li class="md-nav__item">
-  <a href="#5-referencias" title="5. Referências" class="md-nav__link">
-    5. Referências
+  <a href="#versao-10_3" title="Versão 1.0" class="md-nav__link">
+    Versão 1.0
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-referencias" title="6. Referências" class="md-nav__link">
+    6. Referências
   </a>
   
 </li>
@@ -922,9 +942,29 @@
   
 </li>
         
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-diagrama-de-colaboracao" title="5. Diagrama de Colaboração" class="md-nav__link">
+    5. Diagrama de Colaboração
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
           <li class="md-nav__item">
-  <a href="#5-referencias" title="5. Referências" class="md-nav__link">
-    5. Referências
+  <a href="#versao-10_3" title="Versão 1.0" class="md-nav__link">
+    Versão 1.0
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-referencias" title="6. Referências" class="md-nav__link">
+    6. Referências
   </a>
   
 </li>
@@ -975,6 +1015,12 @@
 <td align="center">Adicionado versão 1 e 2 do diagrama de atividades, introdução e referências</td>
 <td align="center">Daniel Maike</td>
 </tr>
+<tr>
+<td align="center">26/04/2019</td>
+<td align="center">0.3</td>
+<td align="center">Adicionado diagrama de colaboração</td>
+<td align="center">Daniel Maike</td>
+</tr>
 </tbody>
 </table>
 <h2 id="sumario">Sumário</h2>
@@ -982,12 +1028,14 @@
 <a href="#2-diagrama-de-sequencia">2. Diagrama de Sequência</a> <br>
 <a href="#3-diagrama-de-atividades">3. Diagrama de Atividades</a> <br>
 <a href="#4-diagrama-de-estados">4. Diagrama de Estados</a> <br>
-<a href="#5-referencias">5. Referências</a> <br></p>
+<a href="#4-diagrama-de-colaboracao">4. Diagrama de Colaboração</a> <br>
+<a href="#6-referencias">6. Referências</a> <br></p>
 <h2 id="1-introducao">1. Introdução</h2>
 <p>A UML oferece diversos diagramas dinâmicos e dentre eles os mais relevantes são o de Sequência, Colaboração, Atividades e Estados.
-O diagrama de sequência representa as particularidades das interações entre os objetos do WebScrapper distribuídos entre várias linhas de vida.
-O diagrama de atividades representa o fluxo de ações entre os objetos do WebScrapper, demonstrando as fases em que o código percorre desde o ínicio até o salvamento no banco de dados.
-O diagrama de estados demonstra os vários estados que o processo de carregamento da página web para passa pelo WebScrapper.</p>
+O Diagrama de Sequência representa as particularidades das interações entre os objetos do WebScrapper distribuídos entre várias linhas de vida.
+O Diagrama de Atividades representa o fluxo de ações entre os objetos do WebScrapper, demonstrando as fases em que o código percorre desde o ínicio até o salvamento no banco de dados.
+O Diagrama de Estados demonstra os vários estados que o processo de carregamento da página web para passa pelo WebScrapper.
+O Diagrama de Colaboração tem foco em mostrar as interações entre as partes do WebScrapper usando mensagens sequenciais.</p>
 <h2 id="2-diagrama-de-sequencia">2. Diagrama de sequência</h2>
 <p>Nesse diagrama de sequência levou-se em consideração a extração dos dados do matricula web até o momento que esses dados serão salvos no banco de dados não relacional MongoDB. Nesse diagrama serão tratado as exceções de conexão em ambas as partes,  além de abordar o relacionamento entre as duas partes importantes do Web Scrapper.</p>
 <h3 id="versao-10">Versão 1.0</h3>
@@ -1002,11 +1050,17 @@ O diagrama de estados demonstra os vários estados que o processo de carregament
 <p>bla bla bla</p>
 <h3 id="versao-10_2">Versão 1.0</h3>
 <p><img alt="blabla" src="img/blabla.png" /></p>
-<h3 id="5-referencias">5. Referências</h3>
+<h2 id="5-diagrama-de-colaboracao">5. Diagrama de Colaboração</h2>
+<p>O diagrama demonstra a interação entre as partes do WebScrapper com ênfase na ordem em que as interações ocorrem. As partes são o MWScanner, databaseConfig, main e o Matrícula Web.</p>
+<h3 id="versao-10_3">Versão 1.0</h3>
+<p><img alt="diagramacolaboracao" src="../img/diagramacolaboracao.png" /></p>
+<h3 id="6-referencias">6. Referências</h3>
 <ul>
-<li><a href="https://www.uml-diagrams.org/sequence-diagrams.html">https://www.uml-diagrams.org/sequence-diagrams.html</a> <br></li>
 <li>Slide ARQUITETURA E DESENHO DE SOFTWARE aula 11 - Milene Serrano <br></li>
+<li><a href="https://www.uml-diagrams.org/sequence-diagrams.html">https://www.uml-diagrams.org/sequence-diagrams.html</a> <br></li>
 <li><a href="https://www.uml-diagrams.org/activity-diagrams.html">https://www.uml-diagrams.org/activity-diagrams.html</a> <br></li>
+<li><a href="https://www.uml-diagrams.org/communication-diagrams.html">https://www.uml-diagrams.org/communication-diagrams.html</a> <br></li>
+<li><a href="https://www.uml-diagrams.org/state-machine-diagrams.html">https://www.uml-diagrams.org/state-machine-diagrams.html</a> <br></li>
 </ul>
                 
                   
