@@ -44,4 +44,4 @@ Segue o padrão de commits definido na reunião:
 
 Versão 0.1 do banco de dados:
 
-![banco](https://i.imgur.com/3yKf0MO.jpg)
+[![banco](https://i.imgur.com/3yKf0MO.jpg)](https://i.imgur.com/3yKf0MO.jpg)

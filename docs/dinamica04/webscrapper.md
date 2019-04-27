@@ -7,6 +7,7 @@
 | 26/04/2019 | 0.2 | Adicionado versão 1 e 2 do diagrama de atividades, introdução e referências | Daniel Maike |
 | 26/04/2019 | 0.3 | Adicionado diagrama de colaboração | Daniel Maike |
 | 26/04/2019 | 0.4 | Adicionado diagrama de estados | Guilherme Guy |
+| 26/04/2019 | 0.5 | Adicionando zoom nas imagens ao clicar | Joberth Rogers |
 
 ## Sumário
 
@@ -31,7 +32,7 @@ Nesse diagrama de sequência levou-se em consideração a extração dos dados d
 
 ### Versão 1.0
 
-![SequencialDiagram](img/webScrapperSequentialDiagram.jpeg)
+[![SequencialDiagram](img/webScrapperSequentialDiagram.jpeg)](img/webScrapperSequentialDiagram.jpeg)
 
 ## 3. Diagrama de Atividades
 
@@ -39,11 +40,11 @@ Este diagrama dinâmico busca demonstrar o fluxo entre os objetos do WebScrapper
 
 ### Versão 1.0
 
-![DiagramaAtividadev1](img/ActivityDiagram.png)
+[![DiagramaAtividadev1](img/ActivityDiagram.png)](img/ActivityDiagram.png)
 
 ### Versão 2.0
 
-![DiagramaAtividadev2](img/diagramadeatividades.png)
+[![DiagramaAtividadev2](img/diagramadeatividades.png)](img/diagramadeatividades.png)
 
 ## 4. Diagrama de Estados
 
@@ -51,11 +52,11 @@ O diagrama de estados feito busca demonstrar uma visão mais próxima do que o p
 
 ### Versão 1.0
 
-![DiagramaEstaoss1](img/webscraper_estadosV1.jpg)
+[![DiagramaEstaoss1](img/webscraper_estadosV1.jpg)](img/webscraper_estadosV1.jpg)
 
 ### Versão 2.0
 
-![DiagramaEstaoss2](img/webscraper_estadosV2.png)
+[![DiagramaEstaoss2](img/webscraper_estadosV2.png)](img/webscraper_estadosV2.png)
 
 ## 5. Diagrama de Colaboração
 
@@ -63,7 +64,7 @@ O diagrama demonstra a interação entre as partes do WebScrapper com ênfase na
 
 ### Versão 1.0
 
-![diagramacolaboracao](img/diagramacolaboracao.png)
+[![diagramacolaboracao](img/diagramacolaboracao.png)](img/diagramacolaboracao.png)
 
 ### 6. Referências
 

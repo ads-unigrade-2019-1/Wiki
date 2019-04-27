@@ -6,6 +6,7 @@
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |13/04/2019|   0.1    | Criação do documento       |   Guilherme Aguiar  |
 |14/04/2019|   0.2    | Elaboração do documento       |   Guilherme Aguiar  |
+| 26/04/2019 | 0.3 | Adicionando zoom nas imagens ao clicar | Joberth Rogers |
 
 ## Sumário
 
@@ -18,13 +19,13 @@ O diagrama de pacotes mostra o arranjo e a organização dos elementos do modelo
 No contexto do projeto Unigrade, utilizaremos um diagrama de pacotes para descrever a arquitetura de pacotes das camadas do APP Android.
 
 ## 2. Diagrama de pacotes: MVC
-###Versão 1.0
+### Versão 1.0
 
-![pacotes](img/app_diagramadepacotes.png)
+[![pacotes](img/app_diagramadepacotes.png)](img/app_diagramadepacotes.png)
 
-###Versão 2.0
+### Versão 2.0
 
-![pacotes2](img/app_diagramadepacotes2.png)
+[![pacotes2](img/app_diagramadepacotes2.png)](img/app_diagramadepacotes2.png)
 
 ## 3. Referências
 * <https://online.visual-paradigm.com/tutorials/package-diagram-tutorial/> <br>

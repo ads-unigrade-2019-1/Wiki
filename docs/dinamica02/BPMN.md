@@ -8,6 +8,7 @@
 |04/04/2019|   0.2   | Adição dos tópicos Sumário, Introdução e Referências      |   Daniel Maike, Guilherme Guy  |
 |04/04/2019|   0.3   | Adição dos Business Process Model and Notation      |   Daniel Maike, Guilherme Guy  |
 |05/04/2019|   0.4   | Correção de erro na notação      |   Guilherme Guy  |
+| 26/04/2019 | 0.5 | Adicionando zoom nas imagens ao clicar | Joberth Rogers |
 
 ## Sumário
 
@@ -23,13 +24,13 @@ Com o objetivo de descrever e especificar o processo metodológico do projeto, f
 
 ### 2.1 Geral
 
-![BPMN2](img/bpmn_geral.png)
+[![BPMN2](img/bpmn_geral.png)](img/bpmn_geral.png)
 
 Fluxograma com a notação Business Process Model and Notation para descrever as etapas gerais do projeto.
 
 ### 2.2 Desenvolvimento
 
-![BPMN1](img/bpmn_desenvolvimento.png)
+[![BPMN1](img/bpmn_desenvolvimento.png)](img/bpmn_desenvolvimento.png)
 
 Fluxograma com a notação Business Process Model and Notation para descrever as etapas de desenvolvimetno do projeto, envolvendo planejamento, desenvolvimento e homologação.
 

@@ -9,6 +9,7 @@
 |14/04/2019|   0.3    | Adicionado UML do banco de dados  |   Ezequiel de oliveira  |
 |14/04/2019|   0.4    | Adicionado UML do banco de dados segunda versao |   Ezequiel de oliveira  |
 |15/04/2019|   0.5    | Correção nos tópicos e súmario |   Gabriel Carvalho  |
+| 26/04/2019 | 0.6 | Adicionando zoom nas imagens ao clicar | Joberth Rogers |
 
 
 
@@ -25,19 +26,19 @@ O diagrama de implementação é usado para modelar a arquitetura física de um 
 ## 2. Diagrama de Implementação
 ### Versão 1.0
 
-![implementacao](img/Diagrama-de-Implementaçao.jpg)
+[![implementacao](img/Diagrama-de-Implementaçao.jpg)](img/Diagrama-de-Implementaçao.jpg)
 
 ## 3. Diagrama de Classes
 Por questões didáticas, o banco de dados não relacional obteve uma diagramação buscando maior proximidade a um banco relacional, para melhor entendimento
 ### Não-Relacional
 #### Versão 1.0
 
-![dados](img/banco_de_dados_UML.jpg)
+[![dados](img/banco_de_dados_UML.jpg)](img/banco_de_dados_UML.jpg)
 
 ### Relacional
 #### Versão 1.0
 
-![dados2](img/Banco_de_dados_UML_relacional.jpg)
+[![dados2](img/Banco_de_dados_UML_relacional.jpg)](img/Banco_de_dados_UML_relacional.jpg)
 
 ## 4. Referências
 * <https://www.ibm.com/support/knowledgecenter/pt-br/SS4JE2_7.5.5/com.ibm.xtools.modeler.doc/topics/cdepd.html> <br>

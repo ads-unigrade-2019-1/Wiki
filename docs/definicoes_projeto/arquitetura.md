@@ -11,6 +11,7 @@
 |24/03/2019|   0.6    | Adição do tópico banco de dados |  Ezequiel De Oliveira |
 |24/03/2019|   0.7    | link para tópico relacionado |  Ezequiel De Oliveira |
 |26/03/2019|   0.8    |  Arrumando links      |   Daniel Maike |
+| 26/04/2019 | 0.9 | Adicionando zoom nas imagens ao clicar | Joberth Rogers |
 
 -------------------------
 
@@ -22,7 +23,7 @@
 [5. Referências](#5-referencias)<br>
 
 ## 1. Visão Geral
-![VisaoGeral](img/GeovanaVisaoArquitetura.png)
+[![VisaoGeral](img/GeovanaVisaoArquitetura.png)](img/GeovanaVisaoArquitetura.png)
 
 O sistema será composto pelo aplicativo Android, duas APIs e um banco de dados. O app irá fazer requisições à API Node para recuperar as disciplinas e montar as grades, a qual irá recuperar dados do banco. A API WebScraper irá varrer o matrícula web e salvar os dados no banco de dados MongoDB.
 
@@ -37,19 +38,19 @@ A tecnologia escolhida para a criação do aplicativo é o Java, linguagem nativ
 ## 3. API
 A API será desenvolvida utilizando os princípios REST (Representational State Transfer), que se comunica por meio do protocolo HTTP (Hypertext Transfer Protocol), onde é possível enviar e receber dados utilizando os métodos GET, POST, PUT e DELETE.
 
-![API](https://happycoding.io/tutorials/java-server/images/rest-api-1.png)
+[![API](https://happycoding.io/tutorials/java-server/images/rest-api-1.png)](https://happycoding.io/tutorials/java-server/images/rest-api-1.png)
 
 ### 3.1 Tecnologias
 
-![Node_express](https://cdn-images-1.medium.com/max/730/1*d2zLEjERsrs1Rzk_95QU9A.png)
+[![Node_express](https://cdn-images-1.medium.com/max/730/1*d2zLEjERsrs1Rzk_95QU9A.png)](https://cdn-images-1.medium.com/max/730/1*d2zLEjERsrs1Rzk_95QU9A.png)
 
 Para o desenvolvimento da nossa API, iremos utilizar Node.js e o framework Express.js. Node foi escolhido por ser possível trabalhar com requisições assíncronas, fazendo com que a API ganhe mais performance. Express.js foi escolhido por facilitar o desenvolvimento da API utilizando Node.js.
 
-![Express_diagram](https://binariks.com/wp-content/uploads/2017/11/express-js-840x502.png)
+[![Express_diagram](https://binariks.com/wp-content/uploads/2017/11/express-js-840x502.png)](https://binariks.com/wp-content/uploads/2017/11/express-js-840x502.png)
 
 ## 4. Banco de Dados
 ### 4.1 Tecnologias
-![Mongodb](img/MongodbLogo.jpg)
+[![Mongodb](img/MongodbLogo.jpg)](img/MongodbLogo.jpg)
 
 A tecnologia escolhida para ser integrada na [API](#3-api) como banco de dados é o Mongodb sendo um banco de dados NoSql (Not only SQL), Mongodb é um banco de dados não relacional, orientado a documentos, onde guarda os dados em arquivos no formato Json.
 
