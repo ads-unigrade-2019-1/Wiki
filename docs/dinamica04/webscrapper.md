@@ -6,6 +6,7 @@
 | 26/04/2019 | 0.1 | Criado documento, adicionado diagrama de sequência, sumário e referências | Joberth Rogers |
 | 26/04/2019 | 0.2 | Adicionado versão 1 e 2 do diagrama de atividades, introdução e referências | Daniel Maike |
 | 26/04/2019 | 0.3 | Adicionado diagrama de colaboração | Daniel Maike |
+| 26/04/2019 | 0.4 | Adicionado diagrama de estados | Guilherme Guy |
 
 ## Sumário
 
@@ -46,11 +47,15 @@ Este diagrama dinâmico busca demonstrar o fluxo entre os objetos do WebScrapper
 
 ## 4. Diagrama de Estados
 
-bla bla bla
+O diagrama de estados feito busca demonstrar uma visão mais próxima do que o programa executa para processar uma página da Web. Mesmo sendo um ponto de vista micro, ele possui algumas generalizações por conta da implementação, já que os métodos executados são diferentes para cada tipo de dado que se deseja extrair.
 
 ### Versão 1.0
 
-![blabla](img/blabla.png)
+![DiagramaEstaoss1](img/webscraper_estadosV1.jpg)
+
+### Versão 2.0
+
+![DiagramaEstaoss2](img/webscraper_estadosV2.png)
 
 ## 5. Diagrama de Colaboração
 
