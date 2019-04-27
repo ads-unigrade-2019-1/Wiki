@@ -997,6 +997,12 @@
 <td align="center">Arrumando links</td>
 <td align="center">Daniel Maike</td>
 </tr>
+<tr>
+<td align="center">26/04/2019</td>
+<td align="center">0.9</td>
+<td align="center">Adicionando zoom nas imagens ao clicar</td>
+<td align="center">Joberth Rogers</td>
+</tr>
 </tbody>
 </table>
 <hr />
@@ -1007,7 +1013,7 @@
 <a href="#4-banco-de-dados">4. Banco de Dados</a><br>
 <a href="#5-referencias">5. Referências</a><br></p>
 <h2 id="1-visao-geral">1. Visão Geral</h2>
-<p><img alt="VisaoGeral" src="../img/GeovanaVisaoArquitetura.png" /></p>
+<p><a href="../img/GeovanaVisaoArquitetura.png"><img alt="VisaoGeral" src="../img/GeovanaVisaoArquitetura.png" /></a></p>
 <p>O sistema será composto pelo aplicativo Android, duas APIs e um banco de dados. O app irá fazer requisições à API Node para recuperar as disciplinas e montar as grades, a qual irá recuperar dados do banco. A API WebScraper irá varrer o matrícula web e salvar os dados no banco de dados MongoDB.</p>
 <h2 id="2-app">2. App</h2>
 <p>O aplicativo é onde ocorre a interação do usuário com o sistema. Por conta dos limites de tempo de desenvolvimento o aplicativo será desenvolvido apenas para o sistema operacional Android, entretanto, por causa da modularidade proporcionada pelo uso de APIs, é possível que em projetos futuros a disponibilidade do sistema aumente. É responsabilidade da aplicação exibir para o usuário os conteúdos exposotos pela API Node e permitir a interação para que ele alcance seus objetivos ao utilizar o sistema.</p>
@@ -1015,14 +1021,14 @@
 <p>A tecnologia escolhida para a criação do aplicativo é o Java, linguagem nativa do sistema operacional Android. Sua escolha é influenciada por ser uma linguagem versátil e com ampla documentação, tanto de suas partes comuns quanto das partes exclusivas do Android. Outro fator que influenciou esta escolha é a familiaridade à linguagem que alguns membros do grupo possuem.</p>
 <h2 id="3-api">3. API</h2>
 <p>A API será desenvolvida utilizando os princípios REST (Representational State Transfer), que se comunica por meio do protocolo HTTP (Hypertext Transfer Protocol), onde é possível enviar e receber dados utilizando os métodos GET, POST, PUT e DELETE.</p>
-<p><img alt="API" src="https://happycoding.io/tutorials/java-server/images/rest-api-1.png" /></p>
+<p><a href="https://happycoding.io/tutorials/java-server/images/rest-api-1.png"><img alt="API" src="https://happycoding.io/tutorials/java-server/images/rest-api-1.png" /></a></p>
 <h3 id="31-tecnologias">3.1 Tecnologias</h3>
-<p><img alt="Node_express" src="https://cdn-images-1.medium.com/max/730/1*d2zLEjERsrs1Rzk_95QU9A.png" /></p>
+<p><a href="https://cdn-images-1.medium.com/max/730/1*d2zLEjERsrs1Rzk_95QU9A.png"><img alt="Node_express" src="https://cdn-images-1.medium.com/max/730/1*d2zLEjERsrs1Rzk_95QU9A.png" /></a></p>
 <p>Para o desenvolvimento da nossa API, iremos utilizar Node.js e o framework Express.js. Node foi escolhido por ser possível trabalhar com requisições assíncronas, fazendo com que a API ganhe mais performance. Express.js foi escolhido por facilitar o desenvolvimento da API utilizando Node.js.</p>
-<p><img alt="Express_diagram" src="https://binariks.com/wp-content/uploads/2017/11/express-js-840x502.png" /></p>
+<p><a href="https://binariks.com/wp-content/uploads/2017/11/express-js-840x502.png"><img alt="Express_diagram" src="https://binariks.com/wp-content/uploads/2017/11/express-js-840x502.png" /></a></p>
 <h2 id="4-banco-de-dados">4. Banco de Dados</h2>
 <h3 id="41-tecnologias">4.1 Tecnologias</h3>
-<p><img alt="Mongodb" src="../img/MongodbLogo.jpg" /></p>
+<p><a href="../img/MongodbLogo.jpg"><img alt="Mongodb" src="../img/MongodbLogo.jpg" /></a></p>
 <p>A tecnologia escolhida para ser integrada na <a href="#3-api">API</a> como banco de dados é o Mongodb sendo um banco de dados NoSql (Not only SQL), Mongodb é um banco de dados não relacional, orientado a documentos, onde guarda os dados em arquivos no formato Json.</p>
 <p>O motivo da escolha de tal tecnologia foi pela boa integração com Nodejs/Express</p>
 <h3 id="5-referencias">5. Referências</h3>
