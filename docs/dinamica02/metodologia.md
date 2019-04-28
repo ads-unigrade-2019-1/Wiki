@@ -10,7 +10,6 @@
 |04/04/2019|   0.5    |  Adição de tópicos para o seminário II   | Geovana Ramos |
 |04/04/2019|   0.6    |  Adição de tópico repositórios  | Gabriel Carvalho |
 |04/04/2019|   0.7    |  Modificação do conteúdo do tópico 2  | Gabriela Medeiros |
----------------------------
 
 ## Sumário
 [1. Introdução](#1-introducao) <br>

@@ -8,6 +8,7 @@
 |26/03/2019|   0.2    | Adequação das políticas com base em interesses e necessidades do grupo |   Guilherme Guy |
 |26/03/2019|   0.3    | Arrumando links         |   Daniel Maike  |
 |03/04/2019|   0.4    | Adequação do padrão de issues e branches à metodologia determinada pelo grupo         |   Daniel Maike  |
+| 26/04/2019 | 0.5 | Adicionando zoom nas imagens ao clicar | Joberth Rogers |
 
 ## Sumário
 
@@ -58,7 +59,7 @@ Serão tratados como itens de configuração para este projeto o código e a doc
 
 <br>
 
-![PoliticaBranchs.png](img/branches.png)
+[![PoliticaBranchs.png](img/branches.png)](img/branches.png)
 
 <br>
 

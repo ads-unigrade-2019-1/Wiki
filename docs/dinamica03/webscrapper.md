@@ -12,6 +12,7 @@
 |15/04/2019|   0.6    | Adição da versão 2.0 dos diagramas MWScanner e geral do WebScrapper     |  Daniel Maike |
 |16/04/2019|   0.7    | Adição da versão 3.0 dos diagramas MWScanner e geral do WebScrapper     |  Daniel Maike |
 |23/04/2019|   0.8    | Adição das novas versões dos diagramas de classes do WebScrapper     |  Daniel Maike e Joberth Rogers |
+| 26/04/2019 | 0.9 | Adicionando zoom nas imagens ao clicar | Joberth Rogers |
 
 ## Sumário
 
@@ -32,19 +33,19 @@ O diagrama representa as classes do MWScanner, responsável por extrair os dados
 
 #### Versão 1.0
 
-![mwscanner](img/MWScanner.png)
+[![mwscanner](img/MWScanner.png)](img/MWScanner.png)
 
 #### Versão 2.0
 
-![mwscannerv2](img/MWScannerv2.jpg)
+[![mwscannerv2](img/MWScannerv2.jpg)](img/MWScannerv2.jpg)
 
 #### Versão 3.0
 
-![mwscannerv3](img/MWScannerv3.jpg)
+[![mwscannerv3](img/MWScannerv3.jpg)](img/MWScannerv3.jpg)
 
 #### Versão 4.0
 
-![mwscannerv4](img/MWScannerv4.jpg)
+[![mwscannerv4](img/MWScannerv4.jpg)](img/MWScannerv4.jpg)
 
 ### Diagrama de classes da conexão com o banco
 
@@ -52,11 +53,11 @@ O diagrama representa as classes da conexão com o banco de dados, responsável 
 
 #### Versão 1.0
 
-![bancoconnection](img/umlconexaobanco.png)
+[![bancoconnection](img/umlconexaobanco.png)](img/umlconexaobanco.png)
 
 #### Versão 2.0
 
-![bancoconnectionv2](img/umlconexaobancov2.jpg)
+[![bancoconnectionv2](img/umlconexaobancov2.jpg)](img/umlconexaobancov2.jpg)
 
 ### Diagrama geral do WebScrapper
 
@@ -64,19 +65,19 @@ O diagrama representa o funcionamento geral do WebScrapper. A main executa o Web
 
 #### Versão 1.0
 
-![geral](img/scannerEBanco.png)
+[![geral](img/scannerEBanco.png)](img/scannerEBanco.png)
 
 #### Versão 2.0
 
-![geralv2](img/scannerEBancov2.jpg)
+[![geralv2](img/scannerEBancov2.jpg)](img/scannerEBancov2.jpg)
 
 #### Versão 3.0
 
-![geralv3](img/scannerEBancov3.jpg)
+[![geralv3](img/scannerEBancov3.jpg)](img/scannerEBancov3.jpg)
 
 #### Versão 4.0
 
-![geralv4](img/scannerEBancov4.jpg)
+[![geralv4](img/scannerEBancov4.jpg)](img/scannerEBancov4.jpg)
 
 ## 3. Referências
 

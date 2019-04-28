@@ -5,6 +5,7 @@
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |24/03/2019|   0.1    | Iniciando e elaborando documento     |   Guilherme Aguiar  |
 |24/03/2019|   0.2    | Ajustes no desenvolvimento e referências       |   Guilherme Aguiar  |
+| 26/04/2019 | 0.3 | Adicionando zoom nas imagens ao clicar | Joberth Rogers |
 
 
 ## Sumário
@@ -58,18 +59,18 @@ baixo” a “extremamente elevado” (em importância e valor).A partir desta c
 de Esforços é chamado de Fator de Ajustamento de Esforço Esta escala é apresentada na
 tabela abaixo: 
 
-![COCOMO1](img/GuilhermeAguiarCOCOMO1.png)
+[![COCOMO1](img/GuilhermeAguiarCOCOMO1.png)](img/GuilhermeAguiarCOCOMO1.png)
 
 #### Cálculo da estimativa de esforço (PESSOAS/MÊS)
 
 Finalmente, para  calcular a estimativa do esforço, utilizamos a seguinte equação:
 
-![COCOMO2](img/GuilhermeAguiarCOCOMO2.png)
+[![COCOMO2](img/GuilhermeAguiarCOCOMO2.png)](img/GuilhermeAguiarCOCOMO2.png)
 
 Para Boehm (1981) os valores do coeficiente “a” e do expoente “b” do modelo COCOMO
 Intermediário são apresentados na tabela abaixo:
 
-![COCOMO3](img/GuilhermeAguiarCOCOMO5.png)
+[![COCOMO3](img/GuilhermeAguiarCOCOMO5.png)](img/GuilhermeAguiarCOCOMO5.png)
 
 Onde: 
 
@@ -86,7 +87,7 @@ hardware, quanto de software.
 
 O cálculo para estimativa de tempo utiliza a seguinte equação:
 
-![COCOMO4](img/GuilhermeAguiarCOCOMO4.png)
+[![COCOMO4](img/GuilhermeAguiarCOCOMO4.png)](img/GuilhermeAguiarCOCOMO4.png)
 
 ## 3. Resultados
 ### Estimativa de tamanho
@@ -107,7 +108,7 @@ Substituindo os valores na equação de esforço temos que:
 
 O peso dado aos direcionadores de custo foi o seguinte:
 
-![COCOMO8](img/GuilhermeAguiarCOCOMO8.png)
+[![COCOMO8](img/GuilhermeAguiarCOCOMO8.png)](img/GuilhermeAguiarCOCOMO8.png)
 
 
 

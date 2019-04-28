@@ -10,6 +10,7 @@
 |24/03/2019|   0.5    |  Adição do RichPicture do fluxo de dados       |   Guilherme Guy  |
 |24/03/2019|   0.6    |  Adição do RichPicture da problemática       |   Gabriela Medeiros  |
 |26/03/2019|   0.7    |  Arrumando links      |   Daniel Maike |
+| 26/04/2019 | 0.8 | Adicionando zoom nas imagens ao clicar | Joberth Rogers |
 
 ## Sumário
 [1. Introdução](#1-introducao) <br>
@@ -28,15 +29,15 @@ Rich Picture com foco no usuário e nas ações que ele pode realizar no sistema
 
 #### Versão 1.0
 
-![RichPictureUserv1](img/DanielMaikeRichPictureADSv1.jpg)
+[![RichPictureUserv1](img/DanielMaikeRichPictureADSv1.jpg)](img/DanielMaikeRichPictureADSv1.jpg)
 
 #### Versão 2.0
 
-![RichPictureUserv2](img/DanielMaikeRichPictureADSv2.png)
+[![RichPictureUserv2](img/DanielMaikeRichPictureADSv2.png)](img/DanielMaikeRichPictureADSv2.png)
 
 #### Versão 3.0
 
-![RichPictureUserv3](img/DanielMaikeRichPictureADSv3.png)
+[![RichPictureUserv3](img/DanielMaikeRichPictureADSv3.png)](img/DanielMaikeRichPictureADSv3.png)
 
 ### Aplicativo e usuário
 
@@ -44,27 +45,28 @@ Rich picture que descreve como o aplicativo processa os dados e disponibilza ao 
 
 #### Versão 1.0
 
-![UserAndAppRP](img/UserandAppRP.png)
+[![UserAndAppRP](img/UserandAppRP.png)](img/UserandAppRP.png)
 
 ### Problemática
 
 #### Versão 1.0
 
-![RichPictureProblematica1](img/RichPictureProblematicaPapel.jpeg)
+[![RichPictureProblematica1](img/RichPictureProblematicaPapel.jpeg)](img/RichPictureProblematicaPapel.jpeg)
 
 #### Versão 2.0
 
-![RichPictureProblematica](img/RichPictureProblematicaDesenho.jpg)
+[![RichPictureProblematica](img/RichPictureProblematicaDesenho.jpg)](img/RichPictureProblematicaDesenho.jpg)
 
 ### Fluxo de Dados
 
 #### Fluxo Legado
-![FluxoLegado](img/GuilhermeGuyRichPictureFluxoLegado.jpg)
+[![FluxoLegado](img/GuilhermeGuyRichPictureFluxoLegado.jpg)](img/GuilhermeGuyRichPictureFluxoLegado.jpg)
+
 Como o projeto Unigrade é baseado em um sistema já criado, existe um fluxo já implementado para os dados que a aplicação necessita. Este rich picture tenta demonstrar o fluxo atual e alguns de seus pontos fracos.
 
 #### Novo Fluxo
 ##### Versão 1.0
-![NovoFluxo](img/GuilhermeGuyRichPictureNovoFluxoV1.jpg)
+[![NovoFluxo](img/GuilhermeGuyRichPictureNovoFluxoV1.jpg)](img/GuilhermeGuyRichPictureNovoFluxoV1.jpg)
 Este Rich Picture tenta representar a nova proposta de fluxo de dados para o sistema.
 
 ## 3. Referências
