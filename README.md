@@ -15,6 +15,7 @@ Repositório contendo a Wiki do projeto. Ela está disponível em forma compilad
 | Guilherme Deusdará            | 16/0122996 | [gdeusdara](https://github.com/gdeusdara)          | guibanci@gmail.com                   |
 | Guilherme Guy de Andrade      | 16/0123186 | [guilherme1guy](https://github.com/guilherme1guy)      | guilhermeguy349@gmail.com            |
 | Joberth Rogers Tavares Costa  | 16/0128013 | [joberthrogers18](https://github.com/joberthrogers18)    | joberth.rogers18@gmail.com    |
+| Rafael Contessotto Bragança Pinheiro  | 10/0120181 | [rafaelbrg](https://github.com/rafaelbrg)    | rabragancaunb@gmail.com    |
 
 ## Instalação
 
