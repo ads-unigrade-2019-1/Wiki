@@ -4,16 +4,22 @@
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |28/04/2019|0.1|   Adicionado diagramas de sequência  |  Gabriela Medeiros  |
+|28/04/2019|0.2|   Corrigindo sumário/links e adicionando diagrama de estado  |  Geovana Ramos  |
 
 ## Sumário
-* Diagramas de Sequência <br>
+[1. Diagramas de Sequência](#1-diagramas-de-sequencia) <br>
+[2. Diagrama de Estado](#2-diagrama-de-estado) <br>
 
-## Diagramas de Sequência
+## 1. Diagramas de Sequência
 
 ### Fluxo Geral do APP
 
-![UML de Sequência - Fluxo geral do app](img/appSequenceDiagram1.png)
+[![UML de Sequência - Fluxo geral do app](img/appSequenceDiagram1.png)](img/appSequenceDiagram1.png)
 
 ## Fluxo de Carregamento da Lista de Matérias
 
-![UML de Sequência - Carregamento da tela de matérias](img/appSequenceDiagram2.png)
+[![UML de Sequência - Carregamento da tela de matérias](img/appSequenceDiagram2.png)](img/appSequenceDiagram2.png)
+
+## 2. Diagrama de Estados
+Esse diagrama representa os ciclos de vida de uma aplicação Android. No app UniGrade há uma Activity e seis Fragments. Todos seguem o ciclo de vida descrito no diagrama, porém está sendo representado apenas uma Activity que contém um Fragment. Esse Fragment pode ser qualquer um dos seis existentes.
+[![UML de Estado - Android](img/umlstateandroid.png)](img/umlstateandroid.png)
