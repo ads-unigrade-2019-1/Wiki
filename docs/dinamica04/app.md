@@ -8,7 +8,7 @@
 
 ## Sumário
 [1. Diagramas de Sequência](#1-diagramas-de-sequencia) <br>
-[2. Diagrama de Estado](#2-diagrama-de-estado) <br>
+[2. Diagrama de Estado](#2-diagrama-de-estados) <br>
 
 ## 1. Diagramas de Sequência
 
