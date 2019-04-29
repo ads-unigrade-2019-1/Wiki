@@ -4,6 +4,7 @@
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |28/04/2019|    0.1   | Adicionado diagrama de colaboração   | Gabriel Carvalho |
+|28/04/2019|    0.2   | Adicionado diagrama de Sequencia   | Ezequiel De Oliveira |
 
 ## Sumário
 [1. Diagrama de Sequência](#1-diagramas-de-sequencia) <br>
@@ -11,7 +12,15 @@
 [3. Diagrama de Colaboração](#3-diagrama-de-colaboração) <br>
 
 ## 1. Diagramas de Sequência
-    
+### Fluxo Geral do APP
+
+### Versão 1.0
+
+[![UML de Sequência - Fluxo geral da API](img/diagrama_de_sequencia_apiv1.png)](img/diagrama_de_sequencia_apiv1.png)
+
+### Versão 2.0
+
+[![UML de Sequência - Fluxo geral da API](img/diagrama_de_sequencia_v2.png)](img/diagrama_de_sequencia_v2.png)
 
 ## 2. Diagrama de Estados
 
