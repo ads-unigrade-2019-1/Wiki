@@ -34,6 +34,10 @@ Nesse diagrama de sequência levou-se em consideração a extração dos dados d
 
 [![SequencialDiagram](img/webScrapperSequentialDiagram.jpeg)](img/webScrapperSequentialDiagram.jpeg)
 
+### Versão 2.0
+
+[![SequenceDiagram2](img/Diagrama_sequencia_v2_MSscanner.png)](img/Diagrama_sequencia_v2_MSscanner.png)
+
 ## 3. Diagrama de Atividades
 
 Este diagrama dinâmico busca demonstrar o fluxo entre os objetos do WebScrapper do Unigrade, respresentando um fluxo de ações, com foco nos procedimentos e processos realizados. Ele foi separado entre as três partes existentes no WebScrapper, o MWScanner que é responsável pela extração dos dados, o databaseConfig que é responsável por salvar os dados no banco de dados Cloud MongoDB Atlas e a main que é responsável por juntar a extração e o salvamento no banco de dados. Neste diagrama é demonstrado a partir desta separação o fluxo desde a criação do objeto campus até o salvamento de todos os dados no Atlas.
