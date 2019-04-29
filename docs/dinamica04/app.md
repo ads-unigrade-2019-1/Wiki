@@ -10,7 +10,7 @@
 ## Sumário
 [1. Diagramas de Sequência](#1-diagramas-de-sequencia) <br>
 [2. Diagrama de Estado](#2-diagrama-de-estados) <br>
-[2. Diagrama de Colaboração](#2-diagrama-de-colaboração) <br>
+[3. Diagrama de Colaboração](#3-diagrama-de-colaboracao) <br>
 
 ## 1. Diagramas de Sequência
 
@@ -30,7 +30,9 @@ Esse diagrama representa os ciclos de vida de uma aplicação Android. No app Un
 Assim como o diagrama de sequência, esse diagrama mostra de uma forma mais simplificada a interação entre objetos e partes através de mensagens sequenciais
 
 ### Fluxo Geral do APP
+
 [![UML de Colaboração - Carregamento da tela de matérias](img/appCommunicationDiagram1.png)](img/appCommunicationDiagram1.png)
 
 ### Fluxo de Carregamento da Lista de Matérias
+
 [![UML de Colaboração - Carregamento da tela de matérias](img/appCommunicationDiagram2.png)](img/appCommunicationDiagram2.png)
