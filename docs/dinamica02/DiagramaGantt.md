@@ -6,6 +6,7 @@
 |04/04/2019|   0.1    | Iniciando o documento       |   Joberth Rogers  |
 |23/04/2019|   0.2    | Adicionando versão 2.0 do diagrama       |   Geovana Ramos  |
 | 26/04/2019 | 0.3 | Adicionando zoom nas imagens ao clicar | Joberth Rogers |
+| 29/04/2019 | 0.4 | Adicionando versão 3.0 do diagrama | Geovana Ramos |
 
 ## Sumário
 [1. Introdução](#1-introducao) <br>
@@ -21,7 +22,9 @@ Esse diagrama é uma ferramenta visual no qual é usada para controlar o conogra
 #### versão 1.0
 [![Diagrama de Gantt 1.0](img/DiagramaGantt1.jpg)](img/DiagramaGantt1.jpg)
 #### versão 2.0
-[![Diagrama de Gantt 2.0](img/DiagramaGantt2.png)](img/DiagramaGantt2.png)
+[![Diagrama de Gantt 2.0](img/GanttChart2.png)](img/GanttChart2.png)
+#### versão 3.0
+[![Diagrama de Gantt 3.0](img/GanttChart3.png)](img/GanttChart3.png)
 
 ## 3. Referências
 
