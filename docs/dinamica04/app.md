@@ -29,5 +29,8 @@ Esse diagrama representa os ciclos de vida de uma aplicação Android. No app Un
 ## 3. Diagrama de Colaboração
 Assim como o diagrama de sequência, esse diagrama mostra de uma forma mais simplificada a interação entre objetos e partes através de mensagens sequenciais
 
-## Fluxo de Carregamento da Lista de Matérias
+### Fluxo Geral do APP
+[![UML de Colaboração - Carregamento da tela de matérias](img/appCommunicationDiagram1.png)](img/appCommunicationDiagram1.png)
+
+### Fluxo de Carregamento da Lista de Matérias
 [![UML de Colaboração - Carregamento da tela de matérias](img/appCommunicationDiagram2.png)](img/appCommunicationDiagram2.png)
