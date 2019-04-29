@@ -5,6 +5,7 @@
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |28/04/2019|    0.1   | Adicionado diagrama de colaboração   | Gabriel Carvalho |
 |28/04/2019|    0.2   | Adicionado diagrama de Sequencia   | Ezequiel De Oliveira |
+|28/04/2019|    0.3   | Adicionado diagrama de Estado   | Guilherme Deusdará |
 
 ## Sumário
 [1. Diagrama de Sequência](#1-diagramas-de-sequencia) <br>
@@ -24,6 +25,13 @@
 
 ## 2. Diagrama de Estados
 
+### Versão 1.0
+
+[![UML de Máquina de estado](img/diagrama_de_estado_api_v1.png)](img/diagrama_de_estado_api_v1.png)
+
+### Versão 2.0
+
+[![UML de Máquina de estado](img/diagrama_de_estado_api_v2.png)](img/diagrama_de_estado_api_v2.png)
 
 ## 3. Diagrama de Colaboração
 
