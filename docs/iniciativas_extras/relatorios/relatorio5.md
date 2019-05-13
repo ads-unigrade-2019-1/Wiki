@@ -17,7 +17,8 @@ FGA - Contêiner 19
 # Pauta da Reunião
 
 * 1. Review da semana 3
-* 1.1.
+* 1.1. Atividades Pendentes
+* 1.2. Atividades Concluídas
 * 2. _Issues_ da semana 4
   * 2.1. Mostrar lista de matérias (APP)
   * 2.2. Refatorar Banco de Dados (BD)
