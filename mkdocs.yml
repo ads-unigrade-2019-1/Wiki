@@ -39,9 +39,9 @@ nav:
         - GRASPs E GoFs - App: dinamica05A/app.md
         - GRASPs E GoFs - WebScraper: dinamica05A/webscraper.md
     - Dinâmica e Seminário V - parte B:
-        - GRASPs E GoFs - API: dinamica05B/api.md
-        - GRASPs E GoFs - App: dinamica05B/app.md
-        - GRASPs E GoFs - WebScraper: dinamica05B/webscraper.md
+        - Padrões Emergentes - API: dinamica05B/api.md
+        - Padrões Emergentes - App: dinamica05B/app.md
+        - Padrões Emergentes - WebScraper: dinamica05B/webscraper.md
     - Iniciativas Extras:
         - Relatórios das Reuniões:
             - Relatório I: iniciativas_extras/relatorios/relatorio1.md
