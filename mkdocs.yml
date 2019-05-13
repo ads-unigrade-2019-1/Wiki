@@ -29,11 +29,15 @@ nav:
     - Dinâmica e Seminário III:
         - Modelo Estático - API e Banco: dinamica03/apiebanco.md
         - Modelo Estático - App: dinamica03/app.md
-        - Modelo Estático - WebScrapper: dinamica03/webscrapper.md
+        - Modelo Estático - WebScraper: dinamica03/webscrapper.md
     - Dinâmica e Seminário IV:
         - Modelo Dinâmico - API e Banco: dinamica04/apiebanco.md
         - Modelo Dinâmico - App: dinamica04/app.md
-        - Modelo Dinâmico - WebScrapper: dinamica04/webscrapper.md
+        - Modelo Dinâmico - WebScraper: dinamica04/webscrapper.md
+    - Dinâmica e Seminário V:
+        - GRASPs E GoFs - API: dinamica05/api.md
+        - GRASPs E GoFs - App: dinamica05/app.md
+        - GRASPs E GoFs - WebScraper: dinamica05/webscraper.md
     - Iniciativas Extras:
         - Relatórios das Reuniões:
             - Relatório I: iniciativas_extras/relatorios/relatorio1.md
