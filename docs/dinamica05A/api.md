@@ -6,15 +6,20 @@
 | 20/05/2019 | 1.0  | Adicionando Factory Method | Gabriel Carvalho |
 
 ## Sumário
-[1. Introduçao](#1-introducao) <br>
-[2. GoFs - Criacionais](#2-gofs-criacionais) <br>
+<ul>
+    <li> [1. Introdução](#introdução) </li>
+    <li> [2. GoFs - Criacionais](#gofs-criacionais) </li>
+    <ul>
+       <li> [2.1 Factory Method](#factory-method) </li>
+    </ul>
+</ul>
 
-# Introdução
+## Introdução
 
 
-# GoFs Criacionais
+## GoFs Criacionais
 
-## Factory Method
+### Factory Method
 
 Factory Method é um padrão de projeto criacional que nos permite abstrair detalhes de implementação de criação de objetos do mundo externo. Express faz isso exportando apenas o construtor.
 
