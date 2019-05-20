@@ -26,7 +26,7 @@ Seguindo o princípio do encapsulamento, essa complexidade deve ser isolada. A s
 
 ## 1.1 Singleton
 O objetivo do Singleton é permitir a criação de uma única instância de uma classe e fornecer um modo para recuperá-la.
-Esse padrão de projeto foi implementado nas camadas dos controladores da nossa arquitetura MVC:
+Esse padrão de projeto foi implementado nas camadas dos controladores da nossa arquitetura MVC. Os controllers são instanciados e utilizados pontualmente de maneira similar, em chamadas assíncronas e em fragments, que manipulam a interface.
 ###Subjects Controller
 
 Controller responsável por retornar a lista de todas matérias da API.
@@ -49,3 +49,11 @@ Controller responsável por retornar a lista de todas turmas da API.
 [![Singleton - ClassesFragment](img/singleton7.png)](img/singleton7.png)
 [![Singleton - ClassesFragment - GetTimeTable](img/singleton8.png)](img/singleton8.png)
 [![Singleton - ClassesFragment - TimeTableFragment](img/singleton9.png)](img/singleton9.png)
+
+### GRASP's Relacionados:
+
+#### Information Expert:
+
+Aos nossos controllers mostrados acima, podem ser considerados especialistas, por que a ele foi dada a responsabilidade de instanciar e manter o seu objeto único.
+
+
