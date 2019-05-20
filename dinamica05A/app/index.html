@@ -22,6 +22,12 @@
 <td align="center">Padrões Singleton do projeto</td>
 <td align="center">Guilherme Aguiar</td>
 </tr>
+<tr>
+<td align="center">20/05/2019</td>
+<td align="center">3.0</td>
+<td align="center">Grasp Especialista</td>
+<td align="center">Guilherme Aguiar</td>
+</tr>
 </tbody>
 </table>
 <h2 id="sumario">Sumário</h2>
@@ -38,7 +44,7 @@
 <li>definir qual classe concreta deve ser utilizada para criar o objeto e definir como os objetos devem ser criados.</li>
 <li>definir como eles se relacionam com outros objetos do sistema.</li>
 </ul>
-<p>Seguindo o princípio do encapsulamento, essa complexidade deve ser isolada. A seguir, mostraremos padrões de projetos que podem ser adotados para encapsular a criação de objetos em diversas situações distintas. A seguir são apresentados os padrões de projeto criacionais apresentados no Aplicado Android Unigrade.</p>
+<p>Seguindo o princípio do encapsulamento, essa complexidade deve ser isolada. A seguir são apresentados os padrões de projeto criacionais apresentados no Aplicativo Android Unigrade.</p>
 <h2 id="11-singleton">1.1 Singleton</h2>
 <p>O objetivo do Singleton é permitir a criação de uma única instância de uma classe e fornecer um modo para recuperá-la.
 Esse padrão de projeto foi implementado nas camadas dos controladores da nossa arquitetura MVC. Os controllers são instanciados e utilizados pontualmente de maneira similar, em chamadas assíncronas e em fragments, que manipulam a interface.</p>
@@ -58,4 +64,4 @@ Esse padrão de projeto foi implementado nas camadas dos controladores da nossa 
 <a href="../img/singleton9.png"><img alt="Singleton - ClassesFragment - TimeTableFragment" src="../img/singleton9.png" /></a></p>
 <h3 id="grasps-relacionados">GRASP's Relacionados:</h3>
 <h4 id="information-expert">Information Expert:</h4>
-<p>Aos nossos controllers mostrados acima, podem ser considerados especialistas, por que a ele foi dada a responsabilidade de instanciar e manter o seu objeto único.</p></article></div></div></main><footer class="md-footer"><div class="md-footer-nav"><nav class="md-footer-nav__inner md-grid"><a href="../api/" title="GRASPs E GoFs - API" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev"><div class="md-flex__cell md-flex__cell--shrink"><i class="md-icon md-icon--arrow-back md-footer-nav__button"></i></div><div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span class="md-flex__ellipsis"><span class="md-footer-nav__direction">Anterior</span>GRASPs E GoFs - API</span></div></a><a href="../webscraper/" title="GRASPs E GoFs - WebScraper" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next"><div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span class="md-flex__ellipsis"><span class="md-footer-nav__direction">Próximo</span>GRASPs E GoFs - WebScraper</span></div><div class="md-flex__cell md-flex__cell--shrink"><i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i></div></a></nav></div><div class="md-footer-meta md-typeset"><div class="md-footer-meta__inner md-grid"><div class="md-footer-copyright">powered by <a href="https://www.mkdocs.org">MkDocs</a> and <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a></div></div></div></footer></div><script src="../../assets/javascripts/application.b260a35d.js"></script><script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script><script src="../../assets/javascripts/lunr/lunr.pt.js"></script><script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script></body></html>
+<p>Aos nossos controllers mostrados acima, podem ser considerados classes especialistas, por que a ele foi dada a responsabilidade fazer algo a si mesmo, que é instanciar e mantar seu objeto único, e também controlar ou coordenar atividades entre as views e as models.</p></article></div></div></main><footer class="md-footer"><div class="md-footer-nav"><nav class="md-footer-nav__inner md-grid"><a href="../api/" title="GRASPs E GoFs - API" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev"><div class="md-flex__cell md-flex__cell--shrink"><i class="md-icon md-icon--arrow-back md-footer-nav__button"></i></div><div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span class="md-flex__ellipsis"><span class="md-footer-nav__direction">Anterior</span>GRASPs E GoFs - API</span></div></a><a href="../webscraper/" title="GRASPs E GoFs - WebScraper" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next"><div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span class="md-flex__ellipsis"><span class="md-footer-nav__direction">Próximo</span>GRASPs E GoFs - WebScraper</span></div><div class="md-flex__cell md-flex__cell--shrink"><i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i></div></a></nav></div><div class="md-footer-meta md-typeset"><div class="md-footer-meta__inner md-grid"><div class="md-footer-copyright">powered by <a href="https://www.mkdocs.org">MkDocs</a> and <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a></div></div></div></footer></div><script src="../../assets/javascripts/application.b260a35d.js"></script><script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script><script src="../../assets/javascripts/lunr/lunr.pt.js"></script><script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script></body></html>
