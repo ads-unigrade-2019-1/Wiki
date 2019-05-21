@@ -4,6 +4,7 @@
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 | 20/05/2019 | 1.0  | Adicionando Factory Method | Gabriel Carvalho |
+| 20/05/2019 | 1.1  | Relacionando com GRASP | Ezequiel Oliveira |
 
 ## Sumário
 <ul>
@@ -30,4 +31,10 @@ A função do framework que faz a criação da aplicação:
 Importação e chamada da função na API:
 
 [![Factory - Declaration](img/api-factory.png)](img/api-factory.png)
+
+### GRASP's Relacionados:
+
+#### Information Expert:
+
+O trecho de codigo pode-se notar que o express consegue instanciar seu objeto único, considerando-o especialista pois ele tem a responsabilidade de gerar um objeto usado ao longo do codigo.
 
