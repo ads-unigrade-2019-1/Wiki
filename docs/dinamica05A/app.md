@@ -32,24 +32,20 @@ Esse padrão de projeto foi implementado nas camadas dos controladores da nossa 
 
 Controller responsável por retornar a lista de todas matérias da API.
 
-[![Singleton - SubjectsController](img/singleton1.png)](img/singleton1.png)
-[![Singleton - SubjectsController - GetSubjects](img/singleton2.png)](img/singleton2.png)
-[![Singleton - SubjectsController - SubjectsFragment](img/singleton3.png)](img/singleton3.png)
+[![Singleton - SubjectsController](img/singleton_1.png)](img/singleton_1.png)
+
 
 ###Classes Controller
 
 Controller responsável por retornar a lista de todas turmas da API.
 
-[![Singleton - ClassesFragment](img/singleton4.png)](img/singleton4.png)
-[![Singleton - ClassesFragment - GetClasses](img/singleton5.png)](img/singleton5.png)
-[![Singleton - ClassesFragment - ClassesFragment](img/singleton6.png)](img/singleton6.png)
+[![Singleton - ClassesFragment](img/singleton_2.png)](img/singleton_2.png)
 
 
 ###TimeTables Controller
 
-[![Singleton - ClassesFragment](img/singleton7.png)](img/singleton7.png)
-[![Singleton - ClassesFragment - GetTimeTable](img/singleton8.png)](img/singleton8.png)
-[![Singleton - ClassesFragment - TimeTableFragment](img/singleton9.png)](img/singleton9.png)
+[![Singleton - ClassesFragment](img/singleton_3.png)](img/singleton_3.png)
+
 
 ### GRASP's Relacionados:
 
