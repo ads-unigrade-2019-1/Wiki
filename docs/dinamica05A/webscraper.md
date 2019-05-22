@@ -19,7 +19,7 @@
 
 <p style="text-align: justify">Esse padrão que por muitos autores até hoje é considerado como anti-pattern, para o script Mwscaner foi um fator que alavancou sua performance de forma muito considerável. Como o script faz a coleta de vários dados do Matrícula Web e salva todos no banco de dados não relacional, ao executar o script resultava em uma grande perda de performance na hora de salvar esses dados, devido à criação de uma instância do MongoDB a cada vez que uma nova divisão do Matrícula web era iniciada. Então foi necessário o uso do padrão singleton, para cuidar da criação de uma única instância no começo da execução do script. Aumentando a performance do programa e evitando a criação de objetos relacionados a conexão com o banco de dados de modo desnecessário. O código referente ao singleton está presente abaixo:</p>    
 
-[![sigleton-mwscanner](img/singleton_mwscanner.png)](img/singleton_mwscanner.png)
+[![singleton-mwscanner](img/singleton_mwscanner.png)](img/singleton_mwscanner.png)
 
 <p style="text-align: justify">Ao aplicar o padrão tivemos a queda no tempos 
 de execução da build de: </p>
@@ -44,9 +44,7 @@ Como abordado na definição, o padrão do tipo builder tem por objetivo tentar 
 
 <br>
 
-[![builderclass-mwscanner](img/builder1.png)](img/builder1.png)
-
-[![buildermethod-mwscanner](img/builder2.png)](img/builder2.png)
+[![builderclass-mwscanner](img/builder.png)](img/builder.png)
 
 # Referências
 
