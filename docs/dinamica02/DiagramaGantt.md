@@ -7,6 +7,7 @@
 |23/04/2019|   0.2    | Adicionando versão 2.0 do diagrama       |   Geovana Ramos  |
 | 26/04/2019 | 0.3 | Adicionando zoom nas imagens ao clicar | Joberth Rogers |
 | 29/04/2019 | 0.4 | Adicionando versão 3.0 do diagrama | Geovana Ramos |
+| 31/05/2019 | 0.5 | Adicionando versão 5.0 do diagrama e descrições das versões | Geovana Ramos |
 
 ## Sumário
 [1. Introdução](#1-introducao) <br>
@@ -20,11 +21,30 @@ Esse diagrama é uma ferramenta visual no qual é usada para controlar o conogra
 ## 2. Diagrama
 
 #### versão 1.0
+Versão inicial discutida pelo grupo.
+
 [![Diagrama de Gantt 1.0](img/DiagramaGantt1.jpg)](img/DiagramaGantt1.jpg)
+
 #### versão 2.0
+WebScraper - O tempo definido anteriormente não seria sufiente para terminar todo o script.
+
+API - O grupo percebeu que as tarefas não estavam bem definidas em texto, por isso houve uma refatoração na descrição das tarefas. Além disso, foi possível perceber que algumas tarefas poderiam ser feitas mais rapidamente, dando tempo a mais para tarefas mais difícies.
+
+App - Foi observado que algumas tarefas precisariam de mais tempo, e por isso tarefas mais simples serão feitas em uma semana ao mesmo tempo.
+
 [![Diagrama de Gantt 2.0](img/GanttChart2.png)](img/GanttChart2.png)
 #### versão 3.0
+
+API - Equipe da API percebeu que poderia fazer mais uma tarefa na semana.
+
+App - Aumento de tempo nas duas últimas tarefas.
 [![Diagrama de Gantt 3.0](img/GanttChart3.png)](img/GanttChart3.png)
+
+#### versão 4.0
+
+App - Fusão de algumas tarefas em uma só. Adiantamento do cronograma para que sobrasse mais tempo para se dedicar à documentação.
+
+[![Diagrama de Gantt 4.0](img/GanttChart4.png)](img/GanttChart3.png)
 
 ## 3. Referências
 

@@ -34,11 +34,10 @@ nav:
         - Modelo Dinâmico - API e Banco: dinamica04/apiebanco.md
         - Modelo Dinâmico - App: dinamica04/app.md
         - Modelo Dinâmico - WebScraper: dinamica04/webscrapper.md
-    - Dinâmica e Seminário V - parte A:
+    - Dinâmica e Seminário V:
         - GRASPs E GoFs - API: dinamica05A/api.md
         - GRASPs E GoFs - App: dinamica05A/app.md
         - GRASPs E GoFs - WebScraper: dinamica05A/webscraper.md
-    - Dinâmica e Seminário V - parte B:
         - Padrões Emergentes - API: dinamica05B/api.md
         - Padrões Emergentes - App: dinamica05B/app.md
         - Padrões Emergentes - WebScraper: dinamica05B/webscraper.md
