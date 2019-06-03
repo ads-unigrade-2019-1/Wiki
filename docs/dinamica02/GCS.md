@@ -9,6 +9,7 @@
 |26/03/2019|   0.3    | Arrumando links         |   Daniel Maike  |
 |03/04/2019|   0.4    | Adequação do padrão de issues e branches à metodologia determinada pelo grupo         |   Daniel Maike  |
 | 26/04/2019 | 0.5 | Adicionando zoom nas imagens ao clicar | Joberth Rogers |
+| 03/06/2019 | 0.6 | Atulizada política de issues | Daniel Maike |
 
 ## Sumário
 
@@ -71,7 +72,8 @@ Serão tratados como itens de configuração para este projeto o código e a doc
 
    ``` TF[ID da Tarefa no RoadMap]-[Nome representativo da Tarefa] ``` ou <br>
    ``` FIX[ID da issue a ser resolvida]-[Nome representativo da issue] ``` ou <br>
-   ``` FIX[Nome da correcao ou configuracao] ``` <br>
+   ``` FIX[Nome da correcao ou configuracao] ``` ou <br>
+   ``` TE-[Nome representativo da Tarefa Extra] ```<br>
 
 * As branches develop e master têm papel importante no fluxo seguido. Portanto, nenhuma dessas deve receber um commit diretamente pelo time de desenvolvimento de nenhuma Feature ou Correção.
 
@@ -94,6 +96,7 @@ Se um pull request causar algum tipo de conflito, deve ser resolvido primeiro pe
 * <p align = "justify">As issues serão divididas em labels, para que se possa indicar sua natureza. As labels definidas para o projeto serão:</p>
 
    * **Tarefa**: Utilizada para issues que representam features ou atividades do projeto. 
+   * **Tarefa Extra**: Utilizada para issues que representam tarefas extras do projeto. 
    * **Refatoração**: Utilizada para issues que representam refatoração do código.  
    * **Front**: Utilizada para issues que representam refatoração do layout.
    * **Bug**: Utilizada para issues que representam correção de bugs.
@@ -102,8 +105,9 @@ Se um pull request causar algum tipo de conflito, deve ser resolvido primeiro pe
 
 * <p align = "justify"> O padrão do nome das issues terá o seguinte formato: </p>
 
-   ``` TAREFA <ID da Tarefa no RoadMap> - <Nome definido  pela equipe para a tarefa> ``` <br>
-   ``` BUG - <Nome definido para a história pela equipe> ``` <br>
+   ``` TF <ID da Tarefa no RoadMap> - <Nome definido  pela equipe para a tarefa> ``` <br>
+   ``` FIX - <Nome definido para a história pela equipe> ``` <br>
+   ``` TE - <Nome definido para a história pela equipe> ``` <br>
 
 * Exemplo : "TAREFA 1.1 - Tarefa". <br>
 
