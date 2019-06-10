@@ -50,3 +50,6 @@ nav:
             - Relatório V: iniciativas_extras/relatorios/relatorio5.md
             - Relatório VI: iniciativas_extras/relatorios/relatorio6.md
             - Relatório VII: iniciativas_extras/relatorios/relatorio7.md
+        - NFR: iniciativas_extras/nfr.md
+        - I*: iniciativas_extras/istar.md
+        - SADT: iniciativas_extras/sadt.md
