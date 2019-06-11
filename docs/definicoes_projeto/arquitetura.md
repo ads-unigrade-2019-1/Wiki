@@ -23,9 +23,9 @@
 [5. Referências](#5-referencias)<br>
 
 ## 1. Visão Geral
-[![VisaoGeral](img/GeovanaVisaoArquitetura.png)](img/GeovanaVisaoArquitetura.png)
+[![VisaoGeral](img/GeovanaVisaoArquitetura.jpg)](img/GeovanaVisaoArquitetura.jpg)
 
-O sistema será composto pelo aplicativo Android, duas APIs e um banco de dados. O app irá fazer requisições à API Node para recuperar as disciplinas e montar as grades, a qual irá recuperar dados do banco. A API WebScraper irá varrer o matrícula web e salvar os dados no banco de dados MongoDB.
+O sistema será composto pelo aplicativo Android, uma API, um WebScraper e um banco de dados. O app irá fazer requisições à API Node para recuperar as disciplinas e montar as grades, a qual irá recuperar dados do banco. O WebScraper irá varrer o Matrícula WEB e salvar os dados no banco de dados MongoDB.
 
 ## 2. App
 
