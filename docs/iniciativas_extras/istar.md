@@ -4,6 +4,7 @@
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |10/06/2019|    0.1   | Iniciando documento, Adicionando Istar, Strategic Dependence Model | Joberth Rogers |
+|10/06/2019|    0.1   | Adicionando Istar 2 | Guilherme Aguiar |
 
 ## Sumário
 [1. Strategic Dependency Models](#strategic-dependency-models) <br>
@@ -20,6 +21,10 @@
 ### IS1 - Procurar novas opções de disciplinas
 
 [![strategic](img/istar-interesses.png)](img/istar-interesses.png)
+
+### IS2 - Criar e visualizar grades
+
+[![strategic](img/istar-unigrade.png)](img/istar-unigrade.png)
 
 ## Referências
 

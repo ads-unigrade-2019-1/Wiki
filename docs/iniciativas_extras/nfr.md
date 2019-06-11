@@ -4,6 +4,7 @@
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |10/06/2019|    0.1   | Iniciando documento, Adicionando NFR Desempenho | Joberth Rogers |
+|10/06/2019|    0.1   | Adicionando NFR Facilidade de Uso | Guilherme Aguiar |
 
 ## Sumário
 [1. NFRs ](#nfrs) <br>
@@ -18,6 +19,10 @@
 ### NFR1 - Desempenho
 
 [![nfr desempenho](img/nfr-desempenho.png)](img/nfr-desempenho.png)
+
+### NFR2 - Facilidade de uso
+
+[![nfr desempenho](img/nfr-facilidade.png)](img/nfr-facilidade.png)
 
 ## Referências
 
