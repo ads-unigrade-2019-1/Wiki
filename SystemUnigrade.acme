@@ -1,0 +1,108 @@
+System App = {
+
+    Component Model = {
+        Port p;
+        Property name : string;
+    }
+    
+    Component Type ViewJ = {
+        Port p;
+        Property elements : ElementJ;
+        Property adapter : BaseAdapter;
+    }
+    
+    Connector Type Controller = {
+        Role from;
+        Role toJ;
+    }
+    
+    Attachment ViewJ.p to Controller.from;
+    Attachment Model.p to Controller.toJ;
+}
+
+System Backend = {
+    Component client_db = {
+        Port send-receive;
+        Port update;
+        Property socket address;
+    }
+
+    Component server_db ={
+        Port send-receive;
+        Port send-status;
+        Property write;
+        Property broadcast: true;
+        Property bind;
+    }
+
+    Component client_api = {
+        Port send-request;
+        Property numberClientes : intenger = n;
+    }
+
+    Component server_api = {
+        Port receive-request;
+        Port request-db;
+        Property numberServer : integer = 1;
+        Property status : 200, 404, 500, 302...;
+    }
+
+    Component connectionWithDB = {
+        Port p;
+        Property object : Object;
+    }
+    
+    Component connectionWithAPI = {
+        Port p;
+        Property json : JSONArray;
+    }	
+
+    Connector emiter = {
+        Role listener;
+    }
+
+
+    Connector http = {
+        Role request;
+        Role reply;
+        Property asyncronized : boolean = True;
+        Property method : GET, PUT, DELETE, POST ...;
+    }
+
+    Connector ConnectionDB = {
+        Role request;
+        Role reply;
+        Property connected: boolean = true;
+    }
+
+    Attachment server_api.request-db to ConnectionDB.request;
+    Attachment server_db.send-status to ConnectionDB.reply;
+    Attachment send-status to http.reply;
+    Attachment client_db.send-receive to emiter.listener;
+    Attachment server_db.send-receive to emiter.listener;
+    Attachment client_api.send-request to http.request;
+    Attachment server_api.receive-request to http.reply;
+    
+}
+
+System MWScanner = {
+	Connector databaseConfig = { 
+		Roles {caller, callee} 
+	}; 
+	
+	Component script = { 
+		Port send-request; 
+	};
+	
+    Component db = { 
+    	Port receive-request; 
+    };
+    
+    Attachment script.send-request to databaseConfig.caller;
+    Attachment db.receive-request to databaseConfig.callee;
+}
+
+
+
+
+
