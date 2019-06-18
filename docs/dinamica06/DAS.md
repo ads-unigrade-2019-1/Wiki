@@ -318,7 +318,7 @@ A DAO é responsável pelos acessos ao banco de dados SQLite da aplicação, é 
 A camada da Model na API é responsável pela representação do esquema dos dados armazenados, disponibilizando funcionalidades de acesso ao banco de dados.
 
 * Controller <br>
-Na API a camada controller processa os dados para serem apresentados para seus clientes nos endpoints disponíveis na API, sejam eles uma aplicação cliente e o próprio aplicativo Unigade.
+Na API a camada controller processa os dados para serem apresentados para seus clientes nos endpoints disponíveis na API, sejam eles uma aplicação cliente e o próprio aplicativo Unigrade.
 
 * Algorithm <br>
 A camada de Algorithm abriga algoritmos para a geração de grades horárias e os objetos necessários para a execução destes algoritmos. Há um algoritmo ambicioso, um algoritmo genético evolutivo (e suas restrições).
