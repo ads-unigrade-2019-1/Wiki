@@ -41,6 +41,8 @@ nav:
         - Padrões Emergentes - API: dinamica05B/api.md
         - Padrões Emergentes - App: dinamica05B/app.md
         - Padrões Emergentes - WebScraper: dinamica05B/webscraper.md
+    - Dinâmica e Seminário VI:
+        - Documento de Arquitetura: dinamica06/DAS.md
     - Iniciativas Extras:
         - Relatórios das Reuniões:
             - Relatório I: iniciativas_extras/relatorios/relatorio1.md
