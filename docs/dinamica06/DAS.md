@@ -207,12 +207,16 @@ Requisitos e restrições do sistema que influenciam na arquitetura:
 
 Para o aplicativo, sua visão geral é composta de quatro pacotes:
 
-* View: contém classes responsáveis por exibir conteúdos para o usuário final. Também possui módulos para implementação de Adapters, execução de tarefas assíncronas, como aguardar uma resposta da API para exibir conteúdo.
-* Controller: possui classes que são responsáveis pela execução de código que prepara os dados para sua exibição na view, também são responsáveis por controlar as chamadas à API e despachar o resultado para o local adequado, seja uma View que esteja aguardando ou outros objetivos.
-* Model: classes que fazem representação dos dados que o aplicativo deve persistir localmente, como matérias que o usuário escolheu ou seu curso. Essas classes também contém algumas operações específicas aos seus objetos.
-* DAO: camada responsável por conter classes que acessam e manipulam dados, seja para concretizar chamadas a API, ou escrever Models no banco de dados local.
+* View <br>
+Contém classes responsáveis por exibir conteúdos para o usuário final. Também possui módulos para implementação de Adapters, execução de tarefas assíncronas, como aguardar uma resposta da API para exibir conteúdo.
+* Controller <br>
+Possui classes que são responsáveis pela execução de código que prepara os dados para sua exibição na view, também são responsáveis por controlar as chamadas à API e despachar o resultado para o local adequado, seja uma View que esteja aguardando ou outros objetivos.
+* Model <br>
+Classes que fazem representação dos dados que o aplicativo deve persistir localmente, como matérias que o usuário escolheu ou seu curso. Essas classes também contém algumas operações específicas aos seus objetos.
+* DAO <br>
+Camada responsável por conter classes que acessam e manipulam dados, seja para concretizar chamadas a API, ou escrever Models no banco de dados local.
 
-#### 5.1.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura 
+#### 5.1.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
 ![apptypeh](img/typehierarchyapp.jpg)
 
@@ -222,8 +226,10 @@ Para o aplicativo, sua visão geral é composta de quatro pacotes:
 
 O MWScanner possui dois pacotes:
 
-* Webscrapper: possui classes responsáveis extração, limpeza e manipulação dados obtidos de páginas web específicas.
-* DatabaseConfig: possui classes responsáveis pela persistência dos dados coletados na camada Webscrapper, por criar a conexão com um banco de dados Mongo e escrever nele.
+* Webscrapper <br>
+Possui classes responsáveis extração, limpeza e manipulação dados obtidos de páginas web específicas.
+* DatabaseConfig <br>
+Possui classes responsáveis pela persistência dos dados coletados na camada Webscrapper, por criar a conexão com um banco de dados Mongo e escrever nele.
 
 #### 5.2.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
@@ -235,9 +241,12 @@ O MWScanner possui dois pacotes:
 
 A API é composta por três pacotes:
 
-* Models: classes que representam os dados em forma de esquemas, para disponibilizar funções de acesso ao banco de dados por meio do pacote externo Mongoose.
-* Controller: classes que representam a lógica principal da API, os endpoints da API são gerenciados por Controllers.
-* Algorithm: abriga as classes que são relacionadas ao algoritmo de geração de grades horárias. Possui um sub-pacote que contém Restrictions, objetos usados pelo algoritmo.
+* Models <br> 
+Classes que representam os dados em forma de esquemas, para disponibilizar funções de acesso ao banco de dados por meio do pacote externo Mongoose.
+* Controller <br>
+Classes que representam a lógica principal da API, os endpoints da API são gerenciados por Controllers.
+* Algorithm <br>
+Abriga as classes que são relacionadas ao algoritmo de geração de grades horárias. Possui um sub-pacote que contém Restrictions, objetos usados pelo algoritmo.
 
 #### 5.3.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
@@ -277,8 +286,6 @@ Servidor onde está o MWScanner, script que faz a coleta de dados do Matrícula 
 
 Site da Universidade de Brasília, onde os estudantes fazem suas matrículas e site no qual o MWScanner coleta os dados de cursos, matérias, turmas e professores.
 
-Site da Universidade de Brasília, onde os estudantes fazem suas matrículas e site no qual o MWScanner coleta os dados de cursos, matérias, turmas e professores.
-
 ## 8. Visão da Implementação
 
 ### 8.1 Visão Geral
@@ -293,35 +300,35 @@ O MWScanner possui duas camadas e atua como Cliente do Estilo Arquitetural Clien
 
 #### 8.2.1 Aplicativo
 
-* Model
+* Model <br>
 A aplicação do Unigrade possui a camada Model para representação dos dados que são persistidos.
 
-* View
+* View <br>
 A camada View, onde fica as classes que ficam responsáveis pela interface entre a aplicação e o usuário.
 
-* Controller
+* Controller <br>
 A Controller, é a camada responsável pela comunicação entre a View e a Model, ou seja a controller leva os dados para o usuário
 
-* DAO
+* DAO <br>
 A DAO é responsável pelos acessos ao banco de dados SQLite da aplicação, é a camada em que possui todo código SQL, que cria o banco de dados e possui os métodos de acesso das tabelas.
 
 #### 8.2.2 API
 
-* Model
+* Model <br>
 A camada da Model na API é responsável pela representação do esquema dos dados armazenados, disponibilizando funcionalidades de acesso ao banco de dados.
 
-* Controller
+* Controller <br>
 Na API a camada controller processa os dados para serem apresentados para seus clientes nos endpoints disponíveis na API, sejam eles uma aplicação cliente e o próprio aplicativo Unigade.
 
-* Algorithm
+* Algorithm <br>
 A camada de Algorithm abriga algoritmos para a geração de grades horárias e os objetos necessários para a execução destes algoritmos. Há um algoritmo ambicioso, um algoritmo genético evolutivo (e suas restrições).
 
 #### 8.2.3 MWScanner
 
-* WebScraper
+* WebScraper <br>
 A camada de extração dos dados, acessa as páginas do Matrícula Web que possuem dados necessários para a aplicação, extrai o código HTML e filtra os dados necessários para serem salvos.
 
-* DatabaseConfig004	
+* DatabaseConfig <br>
 Faz a conexão com o banco de dados MongoDB hospedado no Atlas, captura e salva os dados extraídos pela camada de extração em collections no MongoDB Atlas.
 
 ## 9. Visão de Dados
@@ -331,27 +338,27 @@ Faz a conexão com o banco de dados MongoDB hospedado no Atlas, captura e salva 
 No banco de dados MongoDB são armazenados pelo MWSCanner os dados de todo os cursos, habilitações, departamentos, disciplinas e turmas, da UnB.
 Para armazenar estes dados a Database mwscanner possui 5 Collections:
 
-* courses (cursos)
+* courses (cursos) <br>
 Armazena o código do curso, código do campus que ele pertence, nome, turno, modalidade e as habilitações que ele possui.
 
 ![courses](img/courses.png)
 
-* habilitations (habilitações)
+* habilitations (habilitações) <br>
 Armazena o código da habilitação, nome e as disciplinas por cada período da habilitação.
 
 ![hab](img/habilitations.png)
 
-* departments (departamentos)
+* departments (departamentos) <br>
 Armazena o código do campus em que ele pertence, código do departamento, nome, iniciais e disciplinas que ele possui.
 
 ![dep](img/departments.png)
 
-* disciplines (disciplinas)
+* disciplines (disciplinas) <br>
 Armazena o nome da Disciplina, código da disciplina, código do departamento em que a disciplina pertence, as turmas que ela possui, os pré-requisitos e os créditos.
 
 ![disc](img/disciplines.png)
 
-* classes (turmas)
+* classes (turmas) <br>
 Armazena o nome da Turma, número de vagas, código da disciplina a que a turma pertence, os encontros (dias, horários e local), turno, professor(es) e o código do campus a que a disciplina pertence.
 
 ![classes](img/classes.png)
