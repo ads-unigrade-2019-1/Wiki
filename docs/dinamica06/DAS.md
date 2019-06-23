@@ -46,24 +46,23 @@
 [5.3.1 Visão Geral](#531-visao-geral) <br>
 [5.3.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura](#532-pacotes-de-design-significativos-do-ponto-de-vista-da-arquitetura) <br>
 [5.4 Realizações de Casos de Uso](#54-realizacoes-de-casos-de-uso) <br>
-[6. Visão de Processos](#6-visao-de-processos) <br>
-[7. Visualização da Implementação](#7-visualizacao-da-implementacao) <br>
-[7.1 Servidor MongoDB Atlas](#71-servidor-mongodb-atlas) <br>
-[7.2 Servidor da API (Heroku)](#72-servidor-da-api-heroku) <br>
-[7.3 Dispositivo Móvel](#73-dispositivo-movel) <br>
-[7.4 Servidor do Gitlab CI](#74-servidor-do-gitlab-ci) <br>
-[7.5 Matrícula Web](#75-matricula-web) <br>
-[8. Visão da Implementação](#8-visao-da-implementacao) <br>
-[8.1 Visão Geral](#81-visao-geral) <br>
-[8.2 Camadas](#82-camadas) <br>
-[8.2.1 Aplicativo](#821-aplicativo) <br>
-[8.2.2 API](#822-api) <br>
-[8.2.3 MWScanner](#823-mwscanner) <br>
-[9. Visão de Dados](#9-visao-de-dados) <br>
-[9.1 MongoDB](#91-mongodb) <br>
-[9.2 App](#92-app) <br>
-[10. Tamanho e Desempenho](#10-tamanho-e-desempenho) <br>
-[11. Qualidade](#11-qualidade) <br>
+[6. Visualização da Implementação](#6-visualizacao-da-implementacao) <br>
+[6.1 Servidor MongoDB Atlas](#61-servidor-mongodb-atlas) <br>
+[6.2 Servidor da API (Heroku)](#62-servidor-da-api-heroku) <br>
+[6.3 Dispositivo Móvel](#63-dispositivo-movel) <br>
+[6.4 Servidor do Gitlab CI](#64-servidor-do-gitlab-ci) <br>
+[6.5 Matrícula Web](#65-matricula-web) <br>
+[7. Visão da Implementação](#7-visao-da-implementacao) <br>
+[7.1 Visão Geral](#71-visao-geral) <br>
+[7.2 Camadas](#72-camadas) <br>
+[7.2.1 Aplicativo](#721-aplicativo) <br>
+[7.2.2 API](#722-api) <br>
+[7.2.3 MWScanner](#723-mwscanner) <br>
+[8. Visão de Dados](#8-visao-de-dados) <br>
+[8.1 MongoDB](#81-mongodb) <br>
+[8.2 App](#82-app) <br>
+[9. Tamanho e Desempenho](#9-tamanho-e-desempenho) <br>
+[10. Qualidade](#10-qualidade) <br>
 
 ## 1. Introdução
 
@@ -258,37 +257,35 @@ Abriga as classes que são relacionadas ao algoritmo de geração de grades hor�
 
 ![realizacaouc](img/realizacaouc.png)
 
-## 6. Visão de Processos
-
-## 7. Visualização da Implementação
+## 6. Visualização da Implementação
 
 O diagrama de implementação a seguir, representa os nós físicos do sistema e a maneira como eles se comunicam.
 
 ![implementacao](img/implementacao.png)
 
-### 7.1 Servidor MongoDB Atlas
+### 6.1 Servidor MongoDB Atlas
 
 Servidor do MongoDB Atlas é onde está armazenado o banco de dados contendo todas as informações utilizadas pelo sistema.  
 
-### 7.2 Servidor da API (Heroku)
+### 6.2 Servidor da API (Heroku)
 
 Servidor da API é onde está o backend (API) que faz todo o envio de informações, seguindo o padrão REST, para o aplicativo do Unigrade instalado em um dispositivo Android.
 
-### 7.3 Dispositivo Móvel
+### 6.3 Dispositivo Móvel
 
 É o dispositivo Android em que o aplicativo de unigrade será instalado.
 
-### 7.4 Servidor do Gitlab CI
+### 6.4 Servidor do Gitlab CI
 
 Servidor onde está o MWScanner, script que faz a coleta de dados do Matrícula Web e armazena no banco de dados.
 
-### 7.5 Matrícula Web
+### 6.5 Matrícula Web
 
 Site da Universidade de Brasília, onde os estudantes fazem suas matrículas e site no qual o MWScanner coleta os dados de cursos, matérias, turmas e professores.
 
-## 8. Visão da Implementação
+## 7. Visão da Implementação
 
-### 8.1 Visão Geral
+### 7.1 Visão Geral
 
 O estilo arquitetural de quatro camadas seguido no aplicativo Android do Unigrade, é um padrão MVC com DAO, o sistema foi dividido nas camadas: Model, View, Controller e DAO.
 
@@ -296,9 +293,9 @@ A API, feita em NodeJS, está usando um padrão arquitetural composto de três c
 
 O MWScanner possui duas camadas e atua como Cliente do Estilo Arquitetural Cliente-Servidor, fazendo requisições ao Servidor Matrícula Web para extrair o código HTML e filtrar os dados necessários para a aplicação.
 
-### 8.2 Camadas
+### 7.2 Camadas
 
-#### 8.2.1 Aplicativo
+#### 7.2.1 Aplicativo
 
 * Model <br>
 A aplicação do Unigrade possui a camada Model para representação dos dados que são persistidos.
@@ -312,7 +309,7 @@ A Controller, é a camada responsável pela comunicação entre a View e a Model
 * DAO <br>
 A DAO é responsável pelos acessos ao banco de dados SQLite da aplicação, é a camada em que possui todo código SQL, que cria o banco de dados e possui os métodos de acesso das tabelas.
 
-#### 8.2.2 API
+#### 7.2.2 API
 
 * Model <br>
 A camada da Model na API é responsável pela representação do esquema dos dados armazenados, disponibilizando funcionalidades de acesso ao banco de dados.
@@ -323,7 +320,7 @@ Na API a camada controller processa os dados para serem apresentados para seus c
 * Algorithm <br>
 A camada de Algorithm abriga algoritmos para a geração de grades horárias e os objetos necessários para a execução destes algoritmos. Há um algoritmo ambicioso, um algoritmo genético evolutivo (e suas restrições).
 
-#### 8.2.3 MWScanner
+#### 7.2.3 MWScanner
 
 * WebScraper <br>
 A camada de extração dos dados, acessa as páginas do Matrícula Web que possuem dados necessários para a aplicação, extrai o código HTML e filtra os dados necessários para serem salvos.
@@ -331,9 +328,9 @@ A camada de extração dos dados, acessa as páginas do Matrícula Web que possu
 * DatabaseConfig <br>
 Faz a conexão com o banco de dados MongoDB hospedado no Atlas, captura e salva os dados extraídos pela camada de extração em collections no MongoDB Atlas.
 
-## 9. Visão de Dados
+## 8. Visão de Dados
 
-### 9.1 MongoDB
+### 8.1 MongoDB
 
 No banco de dados MongoDB são armazenados pelo MWSCanner os dados de todo os cursos, habilitações, departamentos, disciplinas e turmas, da UnB.
 Para armazenar estes dados a Database mwscanner possui 5 Collections:
@@ -363,19 +360,19 @@ Armazena o nome da Turma, número de vagas, código da disciplina a que a turma 
 
 ![classes](img/classes.png)
 
-### 9.2 App
+### 8.2 App
 
 Na aplicação é utilizado um banco de dados SQLite para persistir os dados das disciplinas e turmas adicionadas pelo usuário
 
 ![bancoapp](img/bancodedadosapp.png)
 
-## 10. Tamanho e Desempenho
+## 9. Tamanho e Desempenho
 
 O Aplicativo do Unigrade possui tamanho em disco de 6.40MB é desenvolvido para a plataforma móvel Android, entretanto o sistema foi construído visando o desempenho do aparelho em que será instalado.
 
 A API não tem espaço físico quando é instalado como o aplicativo, a API não é instalada, e representada por um servidor rodando em nuvem, respondendo as requisições, e tal sistema foi construído com foco na otimização da resposta das requisições, por conta dos dados a serem processados, se não houver certo cuidado, pode demorar a responder o aplicativo.
 
-## 11. Qualidade
+## 10. Qualidade
 
 A arquitetura utilizada contribui para com o software em diversos aspectos. Os padrões arquiteturais das nossas principais frentes do sistema (API e APP) contribuem para a extensibilidade da aplicação, pois possuem componentes com características bem definidas e que podem ser facilmente substituídos por outros de sua própria implementação.
 Essa característica da clara separação de conceitos do MVC trás diversos outros benefícios para a aplicação em geral, como confiabilidade, segurança e manutenabilidade.
