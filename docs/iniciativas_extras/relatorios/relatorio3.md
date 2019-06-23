@@ -1,5 +1,5 @@
 **Data:**
-01 de Abril de 2019
+08 de Abril de 2019
 
 **Hora:**
 13:00
@@ -13,50 +13,27 @@ FGA - Sala I1
 
 | Versão | Data | Descrição | Nome |
 | -- | -- | -- | -- |
-| 1.0 | 02/04/2019 | Abertura do Documento | Gabriela Medeiros|
+| 1.0 | 14/06/2019 | Abertura do Documento | Guilherme Aguiar|
 
 # Pauta da Reunião
 
-* Tarefas da primeira sprint
-* Formação dos grupos
-* Documento de planejamento do projeto
+* 2 _Issues_ da semana 
+  * 2.1. APP e WebScrapper: Modelos estáticos
+  * 2.2. Banco: Conectar ao banco de dados
 
-# Atividades da Primeira Sprint
-As atividades planejadas para a primeira sprint foram:
-  - Fazer protótipo de alta fidelidade
-  - Preparar o ambiente de desenvolvimento do projeto
-  - Artefatos da Dinâmica 3 (BPMN e tabela de planejamento geral)
-  - Melhorar BPMN criado na sala
-  - Preparar texto sobre BPMN para Wiki
 
-# Formação de Grupos (1ª Sprint)
 
-## Grupo 1
-- **Integrantes**: Gabriela Medeiros, Geovana Ramos,  e Rafael Bragança
-- **Tarefas**: 
-    - Gerar protótipo de alta fidelidade
+# 2. _Issues_ da semana
 
-## Grupo 2
-- **Integrantes**: Guilherme Aguiar e Guilherme Deusdará
-- **Tarefas**: 
-    - Otimizar BPMN
-    - Criar introdução de planejamento na wiki
-    - Organizar Wiki
+## 2.1. APP e WebScrapper: Modelos estáticos
 
-## Grupo 3
-- **Integrantes**: Guilherme Guy, Daniel Maike e Joberth Rogers
-- **Tarefas**: 
-    - Iniciar ambiente de produção
-    - Desenvolver extração de matérias, turmas e horários
-    - Desenvolver extração de cursos
-    - Exportar dados em formato compatível com o banco de dados
-    - Implementar a automatização de coleta e deploy dos dados para a API
+* Participantes: Geovana Ramos, Guilherme Aguiar, Gabriela Medeiros, Rafael Bragança, Guilherme Guy, Joberth Rogers, Daniel Mike
+* Área de Atuação: APP e WebScrapper
+* Descrição: Criar um modelo UML relacionado a arquitetura prevista para o aplicativo e webscrapper
 
-## Grupo 4
-- **Integrantes**: Gabriel Carvalho e Ezequiel de Oliveira
-- **Tarefas**: 
-    - Modelar o banco de dados
 
-# Documentação de Planejamento
-O planejamento será documento através de uma planilha que descreve todas as atividades que serão desenvolvidas durante o projeto, além de seus respectivos custos em hora de trabalho.
-Essa planilha será *linkada* / citada no BPMN geral do projeto.
+## 2.2. Banco: Conectar ao banco de dados
+* Participantes: Gabriel de Jesus, Guilherme Deusdará e Ezequiel Oliveira
+* Área de atuação: Banco de dados
+* Descrição: Criar caminhos para conexão com banco de dados do Mongo. Isso pode ser feito para conectar a um banco local (já que o ambiente remoto ainda não foi criado), entretanto a conexão deve ser feita de forma a poder substituir a conexão local por uma remota. Sugiro a utilização de variáveis de ambiente por causa das plataformas que provavelmente serão utilizadas (Travis e Heroku) -- acho que as variáveis são $DATABASE e $DATABASE_URL.
+
