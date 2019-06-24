@@ -33,7 +33,8 @@ Além dos atributos necessários para a compreensão do software, também será 
 * **FGA :** Faculdade do Gama - Campus da Universidade de Brasília localizado no Gama.
 
 ### 1.4 Referências
-IBM Knowledge Center - Documento de Visão: A estrutura de tópicos do documento de visão. Disponível em: https://www.ibm.com/support/knowledgecenter/en/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html.  Acesso em 6 de jun. de 2019;
+
+* IBM Knowledge Center - Documento de Visão: A estrutura de tópicos do documento de visão. Disponível em: <https://www.ibm.com/support/knowledgecenter/en/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html>  Acesso em 6 de jun. de 2019;
 
 
 ### 1.5 Visão Geral
