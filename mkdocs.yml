@@ -43,7 +43,7 @@ nav:
         - Padrões Emergentes - WebScraper: dinamica05B/webscraper.md
     - Dinâmica e Seminário VI:
         - Documento de Arquitetura: dinamica06/DAS.md
-        - Architecture description language: dinamica06/ADL.md 
+        - Architecture Description Language: dinamica06/ADL.md 
     - Iniciativas Extras:
         - Relatórios das Reuniões:
             - Relatório I: iniciativas_extras/relatorios/relatorio1.md
@@ -54,10 +54,10 @@ nav:
             - Relatório VI: iniciativas_extras/relatorios/relatorio6.md
             - Relatório VII: iniciativas_extras/relatorios/relatorio7.md
             - Relatório VIII: iniciativas_extras/relatorios/relatorio8.md
-            - Relatório IV: iniciativas_extras/relatorios/relatorio9.md
-            - Relatório XI: iniciativas_extras/relatorios/relatorio11.md
+            - Relatório IX: iniciativas_extras/relatorios/relatorio9.md
+            - Relatório X: iniciativas_extras/relatorios/relatorio11.md
+        - SADT: iniciativas_extras/sadt.md
         - NFR: iniciativas_extras/nfr.md
         - I*: iniciativas_extras/istar.md
-        - SADT: iniciativas_extras/sadt.md
-        - Documento de Visão: iniciativas_extras/sadt.md
+        - Documento de Visão: iniciativas_extras/doc_visao.md
         - Swagger: https://ads-unigrade-2019-1.github.io/API/
