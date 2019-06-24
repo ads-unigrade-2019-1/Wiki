@@ -1121,8 +1121,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../ADL/" title="Architecture description language" class="md-nav__link">
-      Architecture description language
+    <a href="../ADL/" title="Architecture Description Language" class="md-nav__link">
+      Architecture Description Language
     </a>
   </li>
 
@@ -1272,8 +1272,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../iniciativas_extras/relatorios/relatorio9/" title="Relatório IV" class="md-nav__link">
-      Relatório IV
+    <a href="../../iniciativas_extras/relatorios/relatorio9/" title="Relatório IX" class="md-nav__link">
+      Relatório IX
     </a>
   </li>
 
@@ -1284,14 +1284,26 @@
 
 
   <li class="md-nav__item">
-    <a href="../../iniciativas_extras/relatorios/relatorio11/" title="Relatório XI" class="md-nav__link">
-      Relatório XI
+    <a href="../../iniciativas_extras/relatorios/relatorio11/" title="Relatório X" class="md-nav__link">
+      Relatório X
     </a>
   </li>
 
         
       </ul>
     </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../iniciativas_extras/sadt/" title="SADT" class="md-nav__link">
+      SADT
+    </a>
   </li>
 
         
@@ -1325,19 +1337,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../iniciativas_extras/sadt/" title="SADT" class="md-nav__link">
-      SADT
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../iniciativas_extras/sadt/" title="Documento de Visão" class="md-nav__link">
+    <a href="../../iniciativas_extras/doc_visao/" title="Documento de Visão" class="md-nav__link">
       Documento de Visão
     </a>
   </li>
@@ -1880,6 +1880,12 @@
 <td align="center">Correção no tópico de Visão de Implementação</td>
 <td align="center">Daniel Maike, Guilherme Guy</td>
 </tr>
+<tr>
+<td align="center">24/06/2019</td>
+<td align="center">1.0.0</td>
+<td align="center">Adição das versões dos diagramas e dos programas utilizados no desenvolvimento</td>
+<td align="center">Daniel Maike, Guilherme Guy</td>
+</tr>
 </tbody>
 </table>
 <h2 id="sumario">Sumário</h2>
@@ -1955,9 +1961,11 @@ O Unigrade tem como finalidade:</p>
 </ul>
 <h3 id="14-referencias">1.4 Referências</h3>
 <p>As referências aplicáveis são:</p>
-<p><em><a href="https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Introduction">https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Introduction</a>
-</em><a href="https://www.cin.ufpe.br/~gta/rup-vc/extend.formal_resources/guidances/examples/resources/sadoc_v1.htm">https://www.cin.ufpe.br/~gta/rup-vc/extend.formal_resources/guidances/examples/resources/sadoc_v1.htm</a>
-*<a href="https://www.cin.ufpe.br/~gta/rup-vc/core.informal_resources/guidances/examples/resources/ex_sad.htm">https://www.cin.ufpe.br/~gta/rup-vc/core.informal_resources/guidances/examples/resources/ex_sad.htm</a></p>
+<ul>
+<li><a href="https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Introduction">https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Introduction</a> <br></li>
+<li><a href="https://www.cin.ufpe.br/~gta/rup-vc/extend.formal_resources/guidances/examples/resources/sadoc_v1.htm">https://www.cin.ufpe.br/~gta/rup-vc/extend.formal_resources/guidances/examples/resources/sadoc_v1.htm</a> <br></li>
+<li><a href="https://www.cin.ufpe.br/~gta/rup-vc/core.informal_resources/guidances/examples/resources/ex_sad.htm">https://www.cin.ufpe.br/~gta/rup-vc/core.informal_resources/guidances/examples/resources/ex_sad.htm</a> <br></li>
+</ul>
 <h3 id="15-visao-geral">1.5 Visão Geral</h3>
 <p>Este documento visa detalhar as soluções arquiteturais desenvolvidas no sistema. Deste modo, neste documento serão abordados os seguintes aspectos:</p>
 <ul>
@@ -1979,7 +1987,8 @@ O Unigrade tem como finalidade:</p>
 <li>API NodeJS, recupera os dados do banco de dados e os apresenta no APP por meio de requisições, além de recuperar os dados, é responsável pela montagem de grades horárias de acordo com as disciplinas adicionadas no App</li>
 <li>App Android em Java, apresenta os dados capturados por meio de requisições na API e manda as disciplinas adicionadas para que as grades horárias sejam montadas e recuperadas por meio de outra requisição para serem apresentadas</li>
 </ul>
-<p><img alt="diagramacontexto" src="../img/diagramadecontexto.png" /></p>
+<p>Versão 1.0 <br>
+<img alt="diagramacontexto" src="../img/diagramadecontexto.png" /></p>
 <p>Cada frente possui sua própria arquitetura interna.</p>
 <h3 id="21-mwscanner">2.1 MWScanner</h3>
 <p>O MWScanner possui duas camadas e a main:</p>
@@ -1995,22 +2004,24 @@ O Unigrade tem como finalidade:</p>
 </li>
 </ul>
 <p>O MWScanner funciona como um Cliente do Estilo Arquitetural Cliente-Servidor, através de requisições ele se comunica com o Servidor Matrícula Web para extrair o código HTML e filtrar os dados necessários.</p>
-<p><img alt="clienteservidor" src="../img/cliente-servidor.png" /></p>
+<p>Versão 1.0 <br>
+<img alt="clienteservidor" src="../img/cliente-servidor.png" /></p>
 <h3 id="22-api">2.2 API</h3>
 <p>A arquitetura da API baseada em um estilo arquitetural de camadas, possuindo três camadas, sendo uma API REST (Representational State Transfer). Há a camada Controller, que abriga o código responsável por executar os endpoints da API, a camada Model que proporciona esquemas para acesso aos objetos que estão no banco de dados e uma camada Algorithm para abrigar os algoritmos e suas dependências, utilizados para gerar grades horárias.
 REST é um estilo de arquitetura de software que define o conjunto de regras a serem usadas para criar serviços da Web. Ele permite que os sistemas solicitem acesso e manipulem recursos da Web usando um conjunto de regras uniformes e predefinidas. A interação em sistemas baseados em REST ocorre por meio do HTTP.</p>
 <h3 id="23-app">2.3 APP</h3>
 <p>O aplicativo possui um estilo arquitetural de 4 camadas, com uma arquitetura baseada no padrão MVC, voltada para funcionar em um sistema Android. Além das camadas de Model, View e Controller, existe uma camada DAO que é responsável pelo acesso ao banco de dados do aplicativo.</p>
-<p><img alt="mvc-dao" src="../img/mvc-dao.png" /></p>
+<p>Versão 1.0 <br>
+<img alt="mvc-dao" src="../img/mvc-dao.png" /></p>
 <h2 id="3-restricoes-e-metas-arquiteturais">3. Restrições e Metas Arquiteturais</h2>
 <p>Requisitos e restrições do sistema que influenciam na arquitetura:</p>
 <ul>
 <li>É necessária a conexão com internet para utilização do App;</li>
 <li>Nenhuma informação pessoal do usuário será armazenada;</li>
 <li>A aplicação terá suporte somente para Android;</li>
-<li>A IDE utilizada para o desenvolvimento do App é o Android Studio;</li>
-<li>Os dados extraídos do Matrícula Web serão armazenados no banco de dados MongoDB Atlas;</li>
-<li>Os dados de disciplinas adicionadas pelo usuário serão persistidas com um banco de dados local SQLite;</li>
+<li>A IDE utilizada para o desenvolvimento do App é o Android Studio versão 3.4.1;</li>
+<li>Os dados extraídos do Matrícula Web serão armazenados no banco de dados MongoDB versão 4.0.10, hospedado no Atlas;</li>
+<li>Os dados de disciplinas adicionadas pelo usuário serão persistidas com um banco de dados local SQLite, importado no Android SDK 28, build-tools 28.0.3;</li>
 <li>A equipe possui 9 integrantes;</li>
 <li>A aplicação deve ser terminada até o final da disciplina de DSW.</li>
 </ul>
@@ -2035,7 +2046,8 @@ REST é um estilo de arquitetura de software que define o conjunto de regras a s
 </tbody>
 </table>
 <h2 id="42-diagrama-uc">4.2 Diagrama UC</h2>
-<p><img alt="uc" src="../img/casodeusogeral.png" /></p>
+<p>Versão 1.0 <br>
+<img alt="uc" src="../img/casodeusogeral.png" /></p>
 <h3 id="43-descricao-dos-casos-de-uso">4.3 Descrição dos Casos de Uso</h3>
 <table>
 <thead>
@@ -2106,7 +2118,8 @@ Classes que fazem representação dos dados que o aplicativo deve persistir loca
 Camada responsável por conter classes que acessam e manipulam dados, seja para concretizar chamadas a API, ou escrever Models no banco de dados local.</li>
 </ul>
 <h4 id="512-pacotes-de-design-significativos-do-ponto-de-vista-da-arquitetura">5.1.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura</h4>
-<p><img alt="apptypeh" src="../img/typehierarchyapp.jpg" /></p>
+<p>Versão 1.0 <br>
+<img alt="apptypeh" src="../img/typehierarchyapp.jpg" /></p>
 <h3 id="52-mwscanner">5.2 MWScanner</h3>
 <h4 id="521-visao-geral">5.2.1 Visão geral</h4>
 <p>O MWScanner possui dois pacotes:</p>
@@ -2117,7 +2130,8 @@ Possui classes responsáveis extração, limpeza e manipulação dados obtidos d
 Possui classes responsáveis pela persistência dos dados coletados na camada Webscrapper, por criar a conexão com um banco de dados Mongo e escrever nele.</li>
 </ul>
 <h4 id="522-pacotes-de-design-significativos-do-ponto-de-vista-da-arquitetura">5.2.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura</h4>
-<p><img alt="classesmwscanner" src="../img/classesmwscanner.png" /></p>
+<p>Versão 1.0 <br>
+<img alt="classesmwscanner" src="../img/classesmwscanner.png" /></p>
 <h3 id="53-api">5.3 API</h3>
 <h4 id="531-visao-geral">5.3.1 Visão geral</h4>
 <p>A API é composta por três pacotes:</p>
@@ -2130,15 +2144,19 @@ Classes que representam a lógica principal da API, os endpoints da API são ger
 Abriga as classes que são relacionadas ao algoritmo de geração de grades horárias. Possui um sub-pacote que contém Restrictions, objetos usados pelo algoritmo.</li>
 </ul>
 <h4 id="532-pacotes-de-design-significativos-do-ponto-de-vista-da-arquitetura">5.3.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura</h4>
-<p><img alt="typehapi" src="../img/typehierarchyapi.jpg" /></p>
-<p><img alt="classapi" src="../img/apiclasses.jpg" /></p>
+<p>Versão 1.0 <br>
+<img alt="typehapi" src="../img/typehierarchyapi.jpg" /></p>
+<p>Versão 1.0 <br>
+<img alt="classapi" src="../img/apiclasses.jpg" /></p>
 <h3 id="54-realizacoes-de-casos-de-uso">5.4 Realizações de Casos de Uso</h3>
-<p><img alt="realizacaouc" src="../img/realizacaouc.png" /></p>
+<p>Versão 1.0 <br>
+<img alt="realizacaouc" src="../img/realizacaouc.png" /></p>
 <h2 id="6-visualizacao-da-implementacao">6. Visualização da Implementação</h2>
 <p>O diagrama de implementação a seguir, representa os nós físicos do sistema e a maneira como eles se comunicam.</p>
-<p><img alt="implementacao" src="../img/implementacao.png" /></p>
+<p>Versão 1.0 <br>
+<img alt="implementacao" src="../img/implementacao.png" /></p>
 <h3 id="61-servidor-mongodb-atlas">6.1 Servidor MongoDB Atlas</h3>
-<p>Servidor do MongoDB Atlas é onde está armazenado o banco de dados contendo todas as informações utilizadas pelo sistema.  </p>
+<p>Servidor do MongoDB Atlas é onde está armazenado o banco de dados contendo todas as informações utilizadas pelo sistema.</p>
 <h3 id="62-servidor-da-api-heroku">6.2 Servidor da API (Heroku)</h3>
 <p>Servidor da API é onde está o backend (API) que faz todo o envio de informações, seguindo o padrão REST, para o aplicativo do Unigrade instalado em um dispositivo Android.</p>
 <h3 id="63-dispositivo-movel">6.3 Dispositivo Móvel</h3>
@@ -2206,30 +2224,36 @@ Para armazenar estes dados a Database mwscanner possui 5 Collections:</p>
 <li>courses (cursos) <br>
 Armazena o código do curso, código do campus que ele pertence, nome, turno, modalidade e as habilitações que ele possui.</li>
 </ul>
-<p><img alt="courses" src="../img/courses.png" /></p>
+<p>Versão 1.0 <br>
+<img alt="courses" src="../img/courses.png" /></p>
 <ul>
 <li>habilitations (habilitações) <br>
 Armazena o código da habilitação, nome e as disciplinas por cada período da habilitação.</li>
 </ul>
-<p><img alt="hab" src="../img/habilitations.png" /></p>
+<p>Versão 1.0 <br>
+<img alt="hab" src="../img/habilitations.png" /></p>
 <ul>
 <li>departments (departamentos) <br>
 Armazena o código do campus em que ele pertence, código do departamento, nome, iniciais e disciplinas que ele possui.</li>
 </ul>
-<p><img alt="dep" src="../img/departments.png" /></p>
+<p>Versão 1.0 <br>
+<img alt="dep" src="../img/departments.png" /></p>
 <ul>
 <li>disciplines (disciplinas) <br>
 Armazena o nome da Disciplina, código da disciplina, código do departamento em que a disciplina pertence, as turmas que ela possui, os pré-requisitos e os créditos.</li>
 </ul>
-<p><img alt="disc" src="../img/disciplines.png" /></p>
+<p>Versão 1.0 <br>
+<img alt="disc" src="../img/disciplines.png" /></p>
 <ul>
 <li>classes (turmas) <br>
 Armazena o nome da Turma, número de vagas, código da disciplina a que a turma pertence, os encontros (dias, horários e local), turno, professor(es) e o código do campus a que a disciplina pertence.</li>
 </ul>
-<p><img alt="classes" src="../img/classes.png" /></p>
+<p>Versão 1.0 <br>
+<img alt="classes" src="../img/classes.png" /></p>
 <h3 id="82-app">8.2 App</h3>
 <p>Na aplicação é utilizado um banco de dados SQLite para persistir os dados das disciplinas e turmas adicionadas pelo usuário</p>
-<p><img alt="bancoapp" src="../img/bancodedadosapp.png" /></p>
+<p>Versão 1.0 <br>
+<img alt="bancoapp" src="../img/bancodedadosapp.png" /></p>
 <h2 id="9-tamanho-e-desempenho">9. Tamanho e Desempenho</h2>
 <p>O Aplicativo do Unigrade possui tamanho em disco de 6.40MB é desenvolvido para a plataforma móvel Android, entretanto o sistema foi construído visando o desempenho do aparelho em que será instalado.</p>
 <p>A API não tem espaço físico quando é instalado como o aplicativo, a API não é instalada, e representada por um servidor rodando em nuvem, respondendo as requisições, e tal sistema foi construído com foco na otimização da resposta das requisições, por conta dos dados a serem processados, se não houver certo cuidado, pode demorar a responder o aplicativo.</p>
@@ -2271,13 +2295,13 @@ Essa característica da clara separação de conceitos do MVC trás diversos out
           </a>
         
         
-          <a href="../ADL/" title="Architecture description language" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../ADL/" title="Architecture Description Language" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Próximo
                 </span>
-                Architecture description language
+                Architecture Description Language
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
