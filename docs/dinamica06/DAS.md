@@ -18,6 +18,7 @@
 | 16/06/2019 | 0.12 | Adição do tópico Tamanho e Desempenho | Ezequiel De Oliveira Dos Reis |
 | 18/06/2019 | 0.13 | Correção no tópico de Representação Arquitetural | Daniel Maike, Guilherme Guy |
 | 18/06/2019 | 0.14 | Correção no tópico de Visão de Implementação | Daniel Maike, Guilherme Guy |
+| 24/06/2019 | 1.0.0 | Adição das versões dos diagramas e dos programas utilizados no desenvolvimento | Daniel Maike, Guilherme Guy |
 
 ## Sumário
 
@@ -101,9 +102,9 @@ As Definições, Acrônimos e Abreviações para entendimento do documento são:
 
 As referências aplicáveis são:
 
-*<https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Introduction>
-*<https://www.cin.ufpe.br/~gta/rup-vc/extend.formal_resources/guidances/examples/resources/sadoc_v1.htm>
-*<https://www.cin.ufpe.br/~gta/rup-vc/core.informal_resources/guidances/examples/resources/ex_sad.htm>
+* <https://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm#1.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Introduction> <br>
+* <https://www.cin.ufpe.br/~gta/rup-vc/extend.formal_resources/guidances/examples/resources/sadoc_v1.htm> <br>
+* <https://www.cin.ufpe.br/~gta/rup-vc/core.informal_resources/guidances/examples/resources/ex_sad.htm> <br>
 
 ### 1.5 Visão Geral
 
@@ -128,6 +129,7 @@ O sistema é composto de três frentes e um banco de dados:
 * API NodeJS, recupera os dados do banco de dados e os apresenta no APP por meio de requisições, além de recuperar os dados, é responsável pela montagem de grades horárias de acordo com as disciplinas adicionadas no App
 * App Android em Java, apresenta os dados capturados por meio de requisições na API e manda as disciplinas adicionadas para que as grades horárias sejam montadas e recuperadas por meio de outra requisição para serem apresentadas
 
+Versão 1.0 <br>
 ![diagramacontexto](img/diagramadecontexto.png)
 
 Cada frente possui sua própria arquitetura interna.
@@ -144,6 +146,7 @@ O MWScanner possui duas camadas e a main:
 
 O MWScanner funciona como um Cliente do Estilo Arquitetural Cliente-Servidor, através de requisições ele se comunica com o Servidor Matrícula Web para extrair o código HTML e filtrar os dados necessários.
 
+Versão 1.0 <br>
 ![clienteservidor](img/cliente-servidor.png)
 
 ### 2.2 API
@@ -155,6 +158,7 @@ REST é um estilo de arquitetura de software que define o conjunto de regras a s
 
 O aplicativo possui um estilo arquitetural de 4 camadas, com uma arquitetura baseada no padrão MVC, voltada para funcionar em um sistema Android. Além das camadas de Model, View e Controller, existe uma camada DAO que é responsável pelo acesso ao banco de dados do aplicativo.
 
+Versão 1.0 <br>
 ![mvc-dao](img/mvc-dao.png)
 
 ## 3. Restrições e Metas Arquiteturais
@@ -164,9 +168,9 @@ Requisitos e restrições do sistema que influenciam na arquitetura:
 * É necessária a conexão com internet para utilização do App;
 * Nenhuma informação pessoal do usuário será armazenada;
 * A aplicação terá suporte somente para Android;
-* A IDE utilizada para o desenvolvimento do App é o Android Studio;
-* Os dados extraídos do Matrícula Web serão armazenados no banco de dados MongoDB Atlas;
-* Os dados de disciplinas adicionadas pelo usuário serão persistidas com um banco de dados local SQLite;
+* A IDE utilizada para o desenvolvimento do App é o Android Studio versão 3.4.1;
+* Os dados extraídos do Matrícula Web serão armazenados no banco de dados MongoDB versão 4.0.10, hospedado no Atlas;
+* Os dados de disciplinas adicionadas pelo usuário serão persistidas com um banco de dados local SQLite, importado no Android SDK 28, build-tools 28.0.3;
 * A equipe possui 9 integrantes;
 * A aplicação deve ser terminada até o final da disciplina de DSW.
 
@@ -181,6 +185,7 @@ Requisitos e restrições do sistema que influenciam na arquitetura:
 
 ## 4.2 Diagrama UC
 
+Versão 1.0 <br>
 ![uc](img/casodeusogeral.png)
 
 ### 4.3 Descrição dos Casos de Uso
@@ -218,6 +223,7 @@ Camada responsável por conter classes que acessam e manipulam dados, seja para 
 
 #### 5.1.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
+Versão 1.0 <br>
 ![apptypeh](img/typehierarchyapp.jpg)
 
 ### 5.2 MWScanner
@@ -233,6 +239,7 @@ Possui classes responsáveis pela persistência dos dados coletados na camada We
 
 #### 5.2.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
+Versão 1.0 <br>
 ![classesmwscanner](img/classesmwscanner.png)
 
 ### 5.3 API
@@ -250,23 +257,27 @@ Abriga as classes que são relacionadas ao algoritmo de geração de grades hor�
 
 #### 5.3.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
+Versão 1.0 <br>
 ![typehapi](img/typehierarchyapi.jpg)
 
+Versão 1.0 <br>
 ![classapi](img/apiclasses.jpg)
 
 ### 5.4 Realizações de Casos de Uso
 
+Versão 1.0 <br>
 ![realizacaouc](img/realizacaouc.png)
 
 ## 6. Visualização da Implementação
 
 O diagrama de implementação a seguir, representa os nós físicos do sistema e a maneira como eles se comunicam.
 
+Versão 1.0 <br>
 ![implementacao](img/implementacao.png)
 
 ### 6.1 Servidor MongoDB Atlas
 
-Servidor do MongoDB Atlas é onde está armazenado o banco de dados contendo todas as informações utilizadas pelo sistema.  
+Servidor do MongoDB Atlas é onde está armazenado o banco de dados contendo todas as informações utilizadas pelo sistema.
 
 ### 6.2 Servidor da API (Heroku)
 
@@ -339,32 +350,38 @@ Para armazenar estes dados a Database mwscanner possui 5 Collections:
 * courses (cursos) <br>
 Armazena o código do curso, código do campus que ele pertence, nome, turno, modalidade e as habilitações que ele possui.
 
+Versão 1.0 <br>
 ![courses](img/courses.png)
 
 * habilitations (habilitações) <br>
 Armazena o código da habilitação, nome e as disciplinas por cada período da habilitação.
 
+Versão 1.0 <br>
 ![hab](img/habilitations.png)
 
 * departments (departamentos) <br>
 Armazena o código do campus em que ele pertence, código do departamento, nome, iniciais e disciplinas que ele possui.
 
+Versão 1.0 <br>
 ![dep](img/departments.png)
 
 * disciplines (disciplinas) <br>
 Armazena o nome da Disciplina, código da disciplina, código do departamento em que a disciplina pertence, as turmas que ela possui, os pré-requisitos e os créditos.
 
+Versão 1.0 <br>
 ![disc](img/disciplines.png)
 
 * classes (turmas) <br>
 Armazena o nome da Turma, número de vagas, código da disciplina a que a turma pertence, os encontros (dias, horários e local), turno, professor(es) e o código do campus a que a disciplina pertence.
 
+Versão 1.0 <br>
 ![classes](img/classes.png)
 
 ### 8.2 App
 
 Na aplicação é utilizado um banco de dados SQLite para persistir os dados das disciplinas e turmas adicionadas pelo usuário
 
+Versão 1.0 <br>
 ![bancoapp](img/bancodedadosapp.png)
 
 ## 9. Tamanho e Desempenho
