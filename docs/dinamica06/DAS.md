@@ -10,7 +10,8 @@
 | 11/06/2019 | 0.4 | Adição do tópico de Restrições e Metas Arquiteturais | Daniel Maike, Guilherme Aguiar |
 | 11/06/2019 | 0.5 | Adição do tópico de Visão de Casos de Uso | Daniel Maike, Guilherme Aguiar |
 | 12/06/2019 | 0.6 | Adição do tópico de Visão Lógica | Guilherme Guy, Daniel Maike |
-| 13/06/2019 | 0.7 | Adição do tópico de Visão de Dados | Daniel Maike | 15/06/2019 | 0.8 | Adição do tópico de Visualização da Implementação | Gabriel Carvalho |
+| 13/06/2019 | 0.7 | Adição do tópico de Visão de Dados | Daniel Maike |
+| 15/06/2019 | 0.8 | Adição do tópico de Visualização da Implementação | Gabriel Carvalho |
 | 15/06/2019 | 0.9 | Ajuste de Escopo do Projeto | Guilherme Deusdará |
 | 15/06/2019 | 0.10 | Ajuste Representação Arquitetural da Api | Guilherme Deusdará |
 | 16/06/2019 | 0.11 | Adição do tópico Visão de Implementação | Ezequiel De Oliveira Dos Reis|
