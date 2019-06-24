@@ -374,5 +374,5 @@ A API não tem espaço físico quando é instalado como o aplicativo, a API não
 
 ## 10. Qualidade
 
-A arquitetura utilizada contribui para com o software em diversos aspectos. Os padrões arquiteturais das nossas principais frentes do sistema (API e APP) contribuem para a extensibilidade da aplicação, pois possuem componentes com características bem definidas e que podem ser facilmente substituídos por outros de sua própria implementação.
-Essa característica da clara separação de conceitos do MVC trás diversos outros benefícios para a aplicação em geral, como confiabilidade, segurança e manutenabilidade.
+A arquitetura utilizada contribui para com o software em diversos aspectos. O padrão arquitetural MVC, das nossas principais frentes do sistema (API e APP) contribuem para a escalabilidade da aplicação, pois suportam altamente a separação de componentes com interesses bem definidos e que podem ser facilmente substituídos por outros de sua própria implementação.
+Essa característica da clara separação de conceitos do MVC trás diversos outros benefícios para a aplicação em geral, como testabilidade e manutenabilidade.
