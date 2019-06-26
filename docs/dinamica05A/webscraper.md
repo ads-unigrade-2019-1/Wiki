@@ -79,7 +79,12 @@ Exemplo de um trecho de código no MWScanner envolvendo Builder: <br>
 
 ## 2.3 Object Pool (Criacional, não GOF)
 
+<p style="text-align: justify">
+  O padrão Object Pool tem o objetivo de reduzir o tempo e custo das instanciações, reaproveitando objetos, melhorar o desempenho e o controle sobre os recursos. Devido grande quantidade de dados que o MWScanner trata é necessário a criação de threads para que diminua o tempo de execução do script. Instanciar um objeto requer tempo de processamento do computador, e para isto as Threads são criadas e reutilizadas, o Thread Pool é um exemplo de Object Pool.
+</p>
 
+Exemplo de  trecho de código no MWScanner envolvendo o Object Pool: <br>
+[![threadpool](img/threadpool.png)](img/threadpool.png)
 
 ## 2.4 Facade (GOF Estrutural)
 
