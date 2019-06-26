@@ -1133,6 +1133,12 @@
 <p>Exemplo de um trecho de código no MWScanner envolvendo Builder: <br>
 <a href="../img/builder.png"><img alt="builderclass-mwscanner" src="../img/builder.png" /></a></p>
 <h2 id="23-object-pool-criacional-nao-gof">2.3 Object Pool (Criacional, não GOF)</h2>
+<p style="text-align: justify">
+  O padrão Object Pool tem o objetivo de reduzir o tempo e custo das instanciações, reaproveitando objetos, melhorar o desempenho e o controle sobre os recursos. Devido grande quantidade de dados que o MWScanner trata é necessário a criação de threads para que diminua o tempo de execução do script. Instanciar um objeto requer tempo de processamento do computador, e para isto as Threads são criadas e reutilizadas, o Thread Pool é um exemplo de Object Pool.
+</p>
+
+<p>Exemplo de  trecho de código no MWScanner envolvendo o Object Pool: <br>
+<a href="../img/threadpool.png"><img alt="threadpool" src="../img/threadpool.png" /></a></p>
 <h2 id="24-facade-gof-estrutural">2.4 Facade (GOF Estrutural)</h2>
 <p style="text-align: justify">
   O padrão GOF estrutural Facade tem como objetivo prover uma interface simplificada para a utilização de várias interfaces de um subsistema. No MWScanner após a extração dos dados, é necessário que eles sejam salvos em um banco de dados não relacional MongoDB, hospedado no Atlas, nesse processo a main chama a classe SaveDataFacade para que ela possa interagir com as classes responsáveis por salvar cada Collection no banco de dados.
