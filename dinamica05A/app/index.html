@@ -1220,6 +1220,12 @@
 <td align="center">Grasp Especialista</td>
 <td align="center">Guilherme Aguiar</td>
 </tr>
+<tr>
+<td align="center">26/06/2019</td>
+<td align="center">3.1</td>
+<td align="center">Adicionando imagens</td>
+<td align="center">Gabriela Medeiros</td>
+</tr>
 </tbody>
 </table>
 <h2 id="gofs-utilizados">GOFs utilizados</h2>
@@ -1231,8 +1237,9 @@
 <h2 id="grasps-utilizados">GRASPs utilizados</h2>
 <p><a href="#controller">1. Controller</a> <br></p>
 <h2 id="singleton">Singleton</h2>
-<p>O objetivo do Singleton é permitir a criação de uma única instância de uma classe e fornecer um modo para recuperá-la.
-Esse padrão de projeto foi implementado nas camadas dos controladores da nossa arquitetura MVC. Os controllers são instanciados e utilizados pontualmente de maneira similar, em chamadas assíncronas e em fragments, que manipulam a interface.</p>
+<p>O objetivo do Singleton é permitir apenas uma instanciação de classe e fornecer um método para recuperá-la.
+Esse padrão de projeto foi implementado nas camadas dos controladores (<em>controller</em>) no contexto da arquitetura MVC. Os controllers são instanciados e utilizados pontualmente de maneira similar, em chamadas assíncronas e em fragments, que manipulam a interface.
+<a href="../img/singleton10.png"><img alt="Singleton" src="../img/singleton10.png" /></a></p>
 <h4 id="subjects-controller">Subjects Controller</h4>
 <p>Controller responsável por retornar a lista de todas matérias da API.
 <a href="../img/singleton_1.png"><img alt="Singleton - SubjectsController" src="../img/singleton_1.png" /></a></p>
@@ -1242,13 +1249,17 @@ Esse padrão de projeto foi implementado nas camadas dos controladores da nossa 
 <h4 id="timetables-controller">TimeTables Controller</h4>
 <p><a href="../img/singleton_3.png"><img alt="Singleton - ClassesFragment" src="../img/singleton_3.png" /></a></p>
 <h2 id="builder">Builder</h2>
-<p>O padrão Builder não foi implementado manualmente, porém o Android faz uso desse para padrão a geração de janelas de alerta.</p>
+<p>O padrão Builder não foi implementado manualmente, porém o Android faz uso desse para padrão a geração de janelas de alerta.
+<a href="../img/builder1.gif"><img alt="Builder" src="../img/builder1.gif" /></a></p>
 <h2 id="composite">Composite</h2>
-<p>Grande parte dos elementos gráficos do Android herdam de uma classe chamada "View". Em uma tela específica do aplicativo se tem layouts(que herdam da View), compostos por outros objetos gráficos, como botões e listas.</p>
+<p>Grande parte dos elementos gráficos do Android herdam de uma classe chamada "View". Considerando que cada tela do aplicativo possui layouts compostos por outros objetos gráficos, como botões e listas, e que ambos são "<em>views</em>", podemos observar um <em>composite</em> em tal relação.
+<a href="../img/composite1.png"><img alt="Composite" src="../img/composite1.png" /></a></p>
 <h2 id="adapter">Adapter</h2>
-<p>Como parte da arquitetura Android, os adapter são responsáveis por modificar os elementos gráficos de uma lista. Uma lista básica pode receber strings, porém o adapter pode modificá-la para receber outros itens, como: imagens, checkbox etc.</p>
+<p>Como parte da arquitetura Android, os adapter são responsáveis por modificar os elementos gráficos de uma lista. Uma lista básica pode receber exclusivamente strings, porém o adapter pode modificá-la para receber outros tipos e combinação de dados e _views, como: imagens, checkbox, botões, etc.
+<a href="../img/adapter1.png"><img alt="Adapter" src="../img/adapter1.png" /></a></p>
 <h2 id="observer">Observer</h2>
-<p>O padrão observer foi implementado por meio dos listeners. Os listeners são métodos que aguardam a interação usuário com algum elemento da tela, normalmente butões, e executam ações após essa interação.</p>
+<p>O padrão observer foi implementado por meio dos listeners. Os listeners são métodos que aguardam a interação do usuário com algum elemento da tela (botões, <em>checkbox</em>, <em>spiners</em>, entre outros) para executar os comandos já determinados.
+<a href="../img/observer1.jpg"><img alt="Observer" src="../img/observer1.jpg" /></a></p>
 <h2 id="controller">Controller</h2>
 <p>Os controllers do app são responsáveis por guardar as funções mais pesadas e de interação com a api. Dessa forma, a manutenção e execução de testes é facilitada. </p>
                 
