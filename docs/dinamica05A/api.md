@@ -5,11 +5,13 @@
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 | 20/05/2019 | 0.1  | Adicionando Factory Method | Gabriel Carvalho |
 | 20/05/2019 | 0.2  | Relacionando com GRASP | Ezequiel Oliveira |
-| 20/05/2019 | 0.3  | Reestruturando documento | Guilherme Guy |
+| 27/06/2019 | 0.3  | Reestruturando documento | Guilherme Guy |
+| 27/06/2019 | 0.4  | Adicionando GOF Composite | Guilherme Guy |
 
 
 ## GOFs utilizados
 [1. Factory Method](#factory-method)
+[2. Composite](#composite)
 
 ## GRASPs utilizados
 [1. Information Expert ](#information-expert)
@@ -25,6 +27,12 @@ A função do framework que faz a criação da aplicação:
 Importação e chamada da função na API:
 
 [![Factory - Declaration](img/api-factory.png)](img/api-factory.png)
+
+## Composite
+Dentro do módulo de algorítimo podemos encontrar as restrições, que foram feitas de forma a seguir o GOF Composite, permitindo sua agregação no composite e facilitando a utilização destes objetos como uma coleção.
+
+[![api-composite](img/api_composite_uml.png)](img/api_composite_uml.png)
+
 
 ### Information Expert:
 
