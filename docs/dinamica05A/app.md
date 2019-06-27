@@ -9,6 +9,7 @@
 | 25/06/2019  | 3.1   | Adicionando GoFs e GRASPs  |  Geovana Ramos |
 | 26/06/2019  | 3.2   | Adicionando imagens  |  Gabriela Medeiros|
 | 27/06/2019  | 3.3   | Substituindo imagens por códigos fonte  |  Geovana Ramos|
+| 27/06/2019  | 3.4   | Adicionando polimorfismo  |  Geovana Ramos|
 
 ## GOFs utilizados
 [1. Singleton](#singleton-) <br>
@@ -19,6 +20,7 @@
 
 ## GRASPs utilizados
 [1. Controller](#controller) <br>
+[2. Polimorfismo](#olimorfismo) <br>
 
 
 ## Singleton
@@ -58,3 +60,6 @@ O padrão observer foi implementado por meio dos listeners. Os listeners são m�
 
 ## Controller
 Os controllers do app são responsáveis por guardar as funções mais pesadas e de interação com a api. Dessa forma, a manutenção e execução de testes é facilitada.
+
+## Polimorfismo
+Todos os controllers herdam de uma classe base controller que possui um método base para todos os módulos do projeto (ver imagens no tópico Singleton)
