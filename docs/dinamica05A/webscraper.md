@@ -10,16 +10,25 @@
 |  26/06/2019 |  1.0 | Adição do padrão Facade  |  Daniel Maike |
 | 26/06/2019 | 1.1 | Melhorando textos | Joberth Rogers |
 
-## Sumário
+## Sumario
 
-[1. Introdução](#1-introducao) <br>
-[2. Padrões GOF](#2-padroes-gof) <br>
-[2.1 Singleton](#21-singleton) <br>
-[2.2 Builder](#22-builder) <br>
-[2.3 Object Pool](#23-object-pool) <br>
-[2.4 Facade](#24-facade) <br>
-[3. Padrões GRASP](#3-padroes-grasp) <br>
-[4. Referências](#4-referencias) <br>
+### 1. Introdução
+* [Introdução](#1-introducao) <br>
+
+### 2. GOFs utilizados
+
+* [Singleton](#21-singleton-gof-criacional) <br>
+* [Builder](#22-builder-gof-criacional) <br>
+* [Object Pool](#23-object-pool-criacional-nao-gof) <br>
+* [Facade](#24-facade-gof-estrutural) <br>
+
+### 3. GRASPs utilizados
+
+* [Padrões GRASP](#3-padroes-grasp) <br>
+
+### 4. Referências encontradas
+
+* [Referências](#4-referencias) <br>
 
 # 1. Introdução
 
@@ -81,7 +90,7 @@ Exemplo de um trecho de código no MWScanner envolvendo Builder: <br>
 </p>
 
 Exemplo de  trecho de código no MWScanner envolvendo o Object Pool: <br>
-[![threadpool](img/threadpool.png)](img/threadpool.png)
+[![threadpool](img/thread-pool.png)](img/thread-pool.png)
 
 ## 2.4 Facade (GOF Estrutural)
 
