@@ -1221,10 +1221,22 @@
 <td align="center">Guilherme Aguiar</td>
 </tr>
 <tr>
-<td align="center">26/06/2019</td>
+<td align="center">25/06/2019</td>
 <td align="center">3.1</td>
+<td align="center">Adicionando GoFs e GRASPs</td>
+<td align="center">Geovana Ramos</td>
+</tr>
+<tr>
+<td align="center">26/06/2019</td>
+<td align="center">3.2</td>
 <td align="center">Adicionando imagens</td>
 <td align="center">Gabriela Medeiros</td>
+</tr>
+<tr>
+<td align="center">27/06/2019</td>
+<td align="center">3.3</td>
+<td align="center">Substituindo imagens por códigos fonte</td>
+<td align="center">Geovana Ramos</td>
 </tr>
 </tbody>
 </table>
@@ -1238,8 +1250,7 @@
 <p><a href="#controller">1. Controller</a> <br></p>
 <h2 id="singleton">Singleton</h2>
 <p>O objetivo do Singleton é permitir apenas uma instanciação de classe e fornecer um método para recuperá-la.
-Esse padrão de projeto foi implementado nas camadas dos controladores (<em>controller</em>) no contexto da arquitetura MVC. Os controllers são instanciados e utilizados pontualmente de maneira similar, em chamadas assíncronas e em fragments, que manipulam a interface.
-<a href="../img/singleton10.png"><img alt="Singleton" src="../img/singleton10.png" /></a></p>
+Esse padrão de projeto foi implementado nas camadas dos controladores (<em>controller</em>) no contexto da arquitetura MVC. Os controllers são instanciados e utilizados pontualmente de maneira similar, em chamadas assíncronas e em fragments, que manipulam a interface.</p>
 <h4 id="subjects-controller">Subjects Controller</h4>
 <p>Controller responsável por retornar a lista de todas matérias da API.
 <a href="../img/singleton_1.png"><img alt="Singleton - SubjectsController" src="../img/singleton_1.png" /></a></p>
@@ -1249,19 +1260,22 @@ Esse padrão de projeto foi implementado nas camadas dos controladores (<em>cont
 <h4 id="timetables-controller">TimeTables Controller</h4>
 <p><a href="../img/singleton_3.png"><img alt="Singleton - ClassesFragment" src="../img/singleton_3.png" /></a></p>
 <h2 id="builder">Builder</h2>
-<p>O padrão Builder não foi implementado manualmente, porém o Android faz uso desse para padrão a geração de janelas de alerta.
-<a href="../img/builder1.gif"><img alt="Builder" src="../img/builder1.gif" /></a></p>
+<p>O padrão Builder não foi implementado manualmente, porém o Android faz uso desse para padrão a geração de janelas de alerta. Ele disponibiliza o builder para que a janela de alerta seja criada facilmente. Ele está sendo utilizado para avisar ao usuário que o app necessita de sua permissão para salvar a grade em seu celular.
+<a href="../img/appbuilder.png"><img alt="Builder" src="../img/appbuilder.png" /></a></p>
 <h2 id="composite">Composite</h2>
 <p>Grande parte dos elementos gráficos do Android herdam de uma classe chamada "View". Considerando que cada tela do aplicativo possui layouts compostos por outros objetos gráficos, como botões e listas, e que ambos são "<em>views</em>", podemos observar um <em>composite</em> em tal relação.
-<a href="../img/composite1.png"><img alt="Composite" src="../img/composite1.png" /></a></p>
+<a href="../img/composite1.png"><img alt="Composite" src="../img/composite1.png" /></a>
+Por exemplo, na tabela de fluxos, um TableLayout irá armazenar várias TableRows e uma TableRow irá armazenar vários objetos TextView, ImageViews etc. Ou seja, uma table tem várias linhas e cada linha pode ter diversos tipos de componentes gráficos.
+<a href="../img/appcomposite.png"><img alt="Composite" src="../img/appcomposite.png" /></a></p>
 <h2 id="adapter">Adapter</h2>
-<p>Como parte da arquitetura Android, os adapter são responsáveis por modificar os elementos gráficos de uma lista. Uma lista básica pode receber exclusivamente strings, porém o adapter pode modificá-la para receber outros tipos e combinação de dados e _views, como: imagens, checkbox, botões, etc.
-<a href="../img/adapter1.png"><img alt="Adapter" src="../img/adapter1.png" /></a></p>
+<p>Como parte da arquitetura Android, os adapters são responsáveis por modificar os elementos gráficos de uma lista. Uma lista básica pode receber exclusivamente strings únicas, porém o adapter pode modificá-la para receber outros tipos e combinação de dados e <em>views</em>, como: múltiplas strings, imagens, checkbox, botões, etc.
+Na utilização abaixo, o adapter modifica a lista para poder aceitar uma checkbox, um spinner e múltipas strings. Esses elementos serão preenchidos com os dados de cada turma de uma matéria.
+<a href="../img/appadapter.png"><img alt="Adapter" src="../img/appadapter.png" /></a></p>
 <h2 id="observer">Observer</h2>
-<p>O padrão observer foi implementado por meio dos listeners. Os listeners são métodos que aguardam a interação do usuário com algum elemento da tela (botões, <em>checkbox</em>, <em>spiners</em>, entre outros) para executar os comandos já determinados.
-<a href="../img/observer1.jpg"><img alt="Observer" src="../img/observer1.jpg" /></a></p>
+<p>O padrão observer foi implementado por meio dos listeners. Os listeners são métodos que aguardam a interação do usuário com algum elemento da tela (botões, <em>checkbox</em>, <em>spiners</em>, entre outros) para executar os comandos já determinados. No caso abaixo, essa função retorna o listener de cada matéria listada. Ao clicar em uma delas, a função é chamada. A mesma salva os dados da matéria e envia para a nova tela que será apresentada ao usuário logo em seguida.
+<a href="../img/appobserver.png"><img alt="Observer" src="../img/appobserver.png" /></a></p>
 <h2 id="controller">Controller</h2>
-<p>Os controllers do app são responsáveis por guardar as funções mais pesadas e de interação com a api. Dessa forma, a manutenção e execução de testes é facilitada. </p>
+<p>Os controllers do app são responsáveis por guardar as funções mais pesadas e de interação com a api. Dessa forma, a manutenção e execução de testes é facilitada.</p>
                 
                   
                 
