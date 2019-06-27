@@ -723,6 +723,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#polimorfismo" title="Polimorfismo" class="md-nav__link">
+    Polimorfismo
+  </a>
+  
+</li>
+      
       
       
       
@@ -1173,6 +1180,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#polimorfismo" title="Polimorfismo" class="md-nav__link">
+    Polimorfismo
+  </a>
+  
+</li>
+      
       
       
       
@@ -1238,6 +1252,12 @@
 <td align="center">Substituindo imagens por códigos fonte</td>
 <td align="center">Geovana Ramos</td>
 </tr>
+<tr>
+<td align="center">27/06/2019</td>
+<td align="center">3.4</td>
+<td align="center">Adicionando polimorfismo</td>
+<td align="center">Geovana Ramos</td>
+</tr>
 </tbody>
 </table>
 <h2 id="gofs-utilizados">GOFs utilizados</h2>
@@ -1247,7 +1267,8 @@
 <a href="#adapter">4. Adapter</a> <br>
 <a href="#observer">5. Observer</a> <br></p>
 <h2 id="grasps-utilizados">GRASPs utilizados</h2>
-<p><a href="#controller">1. Controller</a> <br></p>
+<p><a href="#controller">1. Controller</a> <br>
+<a href="#olimorfismo">2. Polimorfismo</a> <br></p>
 <h2 id="singleton">Singleton</h2>
 <p>O objetivo do Singleton é permitir apenas uma instanciação de classe e fornecer um método para recuperá-la.
 Esse padrão de projeto foi implementado nas camadas dos controladores (<em>controller</em>) no contexto da arquitetura MVC. Os controllers são instanciados e utilizados pontualmente de maneira similar, em chamadas assíncronas e em fragments, que manipulam a interface.</p>
@@ -1276,6 +1297,8 @@ Na utilização abaixo, o adapter modifica a lista para poder aceitar uma checkb
 <a href="../img/appobserver.png"><img alt="Observer" src="../img/appobserver.png" /></a></p>
 <h2 id="controller">Controller</h2>
 <p>Os controllers do app são responsáveis por guardar as funções mais pesadas e de interação com a api. Dessa forma, a manutenção e execução de testes é facilitada.</p>
+<h2 id="polimorfismo">Polimorfismo</h2>
+<p>Todos os controllers herdam de uma classe base controller que possui um método base para todos os módulos do projeto (ver imagens no tópico Singleton)</p>
                 
                   
                 
