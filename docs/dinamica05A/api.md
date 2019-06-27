@@ -7,7 +7,7 @@
 | 20/05/2019 | 0.2  | Relacionando com GRASP | Ezequiel Oliveira |
 | 27/06/2019 | 0.3  | Reestruturando documento | Guilherme Guy |
 | 27/06/2019 | 0.4  | Adicionando GOF Composite | Guilherme Guy |
-
+| 27/06/2019 | 0.5  | Adicionando GRASP Polimorfismo | Guilherme Guy |
 
 ## GOFs utilizados
 [1. Factory Method](#factory-method)
@@ -15,6 +15,7 @@
 
 ## GRASPs utilizados
 [1. Information Expert ](#information-expert)
+[2. Polimorfismo](#polimorfismo)
 
 ## Factory Method
 
@@ -29,12 +30,21 @@ Importação e chamada da função na API:
 [![Factory - Declaration](img/api-factory.png)](img/api-factory.png)
 
 ## Composite
-Dentro do módulo de algorítimo podemos encontrar as restrições, que foram feitas de forma a seguir o GOF Composite, permitindo sua agregação no composite e facilitando a utilização destes objetos como uma coleção.
+Dentro do módulo *algorithm* podemos encontrar o módulo *restrictions*, que fornece restrições para o algorítimo genético. As restrições foram feitas de forma a seguir o GOF Composite, permitindo sua agregação no composite e facilitando a utilização destes objetos como uma coleção.
 
 [![api-composite](img/api_composite_uml.png)](img/api_composite_uml.png)
 
 
 ### Information Expert:
 
+Importação e chamada da função na API:
+
+[![Factory - Declaration](img/api-factory.png)](img/api-factory.png)
+
 No trecho de codigo pode-se notar que o express consegue instanciar seu objeto único, considerando-o especialista pois ele tem a responsabilidade de gerar um objeto usado ao longo do codigo.
 
+## Polimorfismo
+
+Podemos perceber grande uso do polimorfismo no módulo *restriction*, em que cada classe de Restrictions tem um comportamento único, sendo todas herdeiras da classe Restriction 
+
+[![api-composite](img/api_composite_uml.png)](img/api_composite_uml.png)
