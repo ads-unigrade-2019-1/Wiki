@@ -6,7 +6,8 @@
 | 15/05/2019  | 1.0   | Introdução sobre os GoF's criacionais  |  Guilherme Aguiar|
 | 19/05/2019  | 2.0   | Padrões Singleton do projeto  |  Guilherme Aguiar|
 | 20/05/2019  | 3.0   | Grasp Especialista  |  Guilherme Aguiar|
-| 26/06/2019  | 3.1   | Adicionando imagens  |  Gabriela Medeiros|
+| 25/06/2019  | 3.1   | Adicionando GoFs e GRASPs  |  Geovana Ramos |
+| 26/06/2019  | 3.2   | Adicionando imagens  |  Gabriela Medeiros|
 
 ## GOFs utilizados
 [1. Singleton](#singleton-) <br>
@@ -53,9 +54,4 @@ O padrão observer foi implementado por meio dos listeners. Os listeners são m�
 [![Observer](img/observer1.jpg)](img/observer1.jpg)
 
 ## Controller
-Os controllers do app são responsáveis por guardar as funções mais pesadas e de interação com a api. Dessa forma, a manutenção e execução de testes é facilitada. 
-
-
-
-
-
+Os controllers do app são responsáveis por guardar as funções mais pesadas e de interação com a api. Dessa forma, a manutenção e execução de testes é facilitada.
