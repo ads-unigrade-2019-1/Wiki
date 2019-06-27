@@ -653,9 +653,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#sumario" title="Sumário" class="md-nav__link">
-    Sumário
+  <a href="#sumario" title="Sumario" class="md-nav__link">
+    Sumario
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-introducao" title="1. Introdução" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-gofs-utilizados" title="2. GOFs utilizados" class="md-nav__link">
+    2. GOFs utilizados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-grasps-utilizados" title="3. GRASPs utilizados" class="md-nav__link">
+    3. GRASPs utilizados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-referencias-encontradas" title="4. Referências encontradas" class="md-nav__link">
+    4. Referências encontradas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1015,9 +1049,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#sumario" title="Sumário" class="md-nav__link">
-    Sumário
+  <a href="#sumario" title="Sumario" class="md-nav__link">
+    Sumario
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-introducao" title="1. Introdução" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-gofs-utilizados" title="2. GOFs utilizados" class="md-nav__link">
+    2. GOFs utilizados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-grasps-utilizados" title="3. GRASPs utilizados" class="md-nav__link">
+    3. GRASPs utilizados
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-referencias-encontradas" title="4. Referências encontradas" class="md-nav__link">
+    4. Referências encontradas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1082,16 +1150,27 @@
 </tr>
 </tbody>
 </table>
-<h2 id="sumario">Sumário</h2>
-<p><a href="#1-introducao">1. Introdução</a> <br>
-<a href="#2-padroes-gof">2. Padrões GOF</a> <br>
-<a href="#21-singleton">2.1 Singleton</a> <br>
-<a href="#22-builder">2.2 Builder</a> <br>
-<a href="#23-object-pool">2.3 Object Pool</a> <br>
-<a href="#24-facade">2.4 Facade</a> <br>
-<a href="#3-padroes-grasp">3. Padrões GRASP</a> <br>
-<a href="#4-referencias">4. Referências</a> <br></p>
-<h1 id="1-introducao">1. Introdução</h1>
+<h2 id="sumario">Sumario</h2>
+<h3 id="1-introducao">1. Introdução</h3>
+<ul>
+<li><a href="#1-introducao">Introdução</a> <br></li>
+</ul>
+<h3 id="2-gofs-utilizados">2. GOFs utilizados</h3>
+<ul>
+<li><a href="#21-singleton-gof-criacional">Singleton</a> <br></li>
+<li><a href="#22-builder-gof-criacional">Builder</a> <br></li>
+<li><a href="#23-object-pool-criacional-nao-gof">Object Pool</a> <br></li>
+<li><a href="#24-facade-gof-estrutural">Facade</a> <br></li>
+</ul>
+<h3 id="3-grasps-utilizados">3. GRASPs utilizados</h3>
+<ul>
+<li><a href="#3-padroes-grasp">Padrões GRASP</a> <br></li>
+</ul>
+<h3 id="4-referencias-encontradas">4. Referências encontradas</h3>
+<ul>
+<li><a href="#4-referencias">Referências</a> <br></li>
+</ul>
+<h1 id="1-introducao_1">1. Introdução</h1>
 <p style="text-align: justify">Como apresentado em dinâmicas passadas, o script do Mwscanner foi desenvolvido logo nas primeiras sprints envolvendo código, devido a crucialidade da funcionalidade para o andamento do projeto. O Mwscanner tem por objetivo coletar todos os dados relacionados a vida acadêmica da Universidade de Brasília. Por ser algo urgente e de extrema importância, o grupo se preocupou apenas em criar um script funcional, não se importando com a arquitetura e qualquer tipo de padrão de projeto no início do desenvolvimento, já que o conhecimento ainda não tinha sido ensinado pela professora na época da criação da funcionalidade. Nas últimas semanas esses conceitos foram absorvidos e os mais adequados foram abstraídos para o MWscanner. Os padrões levantados foram: </p>
 
 <h1 id="2-padroes-gof">2. Padrões GOF</h1>
@@ -1140,7 +1219,7 @@
 </p>
 
 <p>Exemplo de  trecho de código no MWScanner envolvendo o Object Pool: <br>
-<a href="../img/threadpool.png"><img alt="threadpool" src="../img/threadpool.png" /></a></p>
+<a href="../img/thread-pool.png"><img alt="threadpool" src="../img/thread-pool.png" /></a></p>
 <h2 id="24-facade-gof-estrutural">2.4 Facade (GOF Estrutural)</h2>
 <p style="text-align: justify">
   O padrão GOF estrutural Facade tem como objetivo prover uma interface simplificada para a utilização de várias interfaces de um subsistema. No MWScanner após a extração dos dados, é necessário que eles sejam salvos em um banco de dados não relacional MongoDB, hospedado no Atlas, nesse processo a main chama a classe SaveDataFacade para que ela possa interagir com as classes responsáveis por salvar cada Collection no banco de dados.
