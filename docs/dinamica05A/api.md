@@ -8,14 +8,16 @@
 | 27/06/2019 | 0.3  | Reestruturando documento | Guilherme Guy |
 | 27/06/2019 | 0.4  | Adicionando GOF Composite | Guilherme Guy |
 | 27/06/2019 | 0.5  | Adicionando GRASP Polimorfismo | Guilherme Guy |
+| 28/06/2019 | 0.6  | Adicionando GOF Proxy | Gabriel Carvalho |
 
 ## GOFs utilizados
-[1. Factory Method](#factory-method)
-[2. Composite](#composite)
+[1. Factory Method](#factory-method)<br>
+[2. Composite](#composite) <br>
+[3. Proxy](#proxy) <br>
 
 ## GRASPs utilizados
-[1. Information Expert ](#information-expert)
-[2. Polimorfismo](#polimorfismo)
+[1. Information Expert ](#information-expert) <br>
+[2. Polimorfismo](#polimorfismo) <br>
 
 ## Factory Method
 
@@ -34,6 +36,12 @@ Dentro do módulo *algorithm* podemos encontrar o módulo *restrictions*, que fo
 
 [![api-composite](img/api_composite_uml.png)](img/api_composite_uml.png)
 
+## Proxy
+
+No Express.js, as rotas fazem a função de proxy. Elas são responsáveis por interceptar os requests e encaminhar-los aos seus, respectivos, middlewares.
+
+[![api-proxy](img/api_proxy.png)](img/api_proxy.png)
+
 
 ### Information Expert:
 
@@ -48,3 +56,4 @@ No trecho de codigo pode-se notar que o express consegue instanciar seu objeto �
 Podemos perceber grande uso do polimorfismo no módulo *restriction*, em que cada classe de Restrictions tem um comportamento único, sendo todas herdeiras da classe Restriction 
 
 [![api-composite](img/api_composite_uml.png)](img/api_composite_uml.png)
+
