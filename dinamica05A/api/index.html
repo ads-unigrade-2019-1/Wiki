@@ -654,6 +654,13 @@
     Composite
   </a>
   
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proxy" title="Proxy" class="md-nav__link">
+    Proxy
+  </a>
+  
     <nav class="md-nav">
       <ul class="md-nav__list">
         
@@ -1081,6 +1088,13 @@
     Composite
   </a>
   
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proxy" title="Proxy" class="md-nav__link">
+    Proxy
+  </a>
+  
     <nav class="md-nav">
       <ul class="md-nav__list">
         
@@ -1162,14 +1176,21 @@
 <td align="center">Adicionando GRASP Polimorfismo</td>
 <td align="center">Guilherme Guy</td>
 </tr>
+<tr>
+<td align="center">28/06/2019</td>
+<td align="center">0.6</td>
+<td align="center">Adicionando GOF Proxy</td>
+<td align="center">Gabriel Carvalho</td>
+</tr>
 </tbody>
 </table>
 <h2 id="gofs-utilizados">GOFs utilizados</h2>
-<p><a href="#factory-method">1. Factory Method</a>
-<a href="#composite">2. Composite</a></p>
+<p><a href="#factory-method">1. Factory Method</a><br>
+<a href="#composite">2. Composite</a> <br>
+<a href="#proxy">3. Proxy</a> <br></p>
 <h2 id="grasps-utilizados">GRASPs utilizados</h2>
-<p><a href="#information-expert">1. Information Expert </a>
-<a href="#polimorfismo">2. Polimorfismo</a></p>
+<p><a href="#information-expert">1. Information Expert </a> <br>
+<a href="#polimorfismo">2. Polimorfismo</a> <br></p>
 <h2 id="factory-method">Factory Method</h2>
 <p>Factory Method é um padrão de projeto criacional que nos permite abstrair detalhes de implementação de criação de objetos do mundo externo. Express faz isso exportando apenas o construtor.</p>
 <p>A função do framework que faz a criação da aplicação:  </p>
@@ -1179,6 +1200,9 @@
 <h2 id="composite">Composite</h2>
 <p>Dentro do módulo <em>algorithm</em> podemos encontrar o módulo <em>restrictions</em>, que fornece restrições para o algorítimo genético. As restrições foram feitas de forma a seguir o GOF Composite, permitindo sua agregação no composite e facilitando a utilização destes objetos como uma coleção.</p>
 <p><a href="../img/api_composite_uml.png"><img alt="api-composite" src="../img/api_composite_uml.png" /></a></p>
+<h2 id="proxy">Proxy</h2>
+<p>No Express.js, as rotas fazem a função de proxy. Elas são responsáveis por interceptar os requests e encaminhar-los aos seus, respectivos, middlewares.</p>
+<p><a href="../img/api_proxy.png"><img alt="api-proxy" src="../img/api_proxy.png" /></a></p>
 <h3 id="information-expert">Information Expert:</h3>
 <p>Importação e chamada da função na API:</p>
 <p><a href="../img/api-factory.png"><img alt="Factory - Declaration" src="../img/api-factory.png" /></a></p>
