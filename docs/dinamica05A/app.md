@@ -20,7 +20,7 @@
 
 ## GRASPs utilizados
 [1. Controller](#controller) <br>
-[2. Polimorfismo](#olimorfismo) <br>
+[2. Polimorfismo](#polimorfismo) <br>
 
 
 ## Singleton

@@ -6,7 +6,7 @@
 | 29/06/2019 |  1.0 | Sumário e Padrão ViewHolder | Gabriela Medeiros |
 
 ## Padrões Emergentes Utilizados
-[1. ](#1-ViewHolder) <br>
+[1. ViewHolder](#viewholder) <br>
 
 ## ViewHolder
 ViewHolder é um padrão que busca o armazenamento de views quando em sua primeira utilização para que em posterior necessidade de uso serem reutilizadas. O padrão aumenta a performance da aplicação ao impedir a repetição excessiva de consultas à view, oferecendo a possibilidade um único acesso a ela.
