@@ -642,47 +642,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#factory-method" title="Factory Method" class="md-nav__link">
-    Factory Method
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#composite" title="Composite" class="md-nav__link">
-    Composite
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#proxy" title="Proxy" class="md-nav__link">
-    Proxy
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#information-expert" title="Information Expert:" class="md-nav__link">
-    Information Expert:
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#polimorfismo" title="Polimorfismo" class="md-nav__link">
-    Polimorfismo
-  </a>
-  
-</li>
-      
       
       
       
@@ -1076,47 +1035,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#factory-method" title="Factory Method" class="md-nav__link">
-    Factory Method
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#composite" title="Composite" class="md-nav__link">
-    Composite
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#proxy" title="Proxy" class="md-nav__link">
-    Proxy
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#information-expert" title="Information Expert:" class="md-nav__link">
-    Information Expert:
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#polimorfismo" title="Polimorfismo" class="md-nav__link">
-    Polimorfismo
-  </a>
-  
-</li>
-      
       
       
       
@@ -1182,6 +1100,18 @@
 <td align="center">Adicionando GOF Proxy</td>
 <td align="center">Gabriel Carvalho</td>
 </tr>
+<tr>
+<td align="center">29/06/2019</td>
+<td align="center">0.7</td>
+<td align="center">Adicionando GOF Chain of responsability</td>
+<td align="center">Joberth Rogers</td>
+</tr>
+<tr>
+<td align="center">29/06/2019</td>
+<td align="center">0.8</td>
+<td align="center">Adicionando grasp Baixo acoplamento</td>
+<td align="center">Joberth Rogers</td>
+</tr>
 </tbody>
 </table>
 <h2 id="gofs-utilizados">GOFs utilizados</h2>
@@ -1191,6 +1121,7 @@
 <h2 id="grasps-utilizados">GRASPs utilizados</h2>
 <p><a href="#information-expert">1. Information Expert </a> <br>
 <a href="#polimorfismo">2. Polimorfismo</a> <br></p>
+<h1 id="gofs">GOFS</h1>
 <h2 id="factory-method">Factory Method</h2>
 <p>Factory Method é um padrão de projeto criacional que nos permite abstrair detalhes de implementação de criação de objetos do mundo externo. Express faz isso exportando apenas o construtor.</p>
 <p>A função do framework que faz a criação da aplicação:  </p>
@@ -1203,13 +1134,20 @@
 <h2 id="proxy">Proxy</h2>
 <p>No Express.js, as rotas fazem a função de proxy. Elas são responsáveis por interceptar os requests e encaminhar-los aos seus, respectivos, middlewares.</p>
 <p><a href="../img/api_proxy.png"><img alt="api-proxy" src="../img/api_proxy.png" /></a></p>
-<h3 id="information-expert">Information Expert:</h3>
+<h2 id="chain-of-responsability">Chain of responsability</h2>
+<p style='text-align: justify'>Antigamente no endpoint "search" ao realizar as consultas, executavam-se várias queries encadeada para verificar os possíveis resultados na pesquisa. Devido a esse fator, o código tornou-se altamente acoplado e muito difícil de ser refatorado. Após observar vários padrões de projeto, pode se perceber que o padrão Chain of responsability era um dos padrões que servia como solução para os problemas encontrados acima, pois era necessário consultar o nome da disciplina, nome do professor e código da disciplina no banco de dados de acordo com o body da requisição e o Chain of responsability é um dos padrões que tem como responsabilidade usar a ideia do middleware, passando a responsabilidade para a próxima consulta até o resultado ser encontrado. Após aplicado o padrão, pode-se perceber o quão organizado o código ficou, já que agora estava menor e modularizado, além de menos acoplado. Um ponto forte a se destacar também, é a possibilidade de novas opções de pesquisa que podem ser adicionadas futuramente caso seja necessário, graças a flexibilidade que aplicação do padrão proporciona.</p>
+
+<p><a href="../img/search-chain.png"><img alt="search-chain" src="../img/search-chain.png" /></a></p>
+<h1 id="grasps">Grasps</h1>
+<h2 id="information-expert">Information Expert:</h2>
 <p>Importação e chamada da função na API:</p>
 <p><a href="../img/api-factory.png"><img alt="Factory - Declaration" src="../img/api-factory.png" /></a></p>
 <p>No trecho de codigo pode-se notar que o express consegue instanciar seu objeto único, considerando-o especialista pois ele tem a responsabilidade de gerar um objeto usado ao longo do codigo.</p>
 <h2 id="polimorfismo">Polimorfismo</h2>
 <p>Podemos perceber grande uso do polimorfismo no módulo <em>restriction</em>, em que cada classe de Restrictions tem um comportamento único, sendo todas herdeiras da classe Restriction </p>
 <p><a href="../img/api_composite_uml.png"><img alt="api-composite" src="../img/api_composite_uml.png" /></a></p>
+<h2 id="baixo-acoplamento">Baixo acoplamento</h2>
+<p style="text-align: justify">Podemos perceber o uso desse Grasp no Chain of responsability, devido ao grau de independência entre cada elemento da "chain". Nenhum desses elemento sabem da existência do outro, apenas passa a responsabilidade para o proximo, caso o elemento atual que irá tratar a resquisição não atenda as regras de negócio estabelecidas. </p>
                 
                   
                 
