@@ -1051,16 +1051,28 @@
 </thead>
 <tbody>
 <tr>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="center">30/06/2019</td>
+<td align="center">1.0</td>
+<td align="center">Adição dos padrões apresentados</td>
+<td align="center">Guilherme Guy</td>
 </tr>
 </tbody>
 </table>
 <h2 id="sumario">Sumário</h2>
-<p><a href="#1-">1. </a> <br>
-<a href="#2-">2. </a> <br></p>
+<p><a href="#1-">1. Introdução</a><br>
+<a href="#2-">1. Lazy Evaluation</a> <br>
+<a href="#3-">2. Catalog</a> <br></p>
+<h1 id="1-introducao">1. Introdução</h1>
+<p>A seguir se encontram padrões relacionados ao Python. Ambos os padrões estão presentes em outras linguagens, entratando foi decidido apresentá-los como padrões em Python por causa de sua facilidade de implementação e utilização na linguagem.</p>
+<h1 id="1-lazy-evaluation">1. Lazy Evaluation</h1>
+<p>O padrão Lazy Evaluation tenta atrasar ao máximo o processamento de alguma operação. Geralmente esse momento é quando o resultado dessa operação é finalmente utilizado. Além disso o resultado da operção é salvo para que ela não precise ser feita duas vezes. É um padrão muito útil para aumentar o desempenho de aplicações que tenham algorítimos complexos ou etapas demoradas de obtenção de dados. Também é muito utilizado no paradigma de programação funcional.</p>
+<p>Exemplo de código:</p>
+<p><a href="../img/lazy_evaluation_1.png"><img alt="lazy-evaluation" src="../img/lazy_evaluation_1.png" /></a>
+<a href="../img/lazy_evaluation_2.png"><img alt="lazy-evaluation-2" src="../img/lazy_evaluation_2.png" /></a></p>
+<h1 id="2-catalog">2. Catalog</h1>
+<p>Este padrão é parecido com o padrão Strategy. Ele consiste em um objeto que tem seu comportamento definido dentre uma gama de opções no momento de criação de uma instancia. Geralemtne são implementados alguns métodos estáticos e um deles é passado como parâmetro ao construtor para que o obejeto concreto o utilize em sua execução.</p>
+<p>Exemplo de código:</p>
+<p><a href="../img/catalog.png"><img alt="catalog" src="../img/catalog.png" /></a></p>
                 
                   
                 
