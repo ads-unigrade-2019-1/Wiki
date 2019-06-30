@@ -20,6 +20,7 @@
 | 18/06/2019 | 0.14 | Correção no tópico de Visão de Implementação | Daniel Maike, Guilherme Guy |
 | 24/06/2019 | 1.0.0 | Adição das versões dos diagramas e dos programas utilizados no desenvolvimento | Daniel Maike, Guilherme Guy |
 | 30/06/2019 | 1.0.1 | Adicionando zoom as imagens | Joberth Rogers |
+| 30/06/2019 | 1.0.2 | Atualizando diagrama de classes da API | Guilherme Guy |
 
 ## Sumário
 
@@ -258,11 +259,19 @@ Abriga as classes que são relacionadas ao algoritmo de geração de grades hor�
 
 #### 5.3.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
+##### Diagrama de Pacotes
 Versão 1.0 <br>
 [![typehapi](img/typehierarchyapi.jpg)](img/typehierarchyapi.jpg)
 
+Versão 2.0 <br>
+[![typehierarchyapiv2](img/typehierarchyapi_v2.jpg)](img/typehierarchyapi_v2.jpg)
+
+##### Diagrama de classes
 Versão 1.0 <br>
 [![classapi](img/apiclasses.jpg)](img/apiclasses.jpg)
+
+Versão 2.0 <br>
+[![apiclassesv2](img/apiclasses_v2.jpg)](img/apiclasses_v2.jpg)
 
 ### 5.4 Realizações de Casos de Uso
 

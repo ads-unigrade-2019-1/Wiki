@@ -10,7 +10,9 @@
 |14/04/2019|   0.4    | Adicionado UML do banco de dados segunda versao |   Ezequiel de oliveira  |
 |15/04/2019|   0.5    | Correção nos tópicos e súmario |   Gabriel Carvalho  |
 | 26/04/2019 | 0.6 | Adicionando zoom nas imagens ao clicar | Joberth Rogers |
-| 30/06/2019 | 0.7 | Adicionando diagrama de classes da aplicação | Guilherme Guy |
+| 30/06/2019 | 0.7 | Adicionando diagrama de classes da API | Guilherme Guy |
+| 30/06/2019 | 0.8 | Atualizando diagrama de classes da API com base em mudanças recentes | Guilherme Guy |
+
 
 
 ## Sumário
@@ -46,6 +48,11 @@ Por questões didáticas, o banco de dados não relacional obteve uma diagramaç
 ### Versão 1.0
 
 [![apiclasses](img/apiclasses.jpg)](img/apiclasses.jpg)
+
+### Versão 1.0
+
+[![apiclasses_v2](img/apiclasses_v2.jpg)](img/apiclasses_v2.jpg)
+
 
 
 ## 5. Referências
