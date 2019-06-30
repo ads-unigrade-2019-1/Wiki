@@ -1886,6 +1886,12 @@
 <td align="center">Adição das versões dos diagramas e dos programas utilizados no desenvolvimento</td>
 <td align="center">Daniel Maike, Guilherme Guy</td>
 </tr>
+<tr>
+<td align="center">30/06/2019</td>
+<td align="center">1.0.1</td>
+<td align="center">Adicionando zoom as imagens</td>
+<td align="center">Joberth Rogers</td>
+</tr>
 </tbody>
 </table>
 <h2 id="sumario">Sumário</h2>
@@ -1988,7 +1994,7 @@ O Unigrade tem como finalidade:</p>
 <li>App Android em Java, apresenta os dados capturados por meio de requisições na API e manda as disciplinas adicionadas para que as grades horárias sejam montadas e recuperadas por meio de outra requisição para serem apresentadas</li>
 </ul>
 <p>Versão 1.0 <br>
-<img alt="diagramacontexto" src="../img/diagramadecontexto.png" /></p>
+<a href="../img/diagramadecontexto.png"><img alt="diagramacontexto" src="../img/diagramadecontexto.png" /></a></p>
 <p>Cada frente possui sua própria arquitetura interna.</p>
 <h3 id="21-mwscanner">2.1 MWScanner</h3>
 <p>O MWScanner possui duas camadas e a main:</p>
@@ -2005,14 +2011,14 @@ O Unigrade tem como finalidade:</p>
 </ul>
 <p>O MWScanner funciona como um Cliente do Estilo Arquitetural Cliente-Servidor, através de requisições ele se comunica com o Servidor Matrícula Web para extrair o código HTML e filtrar os dados necessários.</p>
 <p>Versão 1.0 <br>
-<img alt="clienteservidor" src="../img/cliente-servidor.png" /></p>
+<a href="../img/cliente-servidor.png"><img alt="clienteservidor" src="../img/cliente-servidor.png" /></a></p>
 <h3 id="22-api">2.2 API</h3>
 <p>A arquitetura da API baseada em um estilo arquitetural de camadas, possuindo três camadas, sendo uma API REST (Representational State Transfer). Há a camada Controller, que abriga o código responsável por executar os endpoints da API, a camada Model que proporciona esquemas para acesso aos objetos que estão no banco de dados e uma camada Algorithm para abrigar os algoritmos e suas dependências, utilizados para gerar grades horárias.
 REST é um estilo de arquitetura de software que define o conjunto de regras a serem usadas para criar serviços da Web. Ele permite que os sistemas solicitem acesso e manipulem recursos da Web usando um conjunto de regras uniformes e predefinidas. A interação em sistemas baseados em REST ocorre por meio do HTTP.</p>
 <h3 id="23-app">2.3 APP</h3>
 <p>O aplicativo possui um estilo arquitetural de 4 camadas, com uma arquitetura baseada no padrão MVC, voltada para funcionar em um sistema Android. Além das camadas de Model, View e Controller, existe uma camada DAO que é responsável pelo acesso ao banco de dados do aplicativo.</p>
 <p>Versão 1.0 <br>
-<img alt="mvc-dao" src="../img/mvc-dao.png" /></p>
+<a href="../img/mvc-dao.png"><img alt="mvc-dao" src="../img/mvc-dao.png" /></a></p>
 <h2 id="3-restricoes-e-metas-arquiteturais">3. Restrições e Metas Arquiteturais</h2>
 <p>Requisitos e restrições do sistema que influenciam na arquitetura:</p>
 <ul>
@@ -2047,7 +2053,7 @@ REST é um estilo de arquitetura de software que define o conjunto de regras a s
 </table>
 <h2 id="42-diagrama-uc">4.2 Diagrama UC</h2>
 <p>Versão 1.0 <br>
-<img alt="uc" src="../img/casodeusogeral.png" /></p>
+<a href="../img/casodeusogeral.png"><img alt="uc" src="../img/casodeusogeral.png" /></a></p>
 <h3 id="43-descricao-dos-casos-de-uso">4.3 Descrição dos Casos de Uso</h3>
 <table>
 <thead>
@@ -2119,7 +2125,7 @@ Camada responsável por conter classes que acessam e manipulam dados, seja para 
 </ul>
 <h4 id="512-pacotes-de-design-significativos-do-ponto-de-vista-da-arquitetura">5.1.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura</h4>
 <p>Versão 1.0 <br>
-<img alt="apptypeh" src="../img/typehierarchyapp.jpg" /></p>
+<a href="../img/typehierarchyapp.jpg"><img alt="apptypeh" src="../img/typehierarchyapp.jpg" /></a></p>
 <h3 id="52-mwscanner">5.2 MWScanner</h3>
 <h4 id="521-visao-geral">5.2.1 Visão geral</h4>
 <p>O MWScanner possui dois pacotes:</p>
@@ -2131,7 +2137,7 @@ Possui classes responsáveis pela persistência dos dados coletados na camada We
 </ul>
 <h4 id="522-pacotes-de-design-significativos-do-ponto-de-vista-da-arquitetura">5.2.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura</h4>
 <p>Versão 1.0 <br>
-<img alt="classesmwscanner" src="../img/classesmwscanner.png" /></p>
+<a href="../img/classesmwscanner.png"><img alt="classesmwscanner" src="../img/classesmwscanner.png" /></a></p>
 <h3 id="53-api">5.3 API</h3>
 <h4 id="531-visao-geral">5.3.1 Visão geral</h4>
 <p>A API é composta por três pacotes:</p>
@@ -2145,16 +2151,16 @@ Abriga as classes que são relacionadas ao algoritmo de geração de grades hor�
 </ul>
 <h4 id="532-pacotes-de-design-significativos-do-ponto-de-vista-da-arquitetura">5.3.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura</h4>
 <p>Versão 1.0 <br>
-<img alt="typehapi" src="../img/typehierarchyapi.jpg" /></p>
+<a href="../img/typehierarchyapi.jpg"><img alt="typehapi" src="../img/typehierarchyapi.jpg" /></a></p>
 <p>Versão 1.0 <br>
-<img alt="classapi" src="../img/apiclasses.jpg" /></p>
+<a href="../img/apiclasses.jpg"><img alt="classapi" src="../img/apiclasses.jpg" /></a></p>
 <h3 id="54-realizacoes-de-casos-de-uso">5.4 Realizações de Casos de Uso</h3>
 <p>Versão 1.0 <br>
-<img alt="realizacaouc" src="../img/realizacaouc.png" /></p>
+<a href="../img/realizacaouc.png"><img alt="realizacaouc" src="../img/realizacaouc.png" /></a></p>
 <h2 id="6-visualizacao-da-implementacao">6. Visualização da Implementação</h2>
 <p>O diagrama de implementação a seguir, representa os nós físicos do sistema e a maneira como eles se comunicam.</p>
 <p>Versão 1.0 <br>
-<img alt="implementacao" src="../img/implementacao.png" /></p>
+<a href="../img/implementacao.png"><img alt="implementacao" src="../img/implementacao.png" /></a></p>
 <h3 id="61-servidor-mongodb-atlas">6.1 Servidor MongoDB Atlas</h3>
 <p>Servidor do MongoDB Atlas é onde está armazenado o banco de dados contendo todas as informações utilizadas pelo sistema.</p>
 <h3 id="62-servidor-da-api-heroku">6.2 Servidor da API (Heroku)</h3>
@@ -2225,35 +2231,35 @@ Para armazenar estes dados a Database mwscanner possui 5 Collections:</p>
 Armazena o código do curso, código do campus que ele pertence, nome, turno, modalidade e as habilitações que ele possui.</li>
 </ul>
 <p>Versão 1.0 <br>
-<img alt="courses" src="../img/courses.png" /></p>
+<a href="../img/courses.png"><img alt="courses" src="../img/courses.png" /></a></p>
 <ul>
 <li>habilitations (habilitações) <br>
 Armazena o código da habilitação, nome e as disciplinas por cada período da habilitação.</li>
 </ul>
 <p>Versão 1.0 <br>
-<img alt="hab" src="../img/habilitations.png" /></p>
+<a href="../img/habilitations.png"><img alt="hab" src="../img/habilitations.png" /></a></p>
 <ul>
 <li>departments (departamentos) <br>
 Armazena o código do campus em que ele pertence, código do departamento, nome, iniciais e disciplinas que ele possui.</li>
 </ul>
 <p>Versão 1.0 <br>
-<img alt="dep" src="../img/departments.png" /></p>
+<a href="../img/departments.png"><img alt="dep" src="../img/departments.png" /></a></p>
 <ul>
 <li>disciplines (disciplinas) <br>
 Armazena o nome da Disciplina, código da disciplina, código do departamento em que a disciplina pertence, as turmas que ela possui, os pré-requisitos e os créditos.</li>
 </ul>
 <p>Versão 1.0 <br>
-<img alt="disc" src="../img/disciplines.png" /></p>
+<a href="../img/disciplines.png"><img alt="disc" src="../img/disciplines.png" /></a></p>
 <ul>
 <li>classes (turmas) <br>
 Armazena o nome da Turma, número de vagas, código da disciplina a que a turma pertence, os encontros (dias, horários e local), turno, professor(es) e o código do campus a que a disciplina pertence.</li>
 </ul>
 <p>Versão 1.0 <br>
-<img alt="classes" src="../img/classes.png" /></p>
+<a href="../img/classes.png"><img alt="classes" src="../img/classes.png" /></a></p>
 <h3 id="82-app">8.2 App</h3>
 <p>Na aplicação é utilizado um banco de dados SQLite para persistir os dados das disciplinas e turmas adicionadas pelo usuário</p>
 <p>Versão 1.0 <br>
-<img alt="bancoapp" src="../img/bancodedadosapp.png" /></p>
+<a href="../img/bancodedadosapp.png"><img alt="bancoapp" src="../img/bancodedadosapp.png" /></a></p>
 <h2 id="9-tamanho-e-desempenho">9. Tamanho e Desempenho</h2>
 <p>O Aplicativo do Unigrade possui tamanho em disco de 6.40MB é desenvolvido para a plataforma móvel Android, entretanto o sistema foi construído visando o desempenho do aparelho em que será instalado.</p>
 <p>A API não tem espaço físico quando é instalado como o aplicativo, a API não é instalada, e representada por um servidor rodando em nuvem, respondendo as requisições, e tal sistema foi construído com foco na otimização da resposta das requisições, por conta dos dados a serem processados, se não houver certo cuidado, pode demorar a responder o aplicativo.</p>
