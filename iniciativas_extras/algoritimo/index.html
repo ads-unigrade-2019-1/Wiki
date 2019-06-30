@@ -36,7 +36,7 @@
     
     
       
-        <title>Documento de Visão - UniGrade</title>
+        <title>Explicação do Algorítimo - UniGrade</title>
       
     
     
@@ -77,7 +77,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#documento-de-visao" tabindex="1" class="md-skip">
+      <a href="#explicacao-do-algoritimo" tabindex="1" class="md-skip">
         Ir para o conteúdo
       </a>
     
@@ -103,7 +103,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Documento de Visão
+                Explicação do Algorítimo
               
             </span>
           
@@ -917,6 +917,30 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../doc_visao/" title="Documento de Visão" class="md-nav__link">
+      Documento de Visão
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://ads-unigrade-2019-1.github.io/API/" title="Swagger" class="md-nav__link">
+      Swagger
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
@@ -928,11 +952,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Documento de Visão
+        Explicação do Algorítimo
       </label>
     
-    <a href="./" title="Documento de Visão" class="md-nav__link md-nav__link--active">
-      Documento de Visão
+    <a href="./" title="Explicação do Algorítimo" class="md-nav__link md-nav__link--active">
+      Explicação do Algorítimo
     </a>
     
       
@@ -964,40 +988,47 @@
     1. Introdução
   </a>
   
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-algoritimo" title="2. Algorítimo" class="md-nav__link">
+    2. Algorítimo
+  </a>
+  
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#11-finalidade" title="1.1 Finalidade" class="md-nav__link">
-    1.1 Finalidade
+  <a href="#avaliar" title="Avaliar" class="md-nav__link">
+    Avaliar
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#12-escopo" title="1.2 Escopo" class="md-nav__link">
-    1.2 Escopo
+  <a href="#selecionar" title="Selecionar" class="md-nav__link">
+    Selecionar
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#13-definicoes-acronimos-e-abreviacoes" title="1.3 Definições, Acrônimos e Abreviações" class="md-nav__link">
-    1.3 Definições, Acrônimos e Abreviações
+  <a href="#cruzamento" title="Cruzamento" class="md-nav__link">
+    Cruzamento
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#14-referencias" title="1.4 Referências" class="md-nav__link">
-    1.4 Referências
+  <a href="#mutacao" title="Mutação" class="md-nav__link">
+    Mutação
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#15-visao-geral" title="1.5 Visão Geral" class="md-nav__link">
-    1.5 Visão Geral
+  <a href="#criterio-de-parada" title="Critério de parada" class="md-nav__link">
+    Critério de parada
   </a>
   
 </li>
@@ -1008,24 +1039,38 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-posicionamento" title="2. Posicionamento" class="md-nav__link">
-    2. Posicionamento
+  <a href="#3-restricoes" title="3. Restrições" class="md-nav__link">
+    3. Restrições
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#21-descricao-do-problema" title="2.1 Descrição do problema" class="md-nav__link">
-    2.1 Descrição do problema
+  <a href="#soft" title="Soft" class="md-nav__link">
+    Soft
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#5w2h" title="5W2H" class="md-nav__link">
-    5W2H
+  <a href="#classesincludedrestrictions" title="ClassesIncludedRestrictions" class="md-nav__link">
+    ClassesIncludedRestrictions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#freetimerestriction" title="FreeTimeRestriction" class="md-nav__link">
+    FreeTimeRestriction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#priorityrestriction" title="PriorityRestriction" class="md-nav__link">
+    PriorityRestriction
   </a>
   
 </li>
@@ -1036,71 +1081,23 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#22-descricao-dos-envolvidos" title="2.2 Descrição dos envolvidos" class="md-nav__link">
-    2.2 Descrição dos envolvidos
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#23-ambiente-do-usuario" title="2.3 Ambiente do usuário" class="md-nav__link">
-    2.3 Ambiente do usuário
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-visao-geral-do-produto" title="3. Visão geral do produto" class="md-nav__link">
-    3. Visão geral do produto
+  <a href="#hard" title="Hard" class="md-nav__link">
+    Hard
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#31-perspectiva-do-produto" title="3.1 - Perspectiva do produto" class="md-nav__link">
-    3.1 - Perspectiva do produto
+  <a href="#compatibilityrestriction" title="CompatibilityRestriction" class="md-nav__link">
+    CompatibilityRestriction
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#32-funcionalidade-do-produto" title="3.2 Funcionalidade do Produto" class="md-nav__link">
-    3.2 Funcionalidade do Produto
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#a-fluxo-do-curso" title="a. Fluxo do curso" class="md-nav__link">
-    a. Fluxo do curso
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#b-pesquisa-inteligente" title="b. pesquisa inteligente" class="md-nav__link">
-    b. pesquisa inteligente
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#c-grades-geradas" title="c. Grades geradas" class="md-nav__link">
-    c. Grades geradas
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#d-escolha-de-turmas" title="d. Escolha de turmas" class="md-nav__link">
-    d. Escolha de turmas
+  <a href="#numberconsistentrestriction" title="NumberConsistentRestriction" class="md-nav__link">
+    NumberConsistentRestriction
   </a>
   
 </li>
@@ -1110,56 +1107,22 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#33-licenciamento-e-instalacao" title="3.3 Licenciamento e Instalação" class="md-nav__link">
-    3.3 Licenciamento e Instalação
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#4-interligacao-com-outros-sistemas" title="4. Interligação com outros sistemas" class="md-nav__link">
-    4. Interligação com outros sistemas
+  <a href="#4-limitacoes" title="4. Limitações" class="md-nav__link">
+    4. Limitações
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-alternativa-e-concorrencia" title="5. Alternativa e concorrência" class="md-nav__link">
-    5. Alternativa e concorrência
+  <a href="#5-referencias" title="5. Referências" class="md-nav__link">
+    5. Referências
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#6-restricoes" title="6. Restrições" class="md-nav__link">
-    6. Restrições
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#7-documentacao" title="7. Documentação" class="md-nav__link">
-    7. Documentação
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#71-ajuda-online" title="7.1 Ajuda online" class="md-nav__link">
-    7.1 Ajuda online
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1171,30 +1134,6 @@
   
 </nav>
     
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="https://ads-unigrade-2019-1.github.io/API/" title="Swagger" class="md-nav__link">
-      Swagger
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../algoritimo/" title="Explicação do Algorítimo" class="md-nav__link">
-      Explicação do Algorítimo
-    </a>
   </li>
 
         
@@ -1242,40 +1181,47 @@
     1. Introdução
   </a>
   
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-algoritimo" title="2. Algorítimo" class="md-nav__link">
+    2. Algorítimo
+  </a>
+  
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#11-finalidade" title="1.1 Finalidade" class="md-nav__link">
-    1.1 Finalidade
+  <a href="#avaliar" title="Avaliar" class="md-nav__link">
+    Avaliar
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#12-escopo" title="1.2 Escopo" class="md-nav__link">
-    1.2 Escopo
+  <a href="#selecionar" title="Selecionar" class="md-nav__link">
+    Selecionar
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#13-definicoes-acronimos-e-abreviacoes" title="1.3 Definições, Acrônimos e Abreviações" class="md-nav__link">
-    1.3 Definições, Acrônimos e Abreviações
+  <a href="#cruzamento" title="Cruzamento" class="md-nav__link">
+    Cruzamento
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#14-referencias" title="1.4 Referências" class="md-nav__link">
-    1.4 Referências
+  <a href="#mutacao" title="Mutação" class="md-nav__link">
+    Mutação
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#15-visao-geral" title="1.5 Visão Geral" class="md-nav__link">
-    1.5 Visão Geral
+  <a href="#criterio-de-parada" title="Critério de parada" class="md-nav__link">
+    Critério de parada
   </a>
   
 </li>
@@ -1286,24 +1232,38 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-posicionamento" title="2. Posicionamento" class="md-nav__link">
-    2. Posicionamento
+  <a href="#3-restricoes" title="3. Restrições" class="md-nav__link">
+    3. Restrições
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#21-descricao-do-problema" title="2.1 Descrição do problema" class="md-nav__link">
-    2.1 Descrição do problema
+  <a href="#soft" title="Soft" class="md-nav__link">
+    Soft
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#5w2h" title="5W2H" class="md-nav__link">
-    5W2H
+  <a href="#classesincludedrestrictions" title="ClassesIncludedRestrictions" class="md-nav__link">
+    ClassesIncludedRestrictions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#freetimerestriction" title="FreeTimeRestriction" class="md-nav__link">
+    FreeTimeRestriction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#priorityrestriction" title="PriorityRestriction" class="md-nav__link">
+    PriorityRestriction
   </a>
   
 </li>
@@ -1314,71 +1274,23 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#22-descricao-dos-envolvidos" title="2.2 Descrição dos envolvidos" class="md-nav__link">
-    2.2 Descrição dos envolvidos
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#23-ambiente-do-usuario" title="2.3 Ambiente do usuário" class="md-nav__link">
-    2.3 Ambiente do usuário
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-visao-geral-do-produto" title="3. Visão geral do produto" class="md-nav__link">
-    3. Visão geral do produto
+  <a href="#hard" title="Hard" class="md-nav__link">
+    Hard
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#31-perspectiva-do-produto" title="3.1 - Perspectiva do produto" class="md-nav__link">
-    3.1 - Perspectiva do produto
+  <a href="#compatibilityrestriction" title="CompatibilityRestriction" class="md-nav__link">
+    CompatibilityRestriction
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#32-funcionalidade-do-produto" title="3.2 Funcionalidade do Produto" class="md-nav__link">
-    3.2 Funcionalidade do Produto
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#a-fluxo-do-curso" title="a. Fluxo do curso" class="md-nav__link">
-    a. Fluxo do curso
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#b-pesquisa-inteligente" title="b. pesquisa inteligente" class="md-nav__link">
-    b. pesquisa inteligente
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#c-grades-geradas" title="c. Grades geradas" class="md-nav__link">
-    c. Grades geradas
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#d-escolha-de-turmas" title="d. Escolha de turmas" class="md-nav__link">
-    d. Escolha de turmas
+  <a href="#numberconsistentrestriction" title="NumberConsistentRestriction" class="md-nav__link">
+    NumberConsistentRestriction
   </a>
   
 </li>
@@ -1388,56 +1300,22 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#33-licenciamento-e-instalacao" title="3.3 Licenciamento e Instalação" class="md-nav__link">
-    3.3 Licenciamento e Instalação
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#4-interligacao-com-outros-sistemas" title="4. Interligação com outros sistemas" class="md-nav__link">
-    4. Interligação com outros sistemas
+  <a href="#4-limitacoes" title="4. Limitações" class="md-nav__link">
+    4. Limitações
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-alternativa-e-concorrencia" title="5. Alternativa e concorrência" class="md-nav__link">
-    5. Alternativa e concorrência
+  <a href="#5-referencias" title="5. Referências" class="md-nav__link">
+    5. Referências
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#6-restricoes" title="6. Restrições" class="md-nav__link">
-    6. Restrições
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#7-documentacao" title="7. Documentação" class="md-nav__link">
-    7. Documentação
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#71-ajuda-online" title="7.1 Ajuda online" class="md-nav__link">
-    7.1 Ajuda online
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1458,7 +1336,7 @@
               
                 
                 
-                <h1 id="documento-de-visao">Documento de Visão</h1>
+                <h1 id="explicacao-do-algoritimo">Explicação do Algorítimo</h1>
 <h2 id="historico-de-revisoes">Histórico de revisões</h2>
 <table>
 <thead>
@@ -1471,163 +1349,78 @@
 </thead>
 <tbody>
 <tr>
-<td align="center">17/06/2019</td>
+<td align="center">30/06/2019</td>
 <td align="center">0.1</td>
-<td align="center">Iniciação do documento</td>
-<td align="center">Joberth Rogers, Guilherme Aguiar, Gabriel Jesus</td>
+<td align="center">Adicionando explicação</td>
+<td align="center">Guilherme Guy</td>
 </tr>
 </tbody>
 </table>
 <h2 id="sumario">Sumário</h2>
 <p><a href="#1-introducao">1. Introdução</a> <br>
-<a href="#2-posicionamento">2. Posicionamento</a> <br>
-<a href="#3-visao-geral-do-produto">3. Visão geral do produto</a> <br>
-<a href="#4-interligacao-com-outros-sistemas">4. Interligação com outros sistemas</a> <br>
-<a href="#5-alternativa-e-concorrencia">5. Alternativa e concorrência</a> <br>
-<a href="#6-restricoes">6. Restrições</a> <br>
-<a href="#7-documentacao">7. Documentação</a> <br></p>
+<a href="#2-algoritimo">2. Algorítimo</a> <br>
+<a href="#3-restricoes">3. Restrições</a> <br>
+<a href="#3-limitacoes">4. Limitações</a> <br>
+<a href="#3-referencias">5. Referências</a> <br></p>
 <h2 id="1-introducao">1. Introdução</h2>
-<p><p style="text-align: justify;">Este documento visa o entendimento geral do projeto ao definir as necessidades para o desenvolvimento do aplicativo Unigrade, que tem como objetivo oferecer a alunos da UnB várias opções de grade horária a partir de alguns dados fornecidos pelo usuário.
-As informações contidas neste documento são apresentadas com alto nível de abstração, de forma que o entendimento sobre o sistema seja claro para todos os envolvidos na produção. 
-Além dos atributos necessários para a compreensão do software, também será descrito o sistema de forma contextual, destacando o seu posicionamento frente ao problema, os envolvidos e seu determinado escopo. Para tal, segue-se uma organização em tópicos informativos relacionados às necessidade do projeto.<p></p>
-<h3 id="11-finalidade">1.1 Finalidade</h3>
-<p><p style="text-align: justify;"> O presente documento tem como finalidade manter uma visão comum para os envolvidos no projeto do sistema de criação de grades horárias da UnB ao expor as ideias necessárias para seu desenvolvimento.</p></p>
-<h3 id="12-escopo">1.2 Escopo</h3>
-<p><p style="text-align: justify;">Todos os semestres a Universidade de Brasília recebe muitos alunos, e com o passar do tempo da vida acadêmica, esses alunos entram em contato com o comportamento de seu curso, o fluxo de formação, e junto com isso vem a dúvida: o que cursar no semestre seguinte. A cada semestre todos os alunos têm o mesmo comportamento de verificar as possibilidades de matérias no fluxo do Matrícula Web e pedir essas matérias na pré matrícula, mas nem sempre sai como esperado, pois muitas das vezes esses alunos não conseguem as disciplinas requeridas e tem que recorrer a outras alternativas. Sabendo deste problema, o Unigrade, visa facilitar a de criação de grades, automatizando esse processo por meio do nosso aplicativo para celular.</p></p>
-<h3 id="13-definicoes-acronimos-e-abreviacoes">1.3 Definições, Acrônimos e Abreviações</h3>
-<p style="text-align: justify;">Abaixo serão apresentados algumas definições importantes para o entendimento do documento a seguir no contexto da universidade.</p>
-
+<p>O algorítimo que monta as grades é um algorítimo genético evolutivo. Também está presente um algorítimo ambicioso preparado para os casos em que o algorítimo genético falha.</p>
+<p>O algorítimo genético é um algorítimo que funciona por meio de gerações, ele cria populações e tenta aumentar o valor de <em>fitness</em> geral da geração eliminando elementos de <em>fitness</em> baixo e "procriando" elementos de <em>fitness</em> alto.</p>
+<p>Já o algorítimo ambicioso tenta, dado uma entrada de turmas, encaixar as turmas e, quando há um conflito, cria uma nova grade. Os resultados deste algorítimo não são tão bons quando comparados com o algorítimo genético.</p>
+<h2 id="2-algoritimo">2. Algorítimo</h2>
+<p>Como citado anteriormente, o algorítimo genético possui geraçãos e populações. Além disso possui outros elementos, como seus indivíduos (ou elementos) e restrições.</p>
+<p>Dentro do domínio do Unigrade, um indivíduo da população do algorítimo é um objeto de grade horária, que possui um cromossomo, representando as turmas que estão ativas dentre as turmas disponíveis, que são as turmas de entrada do algorítimo.</p>
+<p>Uma adaptação que foi feita ao algorítimo genético é no momento de criar a população inicial. Ela geralmente é criada com variações aleatórias do cromossomo dos elementos, mas incluimos o resultado do algorítimo ambicioso, além dos aleatórios, na tentativa de obter melhores resultados.</p>
+<p>A teoria por trás do algorítimo genético evolutivo é muito parecida com a teoria da evolução, em que o indivíduo mais forte tem seus genes propagados. Uma geração do algorítimo tem quatro etapas: avaliar, selecionar, cruzamento e mutação. Para cada uma destas etapas existem diversas formas de implementação, portanto descreveremos as formas utilizadas no projeto.</p>
+<h3 id="avaliar">Avaliar</h3>
+<p>O procesos de avaliação consiste em calcular o valor de <em>fitness</em> para cada um dos indivíduos da população. Isso acontece aplicando o elemento nas restrições (em breve entraremos em mais detalhes sobre as restrições) e calculando quantas penalidades ele obteve. Após isso, é utilizada a fórmula:</p>
+<blockquote>
+<p>fitness = 100 / (100 + soma_de_penalidades)</p>
+</blockquote>
+<p>Podemos observar que o valor de <em>fitness</em> vai de 0,0 a 1,0. Quanto maior a soma das penalidades, mas próximo de 0 é o resultado.</p>
+<h3 id="selecionar">Selecionar</h3>
+<p>A seleção consiste em separar quais elementos devem ser mantidos e quais elementos devem ser removidos da população. A implementação escolhida é bem simples: é calculada a média de <em>fitness</em> da população atual e os elementos que possuírem <em>fitness</em> menor que 90% da média são eliminados.</p>
+<h3 id="cruzamento">Cruzamento</h3>
+<p>O cruzamento é feito apenas entre os elementos que foram selecionados para se manter na população no passo anterior. Os elementos são escolhidos em pares aleatórios. Eles são escolhidos como os pais de dois novos indivíduos que serão adicionados a população.</p>
+<p>É implementado o cruzamento de um ponto, em que é escolhido um ponto aleatório do cromossomo para realizar um corte e os fragmentos são recombinados.</p>
+<blockquote>
+<p>Exemplo de mistura:<br>
+Parente 1: A B C D E<br>
+Parente 2: F G H I J<br>
+<br>
+Ponto de corte: 2<br>
+<br>
+Filho 1: A B H I J<br>
+Filho 2 : F G C D E<br></p>
+</blockquote>
+<p>Os pais são removidos da população e os filhos são adicionados, para serem processados na próxima geração.</p>
+<h3 id="mutacao">Mutação</h3>
+<p>Além de todos os processos anteriores é adicionada uma chance aleatória de que uma parte do cromossomo troque de estado (ativo para inativo e vice-versa). Isso ajuda a remover vícios na população e garante que mesmo em estágios avançados de gerações do algorítimo ainda se possa ter mais variação nas grades consideradas por ele.</p>
+<h3 id="criterio-de-parada">Critério de parada</h3>
+<p>Quando todas as etapas são concluídas o cíclo é recomeçado até que uma das condições de parada sejam concluídas: passar do máximo de gerações, a média das 5 últimas médias de <em>fitness</em> ser maior que 0.9 (um valor alto de <em>fitness</em>) ou a população ter esvaziado. É feito um filtro para obter apenas os elementos únicos da população, eles são ordenados por <em>fitness</em> e são retornados apenas os 5 maiores, isso na tentativa de mostrar apenas os resultados mais relevantes na saída do algorítimo.</p>
+<p>Se não houver resultados suficientes é retornado o resultado do algorítimo ambicioso como <em>fallback</em>.</p>
+<h2 id="3-restricoes">3. Restrições</h2>
+<p>Uma restrição é responsável por julgar um elemento da população. Elas são classificadas em <em>Hard</em> e <em>Soft</em>. A diferença está na quantidade de pontos de penalidade que elas aplicam a um elemento. Considera-se que uma restrição <em>Hard</em> nunca deve acontecer na população final e uma <em>Soft</em> pode acontecer, mas não é desejada.</p>
+<p>As seguintes restrições estão sendo utilizadas:</p>
+<h3 id="soft">Soft</h3>
+<h4 id="classesincludedrestrictions">ClassesIncludedRestrictions</h4>
+<p>Verifica se uma porcentagem de todas as turmas incluídas está ativa no cromossomo. Ou seja: se houverem 10 turmas e um mínimo de 30%, esta restrição aplicará a penalidade caso um cromossomo tenha menos que 3 turmas ativas.</p>
+<h4 id="freetimerestriction">FreeTimeRestriction</h4>
+<p>Tenta minimizar a quantidade de tempo livre entre aulas (popularmente conhecido como "janela"), evitando que a grade horária final faça com que o aluno fique ocioso entre aulas. Faz isso calculando a quantidade de horas vagas em uma semana (não são contabilizados dias que tenha menos de duas aulas). Caso a quantidade de horas vagas seja maior que a média da população então a penalidade é aplicada.</p>
+<h4 id="priorityrestriction">PriorityRestriction</h4>
+<p>Na aplicação Unigrade cada turma pode ter uma prioridade associada. Esta restrição tenta fazer com que as grades resultantes incluam turmas de maior prioridade. Ela verifica qual é o valor de prioridade total de um cromossomo e compara com uma porcentagem mínima do maior valor possível da população. Caso o valor de prioridade do cromossomo seja menor que este limiar a penalidade é aplicada.</p>
+<h3 id="hard">Hard</h3>
+<h4 id="compatibilityrestriction">CompatibilityRestriction</h4>
+<p>Esta restrição analisa o cromossomo em busca de uma inconsistência definida pelo domínio do problema: não se pode ter duas turmas ativas que tenham horários conflitantes. A penalidade é aplicada caso uma situação dessas seja detectada.</p>
+<h4 id="numberconsistentrestriction">NumberConsistentRestriction</h4>
+<p>Um cromossomo não pode ter todos as suas partes inativas. A penalidade é aplicada caso isso aconteça para evitar que grades horárias vazias sejam geradas.</p>
+<h2 id="4-limitacoes">4. Limitações</h2>
+<p>Durante os testes foi constatado que o algorítimo genético não trabalhava bem com menos de três turmas escohidas, por este motivo a aplicação opta por cair no algorítimo ambicioso em modo <em>fallback</em>.</p>
+<p>Também se percebeu que existem muitos resultados repetidos, por causa da natureza aleatória do algorítimo, para combater isso foi implementado um filtro que remove duplicatas.</p>
+<h2 id="5-referencias">5. Referências</h2>
 <ul>
-<li><strong>UnB :</strong> Universidade De Brasília.</li>
-<li><strong>FGA :</strong> Faculdade do Gama - Campus da Universidade de Brasília localizado no Gama.</li>
+<li>SANTOS, José Luender de Lima. Uma ferramenta para geração de grades horárias utilizando algoritmos genéticos. 2016.</li>
+<li>PAWAR, Sunil Nilkanth; BICHKAR, Rajankumar Sadashivrao. Genetic algorithm with variable length chromosomes for network intrusion detection. International Journal of Automation and Computing, v. 12, n. 3, p. 337-342, 2015.</li>
 </ul>
-<h3 id="14-referencias">1.4 Referências</h3>
-<ul>
-<li>IBM Knowledge Center - Documento de Visão: A estrutura de tópicos do documento de visão. Disponível em: <a href="https://www.ibm.com/support/knowledgecenter/en/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html">https://www.ibm.com/support/knowledgecenter/en/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html</a>  Acesso em 6 de jun. de 2019;</li>
-</ul>
-<h3 id="15-visao-geral">1.5 Visão Geral</h3>
-<p style="text-align: justify;">Esse é um documento sobre o aplicativo UniGrade, que está organizado no formato de tópicos e subtópicos sequenciais numerados. A ordem desses tópicos começa em 1 e termina em 7, sendo eles: introdução; posicionamento; descrições dos envolvidos e dos usuários; alternativa e concorrência; visão geral do produto; recursos do produto; restrições; faixas de qualidade; precedência e prioridade; outros requisitos do produto.</p>
-
-<h2 id="2-posicionamento">2. Posicionamento</h2>
-<h3 id="21-descricao-do-problema">2.1 Descrição do problema</h3>
-<h4 id="5w2h">5W2H</h4>
-<p><a href="../../dinamica01/img/Jobs5w2hv1.png"><img alt="teste" src="../../dinamica01/img/Jobs5w2hv1.png" /></a></p>
-<p><a href="../../dinamica01/img/DanielMaike5W2HADSv1.png"><img alt="teste" src="../../dinamica01/img/DanielMaike5W2HADSv1.png" /></a></p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Informações do Produto</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>O problema de</td>
-<td>Falta de uma ferramenta que forneça amparo para os alunos criarem suas grades durante o período de matrícula da UnB</td>
-</tr>
-<tr>
-<td>Afeta</td>
-<td>Alunos da UnB</td>
-</tr>
-<tr>
-<td>Cujo impacto é</td>
-<td>Unificar tudo em um só lugar,  a criação de grades de acordo com as preferência de horário e disciplina do estudante da UnB.</td>
-</tr>
-<tr>
-<td>Uma boa solução seria</td>
-<td>A elaboração de um software que filtre os cursos, disciplinas, turmas da Universidade de Brasília e disponibilize isso para os alunos recomendando grades horárias para ajudá-lo no período de pré matrícula</td>
-</tr>
-</tbody>
-</table>
-<h3 id="22-descricao-dos-envolvidos">2.2 Descrição dos envolvidos</h3>
-<p><p style="text-align: justify;">O mercado desse aplicativo compreende todo os alunos do curso de graduação presencial da Universidade de Brasília, com o objetivo de disponibilizar serviços de recomendação de grades horárias para alunos dessa universidade. </p></p>
-<table>
-<thead>
-<tr>
-<th>Nome</th>
-<th>Representa</th>
-<th>Papel</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Aluno</td>
-<td>Todos os alunos da Universidade de Brasília.</td>
-<td>Escolher as preferência de curso, disciplinas e classes e requisitar recomendação de grades horárias.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="23-ambiente-do-usuario">2.3 Ambiente do usuário</h3>
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Descrição do ambiente</td>
-<td>O aplicativo estará disponível na plataforma Google Play. Para que o usuário use o sistema será necessário que o mesmo tenha em mão um dispositivo android para poder baixar o aplicativo e poder usar.</td>
-</tr>
-<tr>
-<td>Acessos simultâneos</td>
-<td>Dependerá da configuração realizada nos servidores, mas a ideia é atender pelo menos os alunos do campus gama.</td>
-</tr>
-<tr>
-<td>Número de usuários</td>
-<td>A ser levantados.</td>
-</tr>
-<tr>
-<td>Ciclo de tarefas</td>
-<td>Com a solução proposta, a expectativa é que os acessos sejam simultâneos.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="3-visao-geral-do-produto">3. Visão geral do produto</h2>
-<h3 id="31-perspectiva-do-produto">3.1 - Perspectiva do produto</h3>
-<p><p style="text-align: justify;">O produto, inicialmente tem como meta a recomendação de grades horária para os alunos da Universidade de Brasília, usando como entrada as turmas escolhidas pelo usuário. O Unigrade tem o propósito de automatizar o processo de criação e recomendação de grades horárias para os alunos, recomendando lhe as melhores para servir de guia no período de pré matrícula.
-Esse aplicativo visa atender os alunos principalmente no começo do semestre,  apresentando as informações mais atualizadas do Matrícula web nesse período e reunindo tudo em apenas um lugar.</p></p>
-<h3 id="32-funcionalidade-do-produto">3.2 Funcionalidade do Produto</h3>
-<p style="text-align: justify;">O produto de software possuirá as seguintes funcionalidades:</p>
-
-<h4 id="a-fluxo-do-curso">a. Fluxo do curso</h4>
-<p style="text-align: justify;">Ao escolher o curso e o campus, o aluno conseguirá visualizar o fluxo mais recente do curso usando como base o matrícula web.</p>
-
-<h4 id="b-pesquisa-inteligente">b. pesquisa inteligente</h4>
-<p style="text-align: justify;">Para escolher suas preferência de grade horária, o aluno poderá pesquisar por:  nome da disciplina, nome do professor que leciona a disciplina e pelo código da disciplina. Além disso o usuário selecionará a turma que pretende cursar e usará os mesmos níveis de prioridade contidos no matrícula web para a geração das grades.</p>
-
-<h4 id="c-grades-geradas">c. Grades geradas</h4>
-<p style="text-align: justify;">A cada turma selecionada o algoritmo de geração de grades será executado e retornará as 5 melhores grades para os alunos de acordo com as preferências de turmas desejadas. O aluno poderá verificar as grades pelo aplicativo ou salvá-las como imagem para enviar para outros colegas.</p>
-
-<h4 id="d-escolha-de-turmas">d. Escolha de turmas</h4>
-<p style="text-align: justify;">Ao escolher uma disciplinas o aluno poderá visualizar todas as turmas referente a sua escolha, caso o aluno pretenda cursar em determinada turma, ele terá a opção de escolher uma prioridade para a turma escolhida (como no Matrícula web), selecionando ela como uma preferência. Após as escolhas, as grades horárias serão recomendadas com as disciplinas escolhidas.</p>
-
-<h3 id="33-licenciamento-e-instalacao">3.3 Licenciamento e Instalação</h3>
-<p style="text-align: justify;">Todo o software será desenvolvido usando a plataforma do github. Como é um programa desenvolvido para fins educativos optou-se por usar a licença MIT, onde qualquer pessoa terá a permissão de contribuir ou usar o software como base para outros projetos, desde de que o mesmo tenha autoria dos desenvolvedores atuais do projeto. 
-Para instalação do software os usuários irão necessitar de um dispositivo android e está conectado a plataforma Google play, caso seja um desenvolvedor e queira contribuir para o projeto, nos repositórios do projeto serão encontrados documentos que servirão de guia para instalação e execução dos ambientes do Unigrade.</p>
-
-<h2 id="4-interligacao-com-outros-sistemas">4. Interligação com outros sistemas</h2>
-<p style="text-align: justify;">O software não terá qualquer conexão com outros sistemas, o que não impede de ter tal relação no futuro, já que o software dispõe de alta coesão e baixo acoplamento entre seus módulos.</p>
-
-<h2 id="5-alternativa-e-concorrencia">5. Alternativa e concorrência</h2>
-<p style="text-align: justify;">No momento não existe nenhum software que gere grades horárias especificamente para a Universidade de Brasília.</p>
-
-<h2 id="6-restricoes">6. Restrições</h2>
-<ol>
-<li>
-<p>No processo de construção do aplicativo deve-se optar por ferramentas livres e de baixo custo ou gratuitas, que minimizem o custo final do projeto, já que o projeto tem a finalidade acadêmica.</p>
-</li>
-<li>
-<p>O servidor da API tem uma limitação devido ao tempo disponibilizado pelo heroku na sua versão gratuita. O heroku restringe um tempo mínimo de 6 horas obrigatórias por dia para o servidor ficar adormecido, sendo disponibilizado apenas 18 horas dos serviços para a aplicação poder executar suas atividades.</p>
-</li>
-<li>
-<p>O adormecimento constante do heroku caso o mesmo não esteja sendo usado é uma restrição muito delicada em nosso servidor. Quando um usuário necessita usar os serviços do Unigrade é percebido um pequeno delay na resposta da requisição, devido ao heroku estar ainda levantando os serviços da API.  </p>
-</li>
-</ol>
-<h2 id="7-documentacao">7. Documentação</h2>
-<h3 id="71-ajuda-online">7.1 Ajuda online</h3>
-<p style="text-align: justify;">Como o aplicativo terá poucas telas e será bem simples de se usar,  será desenvolvido um pequeno FAQ para auxílio do usuário na hora do manuseio do app.</p>
                 
                   
                 
@@ -1648,7 +1441,7 @@ Para instalação do software os usuários irão necessitar de um dispositivo an
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../istar/" title="I*" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../doc_visao/" title="Documento de Visão" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1657,25 +1450,11 @@ Para instalação do software os usuários irão necessitar de um dispositivo an
                 <span class="md-footer-nav__direction">
                   Anterior
                 </span>
-                I*
+                Documento de Visão
               </span>
             </div>
           </a>
         
-        
-          <a href="../algoritimo/" title="Explicação do Algorítimo" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Próximo
-                </span>
-                Explicação do Algorítimo
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
         
       </nav>
     </div>
