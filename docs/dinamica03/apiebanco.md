@@ -12,6 +12,7 @@
 | 26/04/2019 | 0.6 | Adicionando zoom nas imagens ao clicar | Joberth Rogers |
 | 30/06/2019 | 0.7 | Adicionando diagrama de classes da API | Guilherme Guy |
 | 30/06/2019 | 0.8 | Atualizando diagrama de classes da API com base em mudanças recentes | Guilherme Guy |
+| 30/06/2019 | 0.9 | Atualizando modelos de banco de dados, relacional e não relacional | Joberth Rogers |
 
 
 
@@ -37,12 +38,20 @@ Por questões didáticas, o banco de dados não relacional obteve uma diagramaç
 ### Não-Relacional
 #### Versão 1.0
 
-[![dados](img/banco_de_dados_UML.jpg)](img/banco_de_dados_UML.jpg)
+[![dados1](img/banco_de_dados_UML.jpg)](img/banco_de_dados_UML.jpg)
+
+#### Versão 2.0
+
+[![dados1.1](img/non-relacional-database.png)](img/non-relacional-database.png)
 
 ### Relacional
 #### Versão 1.0
 
 [![dados2](img/Banco_de_dados_UML_relacional.jpg)](img/Banco_de_dados_UML_relacional.jpg)
+
+#### Versão 2.0
+
+[![dados2.2](img/relacional-database2.png)](img/relacional-database2.png)
 
 ## 4. Diagrama de Classes
 ### Versão 1.0
