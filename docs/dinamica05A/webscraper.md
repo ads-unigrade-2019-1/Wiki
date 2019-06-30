@@ -9,6 +9,7 @@
 |  26/06/2019 |  0.3 | Adição do padrão Object Pool  |  Daniel Maike |
 |  26/06/2019 |  1.0 | Adição do padrão Facade  |  Daniel Maike |
 | 26/06/2019 | 1.1 | Melhorando textos | Joberth Rogers |
+| 26/06/2019 | 1.2 | Correções nos textos | Guilherme Guy |
 
 ## Sumario
 
@@ -32,7 +33,7 @@
 
 # 1. Introdução
 
-<p style="text-align: justify">Como apresentado em dinâmicas passadas, o script do Mwscanner foi desenvolvido logo nas primeiras sprints envolvendo código, devido a crucialidade da funcionalidade para o andamento do projeto. O Mwscanner tem por objetivo coletar todos os dados relacionados a vida acadêmica da Universidade de Brasília. Por ser algo urgente e de extrema importância, o grupo se preocupou apenas em criar um script funcional, não se importando com a arquitetura e qualquer tipo de padrão de projeto no início do desenvolvimento, já que o conhecimento ainda não tinha sido ensinado pela professora na época da criação da funcionalidade. Nas últimas semanas esses conceitos foram absorvidos e os mais adequados foram abstraídos para o MWscanner. Os padrões levantados foram: </p>
+<p style="text-align: justify">Como apresentado em dinâmicas passadas, o script do Mwscanner foi desenvolvido logo nas primeiras sprints envolvendo código, devido a crucialidade da funcionalidade para o andamento do projeto. O Mwscanner tem por objetivo coletar todos os dados relacionados a vida acadêmica da Universidade de Brasília. Por ser algo urgente e de extrema importância, o grupo se preocupou apenas em criar um script funcional, não se importando com a arquitetura e qualquer tipo de padrão de projeto no início do desenvolvimento, já que o conhecimento ainda não tinha sido adiquirido pelos responsáveis por esta frente do projeto na época da criação da funcionalidade. Nas últimas semanas esses conceitos foram absorvidos e os mais adequados foram abstraídos para o MWscanner. Os padrões levantados foram: </p>
 
 # 2. Padrões GOF
 
@@ -40,7 +41,7 @@ Os Padrões GOF utilizados no projeto foram:
 
 ## 2.1 Singleton (GOF Criacional)
 
-<p style="text-align: justify">Esse padrão de projeto que por muitos autores é considerado como anti-pattern, para o script Mwscaner foi um fator crucial para o aumento do desempenho do script. Como o script lida com a coleta e  o salvamento dos dados no banco de dados, havia uma diminuição no desempenho logo ao executar o script, devido à criação de uma instância do objeto de conexão com o MongoDB a cada vez que uma nova etapa do Matrícula Web era visitada. Logo foi necessário o uso do padrão de projeto Singleton para cuidar da criação de uma única instância no começo da execução do MWscanner, no qual seria usada por quem necessitasse durante todo o fluxo de execução. Caso alguma das partes necessitassem da conexão com o banco de dados, usaria o objeto já instanciado, aumentando assim a performance do programa e evitando a criação de objetos relacionados a conexão com o banco de dados de modo desnecessário. O código referente ao Singleton está presente abaixo:</p>   
+<p style="text-align: justify">Esse padrão de projeto que por muitos autores é considerado como anti-pattern, para o script Mwscaner foi um fator crucial para o aumento do desempenho do script. Como o script lida com a coleta e  o salvamento dos dados no banco de dados, havia uma diminuição no desempenho logo ao executar o script, devido à criação de uma instância do objeto de conexão com o MongoDB a cada vez que uma nova etapa do Matrícula Web era visitada. Logo foi necessário o uso do padrão de projeto Singleton para cuidar da criação de uma única instância no começo da execução do MWscanner, no qual seria usada por quem necessitasse durante todo o fluxo de execução. Caso alguma das partes necessitasse da conexão com o banco de dados, usará o objeto já instanciado, aumentando assim a performance do programa e evitando a criação de objetos relacionados a conexão com o banco de dados de modo desnecessário, além de não precisar esperar para que a conexão seja feita todas as vezes, apenas reutilizando uma já criada. O código referente ao Singleton está presente abaixo:</p>   
 
 [![singleton-mwscanner](img/singleton_mwscanner.png)](img/singleton_mwscanner.png)
 
