@@ -7,6 +7,9 @@
 |28/04/2019|0.2|   Corrigindo sumário/links e adicionando diagrama de estado  |  Geovana Ramos  |
 |28/04/2019|0.3|   Adicionado diagrama 2 de Colaboração  |  Rafael Braganca  |
 |28/04/2019|0.4|   Adicionando diagrama de atividade  |  Guilherme Aguiar  |
+|30/04/2019|0.5|   Corrigindo erro no layout do documento  |  Guilherme Guy  |
+
+
 ## Sumário
 [1. Diagramas de Sequência](#1-diagramas-de-sequencia) <br>
 [2. Diagrama de Estado](#2-diagrama-de-estados) <br>
