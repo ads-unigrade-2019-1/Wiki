@@ -49,7 +49,7 @@ Por questões didáticas, o banco de dados não relacional obteve uma diagramaç
 
 [![apiclasses](img/apiclasses.jpg)](img/apiclasses.jpg)
 
-### Versão 1.0
+### Versão 2.0
 
 [![apiclasses_v2](img/apiclasses_v2.jpg)](img/apiclasses_v2.jpg)
 
