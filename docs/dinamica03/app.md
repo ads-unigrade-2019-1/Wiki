@@ -7,6 +7,7 @@
 |13/04/2019|   0.1    | Criação do documento       |   Guilherme Aguiar  |
 |14/04/2019|   0.2    | Elaboração do documento       |   Guilherme Aguiar  |
 | 26/04/2019 | 0.3 | Adicionando zoom nas imagens ao clicar | Joberth Rogers |
+| 30/06/2019 | 1.0 | Adicionando Versão 3.0 do diagrama de pacotes | Joberth Rogers |
 
 ## Sumário
 
@@ -27,9 +28,9 @@ No contexto do projeto Unigrade, utilizaremos um diagrama de pacotes para descre
 
 [![pacotes2](img/app_diagramadepacotes2.png)](img/app_diagramadepacotes2.png)
 
-###Versão 2.0
+### Versão 3.0
 
-![pacotes2](img/app_diagramadepacotes2.png)
+[![typehierarchtyapp](img/typehierarchyapp.jpg)](img/typehierarchyapp.jpg)
 
 ## 3. Referências
 * <https://online.visual-paradigm.com/tutorials/package-diagram-tutorial/> <br>
