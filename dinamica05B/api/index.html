@@ -679,36 +679,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-factory-method" title="2. Factory method" class="md-nav__link">
-    2. Factory method
+  <a href="#2-middleware" title="2. Middleware" class="md-nav__link">
+    2. Middleware
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-middleware" title="3. Middleware" class="md-nav__link">
-    3. Middleware
+  <a href="#3-model-controller" title="3. Model Controller" class="md-nav__link">
+    3. Model Controller
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#4-model-controller" title="4. Model Controller" class="md-nav__link">
-    4. Model Controller
+  <a href="#4-dependency-injection" title="4. Dependency Injection" class="md-nav__link">
+    4. Dependency Injection
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-dependency-injection" title="5. Dependency Injection" class="md-nav__link">
-    5. Dependency Injection
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#6-event-emmiter" title="6. Event Emmiter" class="md-nav__link">
-    6. Event Emmiter
+  <a href="#5-event-emmiter" title="5. Event Emmiter" class="md-nav__link">
+    5. Event Emmiter
   </a>
   
 </li>
@@ -1083,36 +1076,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-factory-method" title="2. Factory method" class="md-nav__link">
-    2. Factory method
+  <a href="#2-middleware" title="2. Middleware" class="md-nav__link">
+    2. Middleware
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-middleware" title="3. Middleware" class="md-nav__link">
-    3. Middleware
+  <a href="#3-model-controller" title="3. Model Controller" class="md-nav__link">
+    3. Model Controller
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#4-model-controller" title="4. Model Controller" class="md-nav__link">
-    4. Model Controller
+  <a href="#4-dependency-injection" title="4. Dependency Injection" class="md-nav__link">
+    4. Dependency Injection
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-dependency-injection" title="5. Dependency Injection" class="md-nav__link">
-    5. Dependency Injection
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#6-event-emmiter" title="6. Event Emmiter" class="md-nav__link">
-    6. Event Emmiter
+  <a href="#5-event-emmiter" title="5. Event Emmiter" class="md-nav__link">
+    5. Event Emmiter
   </a>
   
 </li>
@@ -1170,37 +1156,37 @@
 <td align="center">Adicionando padrões não documentados e apresentados nos slides</td>
 <td align="center">Joberth Rogers</td>
 </tr>
+<tr>
+<td align="center">30/06/2019</td>
+<td align="center">0.4</td>
+<td align="center">Removendo padrão já listado anteriormente (Factory)</td>
+<td align="center"></td>
+</tr>
 </tbody>
 </table>
 <h2 id="sumario">Sumário</h2>
 <p><a href="#1-Introdução">1.Introdução</a> <br>
-<a href="#2-factory-method">2.Factory Method </a> <br>
-<a href="#3-middleware">3.Middleware </a> <br>
-<a href="#4-model-controller">4.Model Controller </a> <br>
-<a href="#5-dependency-injection">5.Dependecie Injection </a> <br>
-<a href="#6-event-emmiter">6.Event Emmiter </a> <br></p>
+<a href="#2-middleware">2.Middleware </a> <br>
+<a href="#3-model-controller">3.Model Controller </a> <br>
+<a href="#4-dependency-injection">4.Dependecie Injection </a> <br>
+<a href="#5-event-emmiter">5.Event Emmiter </a> <br></p>
 <h2 id="1-introducao">1. Introdução</h2>
 <p>O Express é uma framework de aplicações Web pada Node.js, que é minimalístico e flexível e fornece um conjunto robusto de recursos para aplicativos da Web e móveis.</p>
 <p>Abaixo estão alguns padrões de projeto emergentes que podemos ver ao trabalhar com o Express.js</p>
-<h2 id="2-factory-method">2. Factory method</h2>
-<p>Este é um padrão de design simples e comum em JavaScript. Factory é um padrão de projeto <em>criacional</em> que nos permite abstrair detalhes de implementação de criação de objetos do mundo externo. Express faz isso exportando apenas o criadorf.</p>
-<p><a href="../img/factory.png"><img alt="factory-method" src="../img/factory.png" /></a></p>
-<p>E usar a Factory para criar uma aplicação expressa é tão simples quanto isto:</p>
-<p><a href="../img/express-example.png"><img alt="express-example" src="../img/express-example.png" /></a></p>
-<h2 id="3-middleware">3. Middleware</h2>
+<h2 id="2-middleware">2. Middleware</h2>
 <p>Este padrão emergente é muito usado no Express. A cada vez que uma requisição é feita na API, ela passa pela lista de middlewares presentes. Cada middleware contém uma regra de négocio diferente. Caso o objeto atenda aos requisitos abordados pelo middleware, uma resposta é retornada ao cliente da requisição e isso é persistido até o final dos middleware existentes, modelando a requisição de acordo como o express foi configurado. </p>
 <p><a href="img/middleware"><img alt="middleware" src="../img/middleware.png" /></a></p>
 <p>Um exemplo de middlerare na aplicação está no código a seguir:</p>
 <p><a href="../img/middleware-example.png"><img alt="middleware2" src="../img/middleware-example.png" /></a></p>
 <p><a href="../img/middleware-example2.png"><img alt="middleware2" src="../img/middleware-example2.png" /></a></p>
-<h2 id="4-model-controller">4. Model Controller</h2>
+<h2 id="3-model-controller">3. Model Controller</h2>
 <p>Devido ao padrão REST da API, a arquitetura implementada pelo grupo foi o padrão MC (Model, Controller) adaptado do padrão MVC (Model, View, Controller). O motivo desse padrão ser implementado é porque a View é determinada por nosso cliente que é resposavel por renderizar os dados processados pela API e como a API tem a responsabilidade apenas de processar, salvar e consultar dados na banco de dados, não havia lugar para essa camada, então foi persistido apenas a Model e a Controller.</p>
 <p><a href="../img/MC.png"><img alt="MC" src="../img/MC.png" /></a></p>
-<h2 id="5-dependency-injection">5. Dependency Injection</h2>
+<h2 id="4-dependency-injection">4. Dependency Injection</h2>
 <p>No decorrer do ciclo de vida de um software, há fases que lidamos com depêndencias na criação de um objetos com outros na hora de se modelar o sistema e muita das vezes isso pode ser a causa de alta acoplação no código desenvolvido. O dependency injection tem por objetivo criar os elementos de dependencias antes da criação dos elementos dependentes, passando todas as dependências por referência. Essas dependencias podem ser "injetadas" usando tanto o metódo construtor da classe, como os métodos setters na aplicação. Esse padrão é muito usado no contexto de testes de software.</p>
 <p>Exemplo de uma aplicação do padrão dependencie injection:</p>
 <p><a href="../img/dependencie-injection.png"><img alt="dependecie-injection" src="../img/dependencie-injection.png" /></a></p>
-<h2 id="6-event-emmiter">6. Event Emmiter</h2>
+<h2 id="5-event-emmiter">5. Event Emmiter</h2>
 <p>Padrão de projeto usado nas situações em que é preciso emitir eventos/respostas para cada resultado possível. Muito usado nas rotas de api REST.</p>
 <p><a href="../img/eventEmmiter.png"><img alt="event-emmiter" src="../img/eventEmmiter.png" /></a></p>
                 
