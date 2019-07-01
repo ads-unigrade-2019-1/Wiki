@@ -7,7 +7,7 @@
 | 25/05/2019  | 0.1  | adicionando padrão Factory  | Guilherme Deusdará |
 | 29/06/2019  | 0.2  | Alterando codigo para imagem carbon | Joberth Rogers |
 | 29/06/2019 | 0.3 | Adicionando padrões não documentados e apresentados nos slides | Joberth Rogers |
-| 30/06/2019 | 0.4 | Removendo padrão já listado anteriormente (Factory) |
+| 30/06/2019 | 0.4 | Removendo padrão já listado anteriormente (Factory) | Ezequiel De Oliveira |
 
 ## Sumário
 [1.Introdução](#1-Introdução) <br>
